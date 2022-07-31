@@ -1,0 +1,248 @@
+Date	Title	Authors	Text
+2019-02-03 14:05:54.740000+00:00	How to use news articles to predict BTC price changes	['Chelsea Yang']	"How to use news articles to predict BTC price changes
+
+Bitcoin (BTC) price changes are volatile due to many reasons, such as its specially different perceived values by public and high profile losses. In this article, we focus on one of its major factor, BTC news articles’ influences. Due to the past momentum of BTC and a huge portion of BTC market among the cryptocurrency market, a massive group of BTC players have already existed. However, an analytically quantitative methodology to make decisions in this market is still lacking, so we endeavored to help with this situation based on machine learning algorithms here.
+
+Utilizing various vanilla supervised machine learning algorithms and exploring semi-supervised algorithms, we built a model to predict whether a certain news article will cause an apparent BTC price increase or decrease to help BTC players to make a more reasonable decision on selling or buying BTC.
+
+Our project is roughly split into three major parts, financial data processing, news articles processing, and final prediction models. Can’t wait to go through the whole process now!
+
+Financial Data processing
+
+We scraped BTC second-by-second datasets from 01/01/2018 to 04/o1/2018 on Kaggle, which consists of the following information after being converted to a day-based dataset.
+
+According to the stock market’s rule of thumb, an obvious change of stock price is defined as price fluctuation more than 2 standard deviations of past 30 days’ rolling average price, but there is no generally acknowledged definition of distinct BTC price change. And due to the dramatically and constantly changing BTC price, it is hard to test which number of standard deviations the most distinct one. Therefore, we use the same 2 standard deviations as in the stock market for BTC. The code is as the follows,
+
+Basic math equation of calculating 2 standard deviations
+
+Based on the metric, we got and marked the dates with obvious BTC price change in our selected period. Then we divided the dates into three groups, first group with distinct price increases, which has namely positive markers (Date: 3/19/2018), and second with distinct price decreases and positive markers (Dates: 2/5/2019, 3/15/2019, 3/17/2019, 3/18/2019), and another trivial one with price changes within 2 standard deviations.
+
+Now we move on to the second part, news articles’ data processing. The logic of these two parts’ connection will be elaborated at the third part.
+
+News articles
+
+We used news API (the following keys are available to use) to extract news articles within the same specified date range as in the first part.
+
+Available News API keys
+
+The contents extracted from news articles are shown in the following form,
+
+News articles’ extracted contents
+
+As the lead of news articles always contains the most important information, and there are many readers who only skim the introductory paragraph, so for the content column, we only extracted the lead of news articles.
+
+We regard the top 100 most frequently appearing words (the lemmatization and stemming are done and stop words are deleted at first) in all the extracted article’s introductory paragraphs as our corpora, and we deem them most relevant to BTC trading and price, so if a news article does not mention any of these keywords in the first 300 words, we deem this article irrelevant to BTC and then exclude it from our to-be-explored articles. (The first 300 words is the main idea of a news article concluded by empirical analysis and we do not choose introductory paragraph is because sometimes the lead is fewer than 300 words and we want to cover more articles),
+
+The following is part of the 100 words.
+
+Words of top occurrences in news articles
+
+Matched with the above three date groups, the news articles are also separated into three groups. Among the three, the two groups with distinct price changes are our focus.
+
+Then we processed our features, until now, we have got the author and publisher of each article. To convert the textual data into numeric one, first, we ranked authors and publishers according to the number of articles they released among our selected articles, and then by seeing the distribution of the number of articles, we divided the authors and publishers into five groups numbered 1 to 5 to make each group roughly have the same population.
+
+The reason why we did not simply categorize the authors and publishers is that only tree-based algorithms like Random Forest can recognize categoric numbers, while non-tree based algorithms such as SVM will take the categoric number as some meaningful numeric numbers, which will highly influence the model’s accuracy.
+
+Sentiment Analysis
+
+There is a pretty important property of news article, the prevailing emotions expressed in them. Plenty of organizations have worked on the sentiment analysis of news articles, such as Microsoft’s Azure, Google’s Cloud Natural Language API and python’s NLTK package as well.
+
+We have explored Google’s API and Azure, it turned out that Google’s works the better in our model after both were compared with our own judgments of the emotions in articles. In many pieces of researches, Google’s API also has the highest accuracy among all the tools.
+
+To use Google API or Azure, you have to get authentication, the detailed setup process to conduct sentiment analysis in Python can be referred to https://www.kaggle.com/c/new-york-city-taxi-fare-prediction/data
+
+The results that Google API gave have 4 columns, we only use two of them, one is score, the other one is magnitude. Score corresponds to the overall negative, neutral or positive emotions, ranging from -1 to 1. -1 means completely negative mood, while 1 is a positive extreme, and 0 means neutral emotion. The other extents of overall emotions vary between -1 and 1. Score has been normalized, which means that the number of news article’s words will not influence this number. Magnitude measures the overall strength of both positive and negative emotions. Unlike score, magnitude is not normalized, so it is proportional to article’s length and it ranges from 0 to +inf. For example, if an author in an article expressed both strong positive and negative emotions which canceled off positive one, the overall emotion delivered in that article will be neutral. However, magnitude counts all the cumulative emotions, so the final number of score might be 0, but magnitude is more than 3 or whatever big number.
+
+The following are some examples given by Google,
+
+Examples of sentiment judgment
+
+(Exhaustive documentation can be found in
+
+https://cloud.google.com/natural-language/docs/basics#interpreting_sentiment_analysis_values)
+
+To avoid the problem that the number of words in news article will influence the number of magnitude, we also normalized it.
+
+TF-IDF Exploration
+
+In a group of news article, some important words may appear many times in a certain news article while with few occurrences in the other news articles. The repeated presences will intensify the visual effects while readers are reading through an article, and thus readers are more likely to respond to these articles. TF-IDF score just helps us measure the influences well. TF-IDF which stands for Term Frequency-Inverse Data Frequency is the product of two parts.
+
+The first part is Term Frequency, it calculates the frequency of every word in a document (in our study it is a news article) in a corpus with an equation,
+
+n_i,j means the number of times a word i appears in a document j, the denominator is the total number of words in document j.
+
+The second part is Inverse Data Frequency, its use is to calculate the weight of rare words across all our documents (all the news articles) as the follows,
+
+N is the total number of documents, df_t is the number of documents which contain word t. Therefore, the words that rarely appear in all the documents but only in a small number of them will a high IDF score due to a low value of df_t.
+
+Finally, we got TF-IDF score by multiplying the above two parts.
+
+so if word i appears many times in a news article but seldom in other news article leading to a high TF-IDF score, we can conclude that this word is significant in this article. After deleting stop words, We deem words with high TF-IDF score as important words in the news, so we averaged the 5 highest IF-IDF score to measure the visual effects. The calculated result is basically shown like,
+
+TF-IDF calculation result
+
+Cheers! With all the food washed and condiments mixed, the only left task is to pour into the pot and boil. Let’s check out the prediction models now!
+
+Prediction
+
+Supervised Algorithms
+
+We have totally 5 features in our model, which are publisher, author, sentiment score, sentiment magnitude score and TD-IDF score, the data is like
+
+Prediction model’s five features
+
+The predicted data are binary numbers. If the predicted value is 0, the news article is supposed to be not influential in the BTC market and will not cause distinct price change. Otherwise, this news article will give rise to obvious price change. And the results instantly released on our BTC app can be referred by BTC investors to decide whether to buy or sell, the prompt reactions of investors can help them save or earn a reasonable amount of money.
+
+How precise the prediction is is tested by two metrics. First, we used the traditional metric, accuracy, to test it. Besides, we also drew ROC curve of those algorithms which have built-in probability calculation function and displayed AUC score of each ROC curve. The reason why we also explored ROC-AUC metric is that we desired to pay more attention to the positive result, 1. If the BTC players see 1 in most of that day’s news articles, they will gain the information that the BTC price will be highly probable to increase, and thus buy more BTC to speculate in it. However, if the price actually decreases rather than increases, the buyers will take a considerable cost to cover the loss. On the contrary, if the price is predicted to decrease, but in reality increase, the sellers’ loss will be relatively small compared with the buyers’ reaction. In summary, the positive is more valuable to look at due to its property of high cost. From both accuracy and ROC-AUC metrics, we can find the best-performing algorithm.
+
+We used Logistic Regression, Random Forest, SVM, KNN, Perceptron and XGBoost to predict. The accuracy results are listed below,
+
+Comparison of tranning and test accuracy
+
+It can be seen that Random Forest is the most impressive algorithm with both highest training and test accuracy among the 6 algorithms.
+
+And ROC-AUC yielded the same conclusion with the largest AUC score out of all the other algorithms,
+
+ROC-AUC of Random Forest
+
+Semi-supervised Algorithms
+
+In the real situation, it is hard to collect massive data as expected, so we came up with the idea to explore semi-supervised algorithms to leverage only part of the approachable data to generate more self-labeling data and then conduct the prediction.
+
+The present semi-supervised learning area has already been developed into a well-established system of knowledge, so I am not going to tell the details of it here. Basically, there are three kinds of semi-supervised learning, active learning, pure transductive learning and transductive learning with plenty of models. Projects with different datasets’ characteristics and ultimate goals should be matched with the proper semi-supervised models. Because our model’s objective function is not convex, we chose to use Transductive Support Vector Machine (TSVM).
+
+We utilized 100 labeled samples and 1014 unlabeled ones to predict 478 unlabeled test samples. Finally, TSVM got 67% accuracy. Compared to 60% by using supervised algorithm SVM, TSVM shows improvements, which is basically the main use of semi-supervised learning while constrained by a limited dataset.
+
+Comparison of SVM and TSVM
+
+We also made an effort to check out graph-based model, Label Propagation. The methodology of it can be simplified as the following picture,
+
+Graph-based semi-supervised model
+
+However, one of the key input datasets is the labeled data given by experts, which is aimed to constantly improve the labels but we are in a lack of, so in the future, we will dig deeper into this method and try to look for some useful output from it.
+
+Future exploration and reflection
+
+Although our model has rendered a satisfying result, there are still some potential problems needed to be considered. The one that has already popped up is associated with Neural Network which we want to explore in the future.
+
+Within the constraints of the Paradigm NLP formulation(s), Neural Networks (NN’s) can extract information contained in the article at present time, but they cannot extract information associated with future events. That is to say, and as an example, if I am a citizen of Israel and I read that someone-that-matters was assassinated, then being an informed reader with a grasp of not only history but also of retaliatory capabilities, I can infer the consequences of such an act — say economic and/or military retaliation. On the other hand, a complete outsider would read the same article and only gather that someone was assassinated and that this person mattered enough to be written about. NN’s are like the latter.
+
+So we have to figure out if there are ways to get around the gap between the sophisticated readers and the naive readers — but based on ML formulations/approaches.
+
+And for future application, we plan to develop a chatbot to automate our prediction display. The prototype interface is
+
+Prototype interface of Chatbot
+
+It generally has three parts, a chat window for asking questions, real-time BTC price chart for reference and news articles with labels of author and publisher, as well as sentiment score, magnitude and TF-IDF score."
+2019-01-10 16:00:07+00:00	Markets Update: Bearish Momentum Grips Leading Cryptocurrencies After BTC Tests ATH Trendline	['Samuel Haig', 'Samuel Haig Is A Journalist Who Has Been Completely Obsessed With Bitcoin', 'Cryptocurrency Since Samuel Lives In Tasmania', 'Australia', 'Where He Attended The University Of Tasmania', 'Majored In Political Science', 'Journalism', 'Media', 'Communications. Samuel Has Written About The Dialectics Of Decentralization', 'Is Also A Musician']	"Markets Update: Bearish Momentum Grips Leading Cryptocurrencies After BTC Tests ATH Trendline
+
+The cryptocurrency markets have produced a slight retracement in response to bitcoin core (BTC) testing a long-term descending trendline dating back to December 2017’s record highs. The dip has seen bitcoin cash (BCH) slip back below $150, and BTC fail to hold above $4,000. As of this writing, ripple (XRP) has again overtaken ethereum (ETH) to rank as the largest altcoin by market cap.
+
+Also Read: It’s Time We Began Pricing Things in Satoshis
+
+Combined Cryptocurrency Market Capitalization Loses $11.5 Billion in One Day
+
+The cryptocurrency markets have pulled back following BTC forming a third point of contact with a major descending trendline stemming from the record highs posted nearly 25 months ago.
+
+At approximately 01:00 EDT, BTC fell by nearly 6% within an hour. The move reversed all gains generated by the spike above $4,000 that was posted on Jan. 6, sending uncertainty across the markets.
+
+As of this writing, BTC has a market cap of nearly $66.81 billion and a market dominance of 52.5%. BTC is currently trading for $3,860 on Bitfinex and $3,775 on Bitstamp. The retracement saw the combined capitalization of all cryptocurrencies fall by more than $11.5 billion, dropping from nearly $138.9 billion to $127.1 billion currently.
+
+BCH Loses 15% in Seven Hours
+
+Of the leading markets, BCH was among the hardest hit, shedding 15% against the dollar in just seven hours.
+
+As of this writing, BCH is priced just below $140, the lowest the market has traded since Dec. 20. When measuring against BTC, BCH has fallen by 10% in the last seven hours and is currently trading for 0.036 BTC.
+
+BCH is currently the fourth largest cryptocurrency market with a capitalization of $2.44 billion. BCH has a market dominance of roughly 1.9%.
+
+XRP and ETH Vie for Second Largest Market Cap
+
+As of this writing, XRP is the second largest cryptocurrency market with a capitalization of $14.16. XRP currently comprises 11.05% of the total cryptocurrency capitalization.
+
+Ripple was among the least heavily hit markets by today’s bloodshed, falling 9% in the last seven hours to trade for $0.35 and 3.7% in the last 12 hours against BTC to currently trade for roughly 90,500 satoshis.
+
+XRP was able to dethrone ETH as the second largest crypto market after ETH fell by 12% in less than eight hours to currently trade for $134. When measuring against BTC, ETH fell by 6.5% to trade for nearly 0.035 BTC.
+
+ETH is currently the third largest cryptocurrency with a market cap of $14.01 billion and a market dominance of 10.95%.
+
+What cryptocurrency do you expect to spend the largest part of 2019 as the largest altcoin by capitalization? Share your thoughts in the comments section below!
+
+Images courtesy of Shutterstock, Tradingview
+
+Disclaimer: Price articles and markets updates are intended for informational purposes only and should not to be considered as trading advice. Neither Bitcoin.com nor the author is responsible for any losses or gains, as the ultimate decision to conduct a trade is made by the reader. Always remember that only those in possession of the private keys are in control of the “money.”"
+2019-01-18 21:01:22+00:00	Bitcoin and Market-Related Headlines Dominated Crypto News Coverage in 2018 – Bitcoin News	['Jamie Redman', 'Jamie Redman Is The News Lead At Bitcoin.Com News', 'A Financial Tech Journalist Living In Florida. Redman Has Been An Active Member Of The Cryptocurrency Community Since He Has A Passion For Bitcoin', 'Open-Source Code', 'Decentralized Applications. Since September', 'Redman Has Written More Than Articles For Bitcoin.Com News About The Disruptive Protocols Emerging Today.']	"Bitcoin and Market-Related Headlines Dominated Crypto News Coverage in 2018
+
+2018 was a crazy year for cryptocurrency enthusiasts as markets dropped significantly in value, but there were still plenty of sensational headlines to capture attention in a period when digital currency news coverage changed drastically. According to statistics from Cryptocompare and alternative research from other sources, media crypto narratives have evolved rapidly.
+
+Also read: Openbazaar’s New Social Media Platform Aims to Foster Privacy
+
+The Top 5 Crypto Blogs According to Algorithmically Ranked Data
+
+Bitcoin, blockchain, and cryptocurrencies still made headlines in 2018 within the financial technology space. Last year, coverage changed markedly throughout the industry with a bunch of new blogs and individual reporters attempting to cover the space. For instance, the algorithmically ranked data site Detailed ranks 50 cryptocurrency-focused news outlets, with the rankings updated every 24 hours. Detailed utilizes far more advanced web crawling and ranking techniques than can be found from sorting through Alexa traffic and Google Pagerank.
+
+The web portal Detailed uses software called the 8-bitbot, an extremely detailed web crawler that combs cryptocurrency blog ratings and measures the number of followers. According to the website’s algorithmic rankings, the top five digital asset news outlets comprise Coindesk, Cointelegraph, CCN, the Ethereum Blog, and news.Bitcoin.com. The lower bracket of news outlets had much fewer mentions throughout the last six weeks of link data.
+
+Exposing Paid Content
+
+Last year also saw sponsored coverage exposed including promotional ICO posts. Breaker Magazine’s Corin Faife reported in October that more than half of all crypto news publications tested took money to publish undisclosed promotional material. Out of 22 crypto news outlets, 12 said they would publish paid content without disclosing to readers that it was promotional. Two outlets explained they would do it “under certain conditions” and prices for the paid material were quoted between $240 to a high of $4,500 per published request. Faife’s report concludes that many of the news organizations are high traffic websites that rank near the top of Google’s news results. One news publication removed a staff member after Breaker Magazine’s evidence was published.
+
+Trading and Market Headlines Increase
+
+Another study published on Jan. 16 by the analytical data website Cryptocompare shows a significant amount of news coverage changes last year. Using the company’s API, the firm collected metadata from 64,605 articles from 25 news sites throughout 2018. One chart shows how the subjects “bitcoin” and “blockchain” dominated the leading categories of news coverage. Other topics such as trading, mining, ICO, sponsored, exchanges and wallets saw much slimmer coverage.
+
+Cryptocompare Research executive Charlie Humberstone explains in the recent study that trading and market commentary increased in 2018. “As ever, the volatile cryptocurrency markets were a topic of great interest to readers and garnered a large share of news coverage — Despite falling prices, the number of articles about crypto trading and market commentary actually increased as the year progressed,” Humberstone’s research details.
+
+Bitcoin-Related Articles Dominated 2018
+
+Even though there have been enormous amounts of hype surrounding altcoins and tokens over the last two years, the subject of bitcoin has regained dominance. The author remarks that bitcoin-related articles reached a peak of 42 percent by the end of 2018 but blockchain-related material remained prevalent. Digital currency news will continue to trend in 2019 while the way it is portrayed and reported on will evolve further. The bear market has affected some publications, according to Humberstone’s research, as the number of crypto articles dropped considerably from its peak in May 2018.
+
+Do you think cryptocurrency media coverage is improving? Let us know what you think about this subject in the comments section below.
+
+Images via Shutterstock, Pixabay, Cryptocompare, Charlie Humberstone, Breaker Mag, and Detailed.
+
+Have you seen our widget service? It allows anyone to embed informative Bitcoin.com widgets on their website. They’re pretty cool, and you can customize by size and color. The widgets include price-only, price and graph, price and news, and forum threads. There’s also a widget dedicated to our mining pool, displaying our hash power."
+2019-01-10 00:00:00+00:00	Bitcoin stumbles below $4,000 in sudden overnight drop	['Kate Rooney']	"Bitcoin's struggles are continuing into 2019.
+
+The world's largest cryptocurrency dropped 9 percent on Thursday morning to a low of $3,570.29, according to industry data site CoinDesk. The sudden and sharp drop brings bitcoin's one-year losses to more than 70 percent.
+
+Other major cryptocurrencies struggled, too. Ether fell 15 percent while XRP dropped 9 percent, according to CoinDesk.
+
+Analysts did not point to any particular catalyst for Thursday's cryptocurrency dip. Mati Greenspan, senior market analyst at eToro, said clients had been asking — but there doesn't seem to be any real reason for this drop, ""neither technical nor fundamental.""
+
+""The one interesting thing about this movement is that it seems to be an exact reversal of the surge that happened on Sunday afternoon,"" Greenspan said. ""At this point, the gains made since the start of the year have now been reversed and we're back to a neutral 2019.""
+
+Bitcoin and other cryptocurrencies have failed to recover to their peaks reached around this time last year. The retail mania has certainly worn off as the entire market capitalization has dropped 85 percent in a year, according to Coinmarketcap.com.
+
+Investors had been awaiting more institutional adoption this year, and the launch of a series of bitcoin futures. Both the Intercontinental Exchange, or ICE (parent company of the New York Stock Exchange) and the Nasdaq plan to launch bitcoin futures this year, despite the ongoing bear market.
+
+So far, the Commodity Futures Trading Commission, which regulates bitcoin, has approved two crypto futures products — one from the Chicago Board Options Exchange and another by the Chicago Mercantile Exchange. Still, SEC Chairman Jay Clayton said in November that he needs to see better custody solutions surveillance before he would feel ""comfortable"" allowing a crypto exchange traded fund, or ETF, to come to market.
+
+WATCH: The crypto craze ended 2018 with a whimper"
+2019-01-28 04:00:35+00:00	Bitcoin Price Struggles As Crypto Market Cap Nears $100 Billion Support	[]	"Bitcoin price fell 3 percent to lose support at $3500 January 28, abruptly ending a week in which volatility hit its lowest levels in over two months.
+
+Bitcoin Price Struggling Amid Low Volatility
+
+Data from Coinmarketcap showed the knock-on effect of Bitcoin (BTC) aiming downwards Monday, with altcoins in the top twenty cryptocurrencies by market cap repeating the losses.
+
+Ethereum (ETH) was down 7 percent at press time, just behind the worst performers such as Bitcoin Cash (BCH), which fell 10 percent.
+
+The overall cryptocurrency market cap has declined to $114 billion, its smallest since mid-December.
+
+Monday’s events spelled the end of a peaceful week for traders, with Bitcoin’s expected average volatility expected at around 3.5 percent daily.
+
+Bitcoin Closes in On 350th ‘Death’
+
+Analysts continue to await the end of the protracted bear market, which has characterized Bitcoin since December 2017. Price forecasts for 2019 put the largest cryptocurrency anywhere from plugging lows of $1300 to setting new all-time highs above $20,000.
+
+“We’ve been in a bear market for a very long stretch, probably the longest in history for Bitcoin right now […] I think right now my personal view is that we are actually overshooting on the lower side now,” exchange Binance CEO Changpeng Zhao told a conference last week.
+
+January 26 marked the three-year anniversary of one of Bitcoin’s best-known ‘obituaries.’ Coming from ex-developer Mike Hearn, the 2016 blog post describes Bitcoin as “failed.” At the time, BTC/USD traded at $310.
+
+“It has failed because the community has failed,” he concluded.
+
+Since then, Bitcoin has chalked up a total of 342 such ‘obituaries,’ with 91 deaths in 2018 alone. This year, however, only three have appeared in January since the date of its tenth anniversary.
+
+What do you think about Bitcoin price this week? Let us know in the comments section below!
+
+Images courtesy of Shutterstock"
