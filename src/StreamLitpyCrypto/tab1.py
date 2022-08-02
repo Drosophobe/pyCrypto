@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 import yahoofinance as yf
 import re
-
+# Désolé je vais rajouter les commentaires asap
 def app():
 
     st.sidebar.header('Paramètres du Graphique')
