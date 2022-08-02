@@ -2,6 +2,7 @@ import tab1
 import tab2
 import tab3
 import streamlit as st
+# Désolé je vais rajouter les commentaires asap
 st.set_option('deprecation.showPyplotGlobalUse', False)
 PAGES = {
     "DataViz": tab1,

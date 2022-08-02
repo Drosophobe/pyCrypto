@@ -8,12 +8,15 @@ import re
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.graphics.tsaplots import plot_acf
 import statsmodels.api as sm
+from fbprophet import Prophet
+# Désolé je vais rajouter les commentaires asap
 def app():
     st.title('APP2')
     st.write('Welcome to app2')
     st.sidebar.header('Paramètres de prediction')
     tech_list = ["SARIMA", "prophet", "RNN"]
-    tech = st.sidebar.radio("Sélectionner un type de marché", tech_list)
+    techno = st.sidebar.radio("Sélectionner un type de techno", tech_list)
+
     market_list = ["Crypto", "Nasdaq", "Other"]
     market = st.sidebar.radio("Sélectionner un type de marché", market_list)
     if market == market_list[0]:
@@ -65,56 +68,75 @@ def app():
     liste_actions = st.selectbox("Choisir le marché",
                                    close_list)
     df_crypto_close = df_crypto[liste_actions]
-    st.write(df_crypto_close.index.shape[0])
     niveau = st.slider("selectionner le pourcentage à conserver", 50, 90)
     x = int(len(df_crypto_close.index)/100*niveau)
-    #st.write(df_crypto_close.iloc[:x])
-    plt.plot(df_crypto_close.iloc[:x])
-    plt.xticks(rotation=60)
-    plt.xlabel("Time")
-    plt.ylabel('Close')
-    plt.title(mrkt)
-    plt.legend()
-    st.pyplot()
-    mult_add_list = ["Additive", "Multiplicative"]
-    mult_add = st.radio("Sélectionner un un type", mult_add_list)
-    if mult_add == mult_add_list[0]:
-        seas = seasonal_decompose(df_crypto_close.iloc[:x], model="additive")
-        seas.plot()
-        st.pyplot()
+    st.write(x)
+    if techno == tech_list[0]:
+        #st.write(df_crypto_close.iloc[:x])
+        plt.plot(df_crypto_close.iloc[:x])
         plt.xticks(rotation=60)
-        serie_train = df_crypto_close.iloc[:x]
-        mult = seasonal_decompose(serie_train)
-        cvs = serie_train - mult.seasonal
-        x_cvs = cvs
-    else:
-        seas = seasonal_decompose(df_crypto_close.iloc[:x], model="multiplicative")
-        seas.plot()
+        plt.xlabel("Time")
+        plt.ylabel('Close')
+        plt.title(mrkt)
+        plt.legend()
         st.pyplot()
+        mult_add_list = ["Additive", "Multiplicative"]
+        mult_add = st.radio("Sélectionner un un type", mult_add_list)
+        if mult_add == mult_add_list[0]:
+            seas = seasonal_decompose(df_crypto_close.iloc[:x], model="additive")
+            seas.plot()
+            st.pyplot()
+            plt.xticks(rotation=60)
+            serie_train = df_crypto_close.iloc[:x]
+            mult = seasonal_decompose(serie_train)
+            cvs = serie_train - mult.seasonal
+            x_cvs = cvs
+        else:
+            seas = seasonal_decompose(df_crypto_close.iloc[:x], model="multiplicative")
+            seas.plot()
+            st.pyplot()
+            plt.xticks(rotation=60)
+            serie_train = np.log(df_crypto_close.iloc[:x])
+            mult = seasonal_decompose(serie_train)
+            cvs = serie_train - mult.seasonal
+            x_cvs = np.exp(cvs)
+
+        plt.plot(serie_train, label='Série originale')
+        plt.plot(x_cvs, label='Série corrigée')
+        plt.title('Graphique de la série originale et la série corrigée')
+        plt.xlabel('Date')
+        plt.ylabel('Nb passagers')
+        plt.legend()
+        st.pyplot()
+        diff_lvl = st.slider("selectionner le nombre de diff", 0, 3)
+        for i in range (diff_lvl):
+            serie_train = serie_train.diff(1).dropna()
+
+        pd.plotting.autocorrelation_plot(serie_train)
+        st.pyplot()
+
+        lag = st.slider("selectionner le pourcentage à conserver", 1, 12)
+        plot_acf(serie_train, lags=lag)
+        st.pyplot()
+
+        model = sm.tsa.SARIMAX(serie_train, order=(1, 1, 0), seasonal_order=(0, 1, 0, 5))
+        sarima = model.fit()
+        st.markdown(sarima.summary())
+    elif techno == tech_list[1]:
+        df_i = pd.read_csv(f"assets/{mrkt}/{snr}.csv", parse_dates=[0])
+        df_crypto = pd.read_csv(f"assets/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
+        df_pro = df_i[[liste_actions, "Date"]]
+        df_pro.columns = ["y", "ds"]
+        serie_j = df_crypto[liste_actions]
+        m = Prophet(interval_width=0.95, daily_seasonality=True)
+        model = m.fit(df_pro.iloc[: int(x)])
+        future = m.make_future_dataframe(periods=df_crypto.shape[0]-x, freq='D')
+        forecast = m.predict(future)
+
+        serie_forecast = pd.Series(forecast['yhat'].values, index=forecast['ds'])
+        plot1 = m.plot(forecast)
+        plt.plot(serie_j, label = 'Real Serie')
+        plt.plot(serie_forecast.iloc[:x], label = 'Serie Forecast')
         plt.xticks(rotation=60)
-        serie_train = np.log(df_crypto_close.iloc[:x])
-        mult = seasonal_decompose(serie_train)
-        cvs = serie_train - mult.seasonal
-        x_cvs = np.exp(cvs)
-
-    plt.plot(serie_train, label='Série originale')
-    plt.plot(x_cvs, label='Série corrigée')
-    plt.title('Graphique de la série originale et la série corrigée')
-    plt.xlabel('Date')
-    plt.ylabel('Nb passagers')
-    plt.legend()
-    st.pyplot()
-    diff_lvl = st.slider("selectionner le nombre de diff", 0, 3)
-    for i in range (diff_lvl):
-        serie_train = serie_train.diff(1).dropna()
-
-    pd.plotting.autocorrelation_plot(serie_train)
-    st.pyplot()
-
-    lag = st.slider("selectionner le pourcentage à conserver", 1, 12)
-    plot_acf(serie_train, lags=lag)
-    st.pyplot()
-
-    model = sm.tsa.SARIMAX(serie_train, order=(1, 1, 0), seasonal_order=(0, 1, 0, 5))
-    sarima = model.fit()
-    st.markdown(sarima.summary())
+        plt.legend()
+        st.pyplot()

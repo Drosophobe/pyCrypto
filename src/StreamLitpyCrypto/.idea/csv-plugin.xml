@@ -3,28 +3,7 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="/assets/cryptos/année_2018_DF.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/assets/cryptos/année_2021_Nov_DF.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/assets/nasdaq/année_2018_DF.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/assets/other/année_2018_DF.csv">
+        <entry key="/universal/data/tse.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
