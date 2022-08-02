@@ -68,9 +68,9 @@ def app():
     liste_actions = st.selectbox("Choisir le marché",
                                    close_list)
     df_crypto_close = df_crypto[liste_actions]
-    st.write(liste_actions)
     niveau = st.slider("selectionner le pourcentage à conserver", 50, 90)
     x = int(len(df_crypto_close.index)/100*niveau)
+    st.write(x)
     if techno == tech_list[0]:
         #st.write(df_crypto_close.iloc[:x])
         plt.plot(df_crypto_close.iloc[:x])
@@ -130,12 +130,13 @@ def app():
         serie_j = df_crypto[liste_actions]
         m = Prophet(interval_width=0.95, daily_seasonality=True)
         model = m.fit(df_pro.iloc[: int(x)])
-        future = m.make_future_dataframe(periods=100, freq='D')
+        future = m.make_future_dataframe(periods=df_crypto.shape[0]-x, freq='D')
         forecast = m.predict(future)
 
         serie_forecast = pd.Series(forecast['yhat'].values, index=forecast['ds'])
         plot1 = m.plot(forecast)
-        plt.plot(serie_j)
-        plt.plot(serie_forecast.iloc[:df_pro.shape[0]])
+        plt.plot(serie_j, label = 'Real Serie')
+        plt.plot(serie_forecast.iloc[:x], label = 'Serie Forecast')
         plt.xticks(rotation=60)
+        plt.legend()
         st.pyplot()

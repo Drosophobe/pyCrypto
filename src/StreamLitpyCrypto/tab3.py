@@ -49,7 +49,7 @@ def app():
         mrkt = 'other'
         senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
                        "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
-
+        st.write('only one value for Other can perform portefolio')
     senar = st.sidebar.selectbox("Senari_list", senari_list)
     if senar == senari_list[0]:
         snr = "covid_DF"
