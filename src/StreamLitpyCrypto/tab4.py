@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from universal import tools, algos
 from universal.algos import *
+import matplotlib.pyplot as plt
 # J'ai git clone le git en entier et j'ai changé son nom par universalPF
 # Désolé je vais rajouter les commentaires asap
 def app():
@@ -18,17 +19,18 @@ def app():
 
 
 
-    algorithmes = [ algos.Anticor(), algos.BAH(), algos.BCRP(), algos.BestMarkowitz(), algos.BestSoFar(), algos.BNN(),
-                 algos.CORN(), algos.CRP(), algos.CWMR(), algos.DynamicCRP(), algos.EG(), algos.OLMAR(), algos.ONS(),
+    algorithmes = [ algos.Anticor(), algos.BAH(), algos.BestMarkowitz(),
+                 algos.CORN(), algos.CRP(), algos.CWMR(), algos.DynamicCRP(), algos.OLMAR(),
                  algos.PAMR(), algos.RMR()]
-    noms_algos = ['Anticor', 'BAH', 'BCRP', 'BestMarkowitz', 'BestSoFar', 'BNN', 'CORN', 'CRP', 'CWMR', 'DynamicCRP',
-           'EG', 'OLMAR', 'ONS', 'PAMR', 'RMR']
+    noms_algos = ['Anticor', 'BAH', 'BestMarkowitz', 'CORN', 'CRP', 'CWMR', 'DynamicCRP', 'OLMAR', 'PAMR', 'RMR']
     metric_name = ['Ratio de Sharpe',  'beta']
+    # On a réduit le nombre d'algo
     #Mesure de performance
     def perform(result):
         return result.sharpe , result.alpha_beta()[1]
 
     def volatility(data):
+        # On crée une fonction qui retourne le volatilté de l'action
         return np.log(data / data.shift()).std()
 
     market_list = ["Crypto", "Nasdaq", "Other"]
@@ -84,44 +86,47 @@ def app():
     S = S.dropna(axis=1)
     st.write(S)
     window = 10
-    dagobert = S.shape[0] // window
+    wndw_nbr = S.shape[0] // window
     df["Mean_volatility"] = 0
     for e in S.columns:
         df[f"{e}_volatility"] = 0
-    for i in np.arange(window, dagobert * window + window, window):
+    for i in np.arange(window, wndw_nbr * window + window, window):
         for e in S.columns:
             df[f"{e}_volatility"].iloc[i - window:i] = volatility(S[e].iloc[i - window:i])
-            print("La volatitly de ", e, "pour le periode :", i - window, "-", i, 'est de ',
-                  volatility(S[e].iloc[i - window:i]))
+            """print("La volatitly de ", e, "pour le periode :", i - window, "-", i, 'est de ',
+                  volatility(S[e].iloc[i - window:i]))"""
     df['Mean_volatility'] = df[df.columns[-9:]].mean(axis=1)
     window_i = 10
     my_volatility_list = []
-    for i in range(dagobert):
+    for i in range(wndw_nbr):
         my_volatility_list.append(df['Mean_volatility'].iloc[window_i-1])
-        st.write()
         window_i  += window
-    st.write(my_volatility_list)
+    st.write("volatility list\n", my_volatility_list)
     #df['Mean_volatility']
         # lancer les algos
     st.write(df)
     list_metrics = []
-    for wd in range(dagobert):
+
+    plt.plot(df["Mean_volatility"])
+    st.pyplot()
+    for wd in range(wndw_nbr+1):
         for algo in algorithmes:
-                result = algo.run(S)
-                sharp = [perform(result)[0], perform(result)[1]]
+                result = algo.run(S.iloc[wd * window: (wd + 1) * window, :])
+                sharp = [perform(result)[0], perform(result)[1]] # A finir 
                 metrics.append(sharp)
                 sharpe = []
-        print(wd)
-    list_metrics.append(metrics)
+        print(len(metrics))
 
-    # Création et affichage dataframes
-    st.write('************ ' + snr + ' **********') # je charge le premier
-    X = pd.DataFrame(data=np.array(list_metrics), columns=metric_name, index=noms_algos)
-    Y = X.sort_values(by='Ratio de Sharpe', ascending=False)
-    Y = Y[Y['Ratio de Sharpe'] > 1].head(4)
-    st.write(X)
-    #Affichage meilleurs algos
-    st.write('===========>>>>> ' + 'Meilleures performances pour : ', list(Y.index))
+        #list_metrics.append(metrics)
+        #st.write(list_metrics)
+        # Création et affichage dataframes
+        st.write('************ ' + snr + ' **********') # je charge le premier
+        X = pd.DataFrame(data=np.array(metrics[wd*len(algorithmes):(wd+1)*len(algorithmes)]), columns=metric_name, index=noms_algos)
+        Y = X.sort_values(by='Ratio de Sharpe', ascending=False)
+        Y = Y[Y['Ratio de Sharpe'] > 1].head(4)
+        st.write(X)
+        #Affichage meilleurs algos
+        st.write('===========>>>>> ' + 'Meilleures performances pour : ', list(Y.index))
 """    def summaries(scenari, nom):
         for a,b in zip(scenari, nom):
             summary_table(a,b)
