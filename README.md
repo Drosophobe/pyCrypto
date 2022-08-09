@@ -1,41 +1,20 @@
 # pyCrypto
 
-
-## Explications et Instructions
-
-Ce repository contient les fichiers nécessaires à l'initialisation d'un projet fil-rouge dans le cadre de votre formation [DataScientest](https://datascientest.com/).
-
-Il contient principalement le présent fichier README.md et un template d'application [Streamlit](https://streamlit.io/).
-
 **README**
-
-Le fichier README.md est un élément central de tout repository git. Il permet de présenter votre projet, ses objectifs, ainsi que d'expliquer comment installer et lancer le projet, ou même y contribuer.
-
-Vous devrez donc modifier différentes sections du présent README.md, afin d'y inclure les informations nécessaires.
-
-- Complétez **en anglais** les sections (`## Presentation` et `## Installation` `## Streamlit App`) en suivant les instructions présentes dans ces sections.
-- Supprimer la présente section (`## Explications et Instructions`)
-
-**Application Streamlit**
-
-Un template d'application [Streamlit](https://streamlit.io/) est disponible dans le dossier [`streamlit_app`](streamlit_app). Vous pouvez partir de ce template pour mettre en avant votre projet.
 
 ## Presentation
 
-Complétez cette section **en anglais** avec une brève description de votre projet, le contexte (en incluant un lien vers le parcours DataScientest), et les objectifs.
+This repository contains the code for our project PyCrypto, developed during our [Data Scientist training](https://datascientest.com/en/data-scientist-course) at [DataScientest](https://datascientest.com/).
 
-Vous pouvez également ajouter une brève présentation des membres de l'équipe avec des liens vers vos réseaux respectifs (GitHub et/ou LinkedIn par exemple).
+The financial and banking world is one of the sectors of activity generating the most data and most often in open access. The field of portfolio allocation is particularly interesting in the sense that it is abundant in data and can be systematized.
 
-**Exemple :**
-
-This repository contains the code for our project **PROJECT_NAME**, developed during our [Data Scientist training](https://datascientest.com/en/data-scientist-course) at [DataScientest](https://datascientest.com/).
-
-The goal of this project is to **...**
+The objective of this project is to create a portfolio allocation model that adapts its strategy "online", but also to adapt the machine learning approach to a sector of activity with common points.
 
 This project was developed by the following team :
 
-- John Doe ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
-- Martin Dupont ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
+- Hamed ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
+- Pierre Sarzier ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
+- Sofiane Benabdallah ([GitHub](https://github.com/sofiane34000) / [LinkedIn](https://www.linkedin.com/in/sofiane-benabdallah-66b1a46a/))
 
 You can browse and run the [notebooks](./notebooks). You will need to install the dependencies (in a dedicated environment) :
 
@@ -43,35 +22,51 @@ You can browse and run the [notebooks](./notebooks). You will need to install th
 pip install -r requirements.txt
 ```
 
-## Streamlit App
+### tree view
 
-**Add explanations on how to use the app.**
+```
++---analysis
+ª   +---.ipynb_checkpoints
++---data
+ª   +---cryptos
+ª   ª   +---articles
+ª   ª   +---tweets
+ª   +---nasdaq
+ª   ª   +---article
+ª   ª   +---tweets
+ª   +---other
++---models
++---notebooks
+ª   +---.ipynb_checkpoints
++---results
++---src
+    +---StreamLitpyCrypto
+    ª   +---.idea
+    ª   ª   +---inspectionProfiles
+    ª   +---assets
+    ª   ª   +---cryptos
+    ª   ª   +---nasdaq
+    ª   ª   +---other
+    ª   +---universal
+    ª   ª   +---algos
+    ª   ª   ª   +---ternary
+    ª   ª   ª   +---__pycache__
+    ª   ª   +---data
+    ª   ª   ª   +---jpm_assumptions
+    ª   ª   +---__pycache__
+    ª   +---universalPF
+    ª   +---__pycache__
+```
+
+## Streamlit App
 
 To run the app :
 
 ```shell
-cd streamlit_app
-conda create --name my-awesome-streamlit python=3.9
-conda activate my-awesome-streamlit
+cd ./src/StreamLitpyCrypto
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run main.py
 ```
 
 The app should then be available at [localhost:8501](http://localhost:8501).
 
-**Docker**
-
-You can also run the Streamlit app in a [Docker](https://www.docker.com/) container. To do so, you will first need to build the Docker image :
-
-```shell
-cd streamlit_app
-docker build -t streamlit-app .
-```
-
-You can then run the container using :
-
-```shell
-docker run --name streamlit-app -p 8501:8501 streamlit-app
-```
-
-And again, the app should then be available at [localhost:8501](http://localhost:8501).
