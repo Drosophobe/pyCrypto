@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from universal import tools, algos
 from universal.algos import *
-# J'ai git clone le git en entier et j'ai changé son nom par universalPF
+
 # Désolé je vais rajouter les commentaires asap
 def app():
     Scenar_crypto_path = ['assets/cryptos/année_2018_DF.csv', 'assets/cryptos/année_2018_flat_DF.csv','assets/cryptos/année_2019_flat_DF.csv','assets/cryptos/année_2021_Nov_DF.csv',

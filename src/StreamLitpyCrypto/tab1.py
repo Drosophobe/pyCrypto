@@ -82,6 +82,8 @@ def app():
     df_crypto_close = df_crypto[liste_actions]
     # r = re.compile(r"A-Za-z")
     # close_list_regex = r.findall(close_list)
+    st.write(df_crypto)
+
     plt.plot(df_crypto_close)
     plt.xticks(rotation=60)
     plt.xlabel("Time")
