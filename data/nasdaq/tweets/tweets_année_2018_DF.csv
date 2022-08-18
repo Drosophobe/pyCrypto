@@ -1,12 +1,46 @@
-Date	User	Tweet
-2018-01-27 01:17:18+00:00	Bloomberg	Wall Street has a $1.7 billion bet on the rising risk of grid attacks: https://t.co/I15aaBSolx https://t.co/r9ghTHBTAF
-2018-01-25 19:50:01+00:00	Bloomberg	The wealth inequality and racial disparity in America: https://t.co/IYUr7P3p61 https://t.co/OQOef6XhdT
-2018-01-24 19:27:25+00:00	Bloomberg	FX traders do $100 million deals on mobile as market transforms: https://t.co/JbEf9HsBBF https://t.co/bhmjrMVaws
-2018-01-22 17:17:12+00:00	Bloomberg	2.5 quintillion bytes of data are created every day. How do we ensure it’s used ethically? Join the p-code-of-ethics conversation on Slack: https://t.co/B4YO2k34Yn https://t.co/P5gcZ1XQLl
-2018-01-22 15:36:51+00:00	Bloomberg	Our 2018 Bloomberg Gender-Equality Index (GEI), which launched today, expanded to over 100 companies, ten sectors, and 24 countries and regions.  Learn more: https://t.co/OxRdzO0MMp https://t.co/7N7gAI6Kvk
-2018-01-22 14:08:55+00:00	Bloomberg	The Brexit bill is worth paying - many times over: https://t.co/4Fp2zy8P5W https://t.co/cVdoWLlVTF
-2018-01-17 23:48:51+00:00	Bloomberg	How data governance gave CDOs a unique perspective on business and IT: https://t.co/UpdsEiBe05 https://t.co/1EVwymFQbE
-2018-01-17 16:00:07+00:00	Bloomberg	"30 aspiring Saudi journalists take part in first-of-its-kind Bloomberg and MiSK Foundation training program in the region: 
+	Date	User	Tweet
+0	2018-01-27 01:17:18+00:00	Bloomberg	Wall Street has a $1.7 billion bet on the rising risk of grid attacks: https://t.co/I15aaBSolx https://t.co/r9ghTHBTAF
+1	2018-01-25 19:50:01+00:00	Bloomberg	The wealth inequality and racial disparity in America: https://t.co/IYUr7P3p61 https://t.co/OQOef6XhdT
+2	2018-01-24 19:27:25+00:00	Bloomberg	FX traders do $100 million deals on mobile as market transforms: https://t.co/JbEf9HsBBF https://t.co/bhmjrMVaws
+3	2018-01-22 17:17:12+00:00	Bloomberg	2.5 quintillion bytes of data are created every day. How do we ensure it’s used ethically? Join the p-code-of-ethics conversation on Slack: https://t.co/B4YO2k34Yn https://t.co/P5gcZ1XQLl
+4	2018-01-22 15:36:51+00:00	Bloomberg	Our 2018 Bloomberg Gender-Equality Index (GEI), which launched today, expanded to over 100 companies, ten sectors, and 24 countries and regions.  Learn more: https://t.co/OxRdzO0MMp https://t.co/7N7gAI6Kvk
+5	2018-01-22 14:08:55+00:00	Bloomberg	The Brexit bill is worth paying - many times over: https://t.co/4Fp2zy8P5W https://t.co/cVdoWLlVTF
+6	2018-01-17 23:48:51+00:00	Bloomberg	How data governance gave CDOs a unique perspective on business and IT: https://t.co/UpdsEiBe05 https://t.co/1EVwymFQbE
+7	2018-01-17 16:00:07+00:00	Bloomberg	"30 aspiring Saudi journalists take part in first-of-its-kind Bloomberg and MiSK Foundation training program in the region: 
  https://t.co/8372wzm8kV https://t.co/z6PmT9uArs"
-2018-01-17 15:05:30+00:00	Bloomberg	Dubai's the very model of a modern mideast economy: https://t.co/Swp3jl7KbZ https://t.co/fif3ybxK5e
-2018-01-17 00:07:26+00:00	Bloomberg	Emerging AI adoption drives change in asset management in Asia: https://t.co/VC58lfae2V https://t.co/6OgdB9ax4F
+8	2018-01-17 15:05:30+00:00	Bloomberg	Dubai's the very model of a modern mideast economy: https://t.co/Swp3jl7KbZ https://t.co/fif3ybxK5e
+9	2018-01-17 00:07:26+00:00	Bloomberg	Emerging AI adoption drives change in asset management in Asia: https://t.co/VC58lfae2V https://t.co/6OgdB9ax4F
+10	2018-01-16 18:43:01+00:00	Bloomberg	EU toughens demands on U.K. for Brexit transition in draft: https://t.co/jNUMq6ibic https://t.co/r5ru2NiR8a
+11	2018-01-16 14:23:44+00:00	Bloomberg	Automakers may lose face on autonomous EV commoditization: https://t.co/ClcYBj16kQ https://t.co/MAF8Helpr4
+12	2018-01-12 19:07:11+00:00	Bloomberg	Grittier Hong Kong districts may prove alluring to wealthy investors: https://t.co/vpAhYWN4vo https://t.co/79URLXewZB
+13	2018-01-10 15:35:46+00:00	Bloomberg	MiFID seen driving 20% cut in EU funds' external research budget: https://t.co/jcqK9Rhn3Y https://t.co/r4tFA6KRnC
+14	2018-01-10 14:41:36+00:00	Bloomberg	What’s your worst nightmare? Here’s how to find out if your portfolio is ready for it: https://t.co/tmrI7OAAVh https://t.co/byVRWLjn7q
+15	2018-01-09 21:19:58+00:00	Bloomberg	Royal handouts cheer saudis but show struggle to revamp economy: https://t.co/G1mjNVko5J https://t.co/RRr5FX7aDI
+16	2018-01-08 19:46:49+00:00	Bloomberg	What can organizations do to be more inclusive and attract better talent from the millennial generation? https://t.co/kbTqYubKz4 https://t.co/Gib79NkkYO
+17	2018-01-08 15:10:52+00:00	Bloomberg	Pound positions may pick up this week on Brexit ‘positive vibes’: https://t.co/8LP1k07UKu https://t.co/To0uMVkaWl
+18	2018-01-05 14:58:42+00:00	Bloomberg	Aluminum landscape may get interesting once winter has passed: https://t.co/uGpXkRezga https://t.co/4v3iqtdIG6
+19	2018-01-04 20:00:08+00:00	Bloomberg	A few tips on how to evolve workplace diversity conversations and develop coworkers into allies: https://t.co/DXjnA9l8dn https://t.co/buEF89in1e
+20	2018-01-03 14:10:29+00:00	Bloomberg	China’s burgeoning bond market ends 2017 on a high note: https://t.co/ciOPP4nUj0 https://t.co/utJb0GTYhO
+21	2017-12-31 17:01:01+00:00	Bloomberg	In 2017, our employees did more than ever to help those in need, protect the environment, and serve their communities. Learn more about our efforts: https://t.co/nMxG2V1bUk https://t.co/81YzBMsl6T
+22	2017-12-27 20:30:42+00:00	Bloomberg	Through various cultural partnerships with Bloomberg Philanthropies, our company plays a role in advancing creativity, innovation, public access and new technologies in the arts. https://t.co/msASVexWCj https://t.co/YhrMEkhZpq
+23	2017-12-27 17:24:12+00:00	Bloomberg	Regulators give fresh sign they'll go easy on MiFID rules: https://t.co/0DDEClCqN2 https://t.co/1uWwON444T
+24	2017-12-24 11:39:05+00:00	Bloomberg	Rise of quant: New hedge funds next year to embrace high tech https://t.co/H6dOZAJogY https://t.co/hPhVE70tsr
+25	2017-12-23 10:38:06+00:00	Bloomberg	Central banks are turning to big data to help them craft policy https://t.co/gmAe5B4Oim https://t.co/qpKb97xBQJ
+26	2017-12-22 18:20:27+00:00	Bloomberg	Why working at Bloomberg was incredible in 2017: https://t.co/TPR24EpSGv https://t.co/AhgPJkfXpH
+27	2017-12-22 14:27:41+00:00	Bloomberg	Through Bloomberg Startup, our employees help to grow strong global leaders of the future by collaborating closely with our non-profit education partners. https://t.co/5riMfXyhm6 https://t.co/FadfGrivzX
+28	2017-12-21 15:20:17+00:00	Bloomberg	Growth-blessed Southeast Asia has more to cheer about in 2018: https://t.co/3y9JDY0IIW https://t.co/7ureq2IEs2
+29	2017-12-20 15:46:02+00:00	Bloomberg	New year, new regulations as MiFID II and PRIIPs become reality: https://t.co/MJcNjjHWDb https://t.co/Vd5ucy8eOH
+30	2017-12-19 18:51:11+00:00	Bloomberg	Happy holidays from Bloomberg LP. https://t.co/v8jWzLb73j
+31	2017-12-18 21:15:49+00:00	Bloomberg	Today, we launched TicToc by Bloomberg, the first 24/7 global social news network built for @Twitter. Our unique partnership combines our global news room with the social platform consumers turn to for breaking news. Follow @TicToc to get started. https://t.co/S7Io73D1bN
+32	2017-12-15 19:15:54+00:00	Bloomberg	The U.K.’s breakthrough deal to get Brexit talks moving on to the future trading relationship may be short-lived:  https://t.co/st7vWPHcFd https://t.co/OJGxMRx8Yh
+33	2017-12-14 00:09:38+00:00	Bloomberg	The perception of homosexuality in the finance sector in Asia has evolved; corporate initiatives are ensuring safe environments for LGBTIQ people: https://t.co/v3OFJo6tFg https://t.co/9Z22LW4Cl5
+34	2017-12-13 20:56:44+00:00	Bloomberg	Emerging markets shrug off crises for best gains in eight years:  https://t.co/KGLCFUxgib https://t.co/YpXJsFCXPu
+35	2017-12-12 18:28:09+00:00	Bloomberg	Inclusive decision making can bring about faster change in the workplace and better business performance: https://t.co/qIJlAojGHg https://t.co/6NRFM3SKfJ
+36	2017-12-08 16:15:07+00:00	Bloomberg	Wall Street has no idea what's going to happen to credit markets in 2018: https://t.co/O2ECEDUrgk https://t.co/iKDgnT8o3V
+37	2017-12-07 16:33:03+00:00	Bloomberg	Why the stock wobble isn’t helping gold: https://t.co/tMiQhq7p8Z https://t.co/Le3O1xeGaJ
+38	2017-12-06 18:29:59+00:00	Bloomberg	What is groupthink and how are millennials helping with diversity of thought? https://t.co/3JCoRRTmLM https://t.co/gFpBrNHb8a
+39	2017-12-06 15:26:53+00:00	Bloomberg	Copper is flashing red as stockpiles and spreads point bearish: https://t.co/1FrQOyL32F https://t.co/SrpyyA4rWr
+40	2017-12-05 14:57:03+00:00	Bloomberg	The pound is enjoying a fresh wave of confidence from investors: https://t.co/6VUU9VzYq8 https://t.co/tawBuDi1NM
+41	2017-12-04 16:54:26+00:00	Bloomberg	Emerging market bonds shrug off political risk as elections loom: https://t.co/UMVQ0VuctF https://t.co/2JKpthepUT
+42	2017-12-01 19:07:48+00:00	Bloomberg	For #WorldAidsDay, we're raising awareness to help reduce stigma and advance HIV treatment and education around the world.  #LetsEndIt https://t.co/w3RRzI4HtE
+43	2017-12-01 15:25:33+00:00	Bloomberg	These are the signs that stocks are starting to turn really bullish on tax reform: https://t.co/cKMzRDEsrh https://t.co/xFyIxgK9Zw

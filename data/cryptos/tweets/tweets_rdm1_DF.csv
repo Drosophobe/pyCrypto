@@ -1,44 +1,1444 @@
-Date	User	Tweet
-2020-02-27 22:31:16+00:00	CoinDesk	"Bitcoin is sometimes risk-on, sometimes risk-off. Today it's risk-off.
+	Date	User	Tweet
+0	2020-02-27 22:31:16+00:00	CoinDesk	"Bitcoin is sometimes risk-on, sometimes risk-off. Today it's risk-off.
 @Liqquidity rounds up today's $BTC price action in context of the broader financial-markets selloff on coronavirus fears.
 
 https://t.co/me8pRr6M44"
-2020-02-27 20:56:06+00:00	CoinDesk	"Hong Kong-based crypto derivatives exchange FTX saw record volumes in ether futures on Wednesday amid a sell-off in the cryptocurrency’s price.
+1	2020-02-27 20:56:06+00:00	CoinDesk	"Hong Kong-based crypto derivatives exchange FTX saw record volumes in ether futures on Wednesday amid a sell-off in the cryptocurrency’s price.
 
 @godbole17 
 
 https://t.co/LdMlwPKOFM"
-2020-02-27 19:07:46+00:00	CoinDesk	"Coinhako has restricted user accounts since last Friday following an ""attack,"" but has not released many details around the incident. https://t.co/KrilMFk5oq @paddybaker_ reports"
-2020-02-27 18:07:29+00:00	CoinDesk	"NEW: With @UnikrnCo and @zed_run, you'll soon be able to breed, race and bet on virtual horses. 
+2	2020-02-27 19:07:46+00:00	CoinDesk	"Coinhako has restricted user accounts since last Friday following an ""attack,"" but has not released many details around the incident. https://t.co/KrilMFk5oq @paddybaker_ reports"
+3	2020-02-27 18:07:29+00:00	CoinDesk	"NEW: With @UnikrnCo and @zed_run, you'll soon be able to breed, race and bet on virtual horses. 
 
 https://t.co/yASXqo102D
 
 @wsfoxley reports"
-2020-02-27 17:48:02+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+4	2020-02-27 17:48:02+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
 • BTC Dives Deeper
 • Square Makes Cash From Crypto
 • Ukrainian IT Guy Steals Computer Power to Mine
 https://t.co/t8fS3Ggrzw"
-2020-02-27 17:28:05+00:00	CoinDesk	"OPINION: Flash loan attacks are here to stay and are likely to get more serious. DeFi needs to adapt, says @hosseeb.  
+5	2020-02-27 17:28:05+00:00	CoinDesk	"OPINION: Flash loan attacks are here to stay and are likely to get more serious. DeFi needs to adapt, says @hosseeb.  
 
 ""The second bZx attack was the first copycat, and I suspect it will set off a wave of attacks in the coming months.""
 
 https://t.co/Now0kXBsnR"
-2020-02-27 17:05:31+00:00	CoinDesk	"EXCLUSIVE: Security token platform Dusk Network says it will tokenize shares for thousands of small and medium-sized enterprises through a new partnership with shareholder registry Firm24. 
+6	2020-02-27 17:05:31+00:00	CoinDesk	"EXCLUSIVE: Security token platform Dusk Network says it will tokenize shares for thousands of small and medium-sized enterprises through a new partnership with shareholder registry Firm24. 
 
 @paddybaker_ reports https://t.co/PfA9iZW91V
 
 @DuskFoundation @FIRM24com"
-2020-02-27 15:31:27+00:00	CoinDesk	"NEW: Commercial real estate marketplace @RedSwanCRE will tokenize $2.2 billion in real estate through security token platform @PolymathNetwork.
+7	2020-02-27 15:31:27+00:00	CoinDesk	"NEW: Commercial real estate marketplace @RedSwanCRE will tokenize $2.2 billion in real estate through security token platform @PolymathNetwork.
 
 https://t.co/JFeyBvL5SK
 
 @Nate_DiCamillo reports"
-2020-02-27 15:02:28+00:00	CoinDesk	"NEW: @binance, the world’s largest crypto exchange group, has chosen @shyftnetwork to help address the looming regulatory requirements presented by FATF's ""Travel Rule.""
+8	2020-02-27 15:02:28+00:00	CoinDesk	"NEW: @binance, the world’s largest crypto exchange group, has chosen @shyftnetwork to help address the looming regulatory requirements presented by FATF's ""Travel Rule.""
 
 https://t.co/q9BbfbLf4Y
 
 @IanAllison123 reports"
-2020-02-27 14:54:06+00:00	CoinDesk	"JUST IN: Martial artist and actor Steven Seagal has been charged by the SEC for his role in promoting Bitcoiin2Gen's 2018 ICO.
+9	2020-02-27 14:54:06+00:00	CoinDesk	"JUST IN: Martial artist and actor Steven Seagal has been charged by the SEC for his role in promoting Bitcoiin2Gen's 2018 ICO.
 
 @Dan_Z_Palmer reports https://t.co/BLfOpkNBnN"
+10	2020-02-27 14:09:13+00:00	CoinDesk	"The investment arm of cryptocurrency project Stellar has invested in a security token platform that provides emerging economies with access to traditional assets and cryptocurrencies.  
+
+@paddybaker_ reports https://t.co/WIQ5Gsp8Ex
+
+@StellarOrg @dstoq"
+11	2020-02-27 12:51:13+00:00	CoinDesk	"Bitcoin miner manufacturers Bitmain and MicroBT are racing to bring top-of-the-line machines to market ahead of bitcoin's halving event this May.
+
+Report by @WolfieZhao https://t.co/lsttFXPJY1
+
+@BITMAINtech @Whatsminer_MBT"
+12	2020-02-27 11:20:49+00:00	CoinDesk	"Bitcoin has bounced from one-month lows hit early on Thursday and may extend the recovery to $9,000. However, the risk of deeper declines will persist as long as prices are below $9,400.
+
+@godbole17 reports https://t.co/KGcz1sL5zd
+
+$BTC"
+13	2020-02-27 10:40:18+00:00	CoinDesk	"An IT staffer at Ukraine’s State Judicial Administration has been charged with illegally mining cryptocurrency using court system computers and servers. 
+
+Via @baidakova https://t.co/6bqjwwYwQx"
+14	2020-02-27 10:02:49+00:00	CoinDesk	"A former Microsoft software engineer has been found guilty of embezzling millions of dollars with the help of bitcoin mixers to fund a life of luxury. 
+
+@paddybaker_ reports https://t.co/SMNrEHFaxE"
+15	2020-02-27 09:03:55+00:00	CoinDesk	"European money transfer service @Azimo is tapping tech from blockchain firm @Ripple and the $XRP cryptocurrency for its remittance corridor to the Philippines. 
+
+Via @Sebsinclair1989 
+
+https://t.co/Kp4qhEApmA"
+16	2020-02-27 08:10:43+00:00	CoinDesk	"VIDEO: We asked the @ZcashFoundation's Josh Cincinnati (@acityinohio) about finding sustainable ways to fund the development of $ZEC, a privacy-preserving cryptocurrency some view as a public good.
+
+@wsfoxley reports https://t.co/nRfQ8PuFoA"
+17	2020-02-27 07:33:21+00:00	CoinDesk	"OPINION: What works for the technical realm of blockchains does not automatically translate to the running of businesses or social organizations, argues @wmougayar. 
+
+https://t.co/K797OIfwKH"
+18	2020-02-27 04:30:46+00:00	CoinDesk	"Hong Kong may soon bolster its policing of the cryptocurrency sector to better conform with international anti-money-laundering norms.
+
+@realDannyNelson reports.
+
+https://t.co/ykxfvzpX4N"
+19	2020-02-27 01:34:43+00:00	CoinDesk	Iranian general Saeed Mohammed is calling for the use of crypto to help Iran evade sanctions designed to isolate it from the global financial system, according to Coinit. https://t.co/YQ7Wp2ve05 @nikhileshde and @La__Cuen report
+20	2020-02-27 01:06:43+00:00	CoinDesk	"The crypto markets were shaken yesterday amid a flurry of selling that saw more than $190 million worth of longs and shorts liquidated on BitMEX https://t.co/DdSiFui9wp
+
+Report by @Sebsinclair1989"
+21	2020-02-26 22:47:38+00:00	CoinDesk	UPDATE: This article has been updated with SEC Commissioner @HesterPeirce's dissent. https://t.co/j2CqjpgfcT
+22	2020-02-26 22:34:07+00:00	CoinDesk	"JUST IN: A lawsuit claiming @Ripple violated U.S. securities laws will be allowed to move forward – though with a caveat favorable to the San Francisco-based payments firm.
+
+https://t.co/XNDhgoNXSG
+
+@nikhileshde reports"
+23	2020-02-26 21:39:56+00:00	CoinDesk	"JUST IN: For Q4 2019, @Square's Cash App reported #bitcoin revenues of $178 million.
+
+Non-bitcoin revenues on Cash App were $183 million.
+
+https://t.co/19TZbKQUKs
+
+@BradyDale reports"
+24	2020-02-26 21:17:02+00:00	CoinDesk	"Arca Funds, a money manager specializing in cryptocurrencies, wants to create a new fund to buy U.S. Treasury bonds — and then distribute it to investors using a digital token created atop the ethereum blockchain network.  
+
+Report by @Liqquidity: 
+
+https://t.co/VtqIaRZZ8f"
+25	2020-02-26 20:50:09+00:00	CoinDesk	JUST IN: The @SEC_News has rejected the latest bid to create a bitcoin ETF, turning down @WilshirePhoenix's bitcoin and Treasury bond proposal. https://t.co/Edxilqj9G0 @nikhileshde reports
+26	2020-02-26 19:44:40+00:00	CoinDesk	NEW: Crypto prime brokerage @Tagomi is set to join the @Libra_ Association. https://t.co/R2LNQo9UNM @nikhileshde reports
+27	2020-02-26 19:26:41+00:00	CoinDesk	"Several factors could explain ether’s spectacular gains and determine whether they will continue. Report by @godbole17
+
+https://t.co/vxy6IFsR1P"
+28	2020-02-26 18:40:41+00:00	CoinDesk	"Bitcoin crossing below the $9,000 price level is a new low for February 2020. Report by @danielcawrey
+
+https://t.co/QwPhi3ybD3"
+29	2020-02-26 18:05:43+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today we're exploring hope to prevent that scourge of crypto, the SIM Hack.
+https://t.co/lcdQXw40Gr https://t.co/tyDr9aS0wb"
+30	2020-02-26 16:34:28+00:00	CoinDesk	"OPINION: ""Trillions.. can flow through modular, expandable rails that standardize and mutualize identity, accounting, financial instruments, and the workflows that today are captured across thousands of niche software platforms."" 
+
+By @LexSokolin 
+
+https://t.co/tPx2Dn0NVF"
+31	2020-02-26 16:00:45+00:00	CoinDesk	"JUST IN: DeFi platform @compoundfinance is launching the testnet of a new platform today for decentralizing the site's governance.
+
+https://t.co/gZkyfMRY7O
+
+@BradyDale reports"
+32	2020-02-26 14:22:26+00:00	CoinDesk	"The owner of a top-tier Australian soccer club has walked away from buyout negotiations with token marketplace, the London Football Exchange, after concerns were raised about the deal.
+
+Report by @paddybaker_ https://t.co/kBDrLgYZ6e"
+33	2020-02-26 13:21:53+00:00	CoinDesk	"Switzerland's leading stock exchange has invested in institutional trading platform @OmniexInc with plans to use it as a ""gateway"" into the digital asset space.
+
+@paddybaker_ reports https://t.co/o6WhW7ObkG
+
+@sixgroup"
+34	2020-02-26 12:25:02+00:00	CoinDesk	".@CoinbaseWallet users can now send cryptocurrencies to ""short human-friendly addresses,"" as well as ones creating using the Ethereum Name Service.
+
+Via @paddybaker_ https://t.co/e8GRr3ln7v"
+35	2020-02-26 11:56:32+00:00	CoinDesk	"Cryptocurrency investor @michaelterpin can move forward with his case against mobile operator AT&amp;T over his claim the firm was in part responsible for a SIM-swap hack that robbed him of holdings worth $24 million.
+
+Via @Dan_Z_Palmer https://t.co/v1q1n0JRmC"
+36	2020-02-26 10:42:00+00:00	CoinDesk	"Finland's customs agency has been struggling with what to do with a horde of 1,666 bitcoin it fears could end up back in the hands of criminals if sold off. 
+
+@paddybaker_ reports https://t.co/AmF7AykgBv"
+37	2020-02-26 09:12:42+00:00	CoinDesk	"Malta's financial regulator has suggested changes to EU rules are needed if security token offerings are to take off in the country.
+
+Report by @nikhileshde and @Sebsinclair1989 
+
+https://t.co/fnfzNH4H9o"
+38	2020-02-26 05:57:57+00:00	CoinDesk	"A recent report from Silicon Valley-based @AnChainAI wonders out loud whether funds were purposely pilfered by insiders, challenging @FCoinOfficial's line claiming a data error was to blame. 
+
+Report by @danielcawrey.
+
+https://t.co/QsMRb9HKSs"
+39	2020-02-25 21:41:27+00:00	CoinDesk	"Payments firm @Ripple has given @MoneyGram over $11 million dollars in the past half year on top of its existing stake, according to regulatory filings with the Securities and Exchange Commission. https://t.co/xbdrtdsW5R
+
+@realDannyNelson reports"
+40	2020-02-25 21:26:51+00:00	CoinDesk	"NEW: @iotatoken's 12-day outage shows the crypto markets aren't rational, at least not yet.
+
+https://t.co/A40aGeyILo
+
+@La__Cuen reports"
+41	2020-02-25 20:52:15+00:00	CoinDesk	The Bank of Canada does not see the need to create a central bank digital currency unless a competitor – like Libra – starts dethroning the existing fiat. https://t.co/F9Xbhy4v9E @baidakova reports
+42	2020-02-25 19:39:26+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• BTC Dives
+• A Crypto Bank Rises In Wyoming
+• A Real Miner Supplies Crypto Miners
+https://t.co/yuXekvy1gI"
+43	2020-02-25 18:40:07+00:00	CoinDesk	.@revolut raised $500 million, but did not specify if any of the funding will go toward improving its cryptocurrency offering. https://t.co/AgFIGXvZIp @paddybaker_ reports
+44	2020-02-25 18:06:51+00:00	CoinDesk	"The Commerce Department's Bureau of Economic Analysis plans to ask financial institutions whether they conducted any crypto trades with foreigners in 2019. https://t.co/0bZudEU20Y
+
+@realDannyNelson reports 
+
+@CommerceGov @BEA_News"
+45	2020-02-25 16:28:53+00:00	CoinDesk	"OPINION: ""Forget trying to ignore the laws, or hoping they go away, or thinking 'this tech makes it different.'”
+
+Crypto should work within the existing regulatory structure around securities, rather than reinvent a whole new system, says @brucefenton. 
+
+https://t.co/LUKGha0nLP"
+46	2020-02-25 15:09:39+00:00	CoinDesk	"21Shares (formerly Amun) has listed a ""short bitcoin"" exchange-traded product, which inversely tracks the value of the cryptocurrency, on Boerse Stuttgart.
+
+Via @paddybaker_ https://t.co/BK7FFFCCts
+
+@AmunAG"
+47	2020-02-25 14:00:52+00:00	CoinDesk	"JUST IN: @chainlink will be the ""first and primary"" oracle provider for the forthcoming @polkadotnetwork.
+
+@wsfoxley reports https://t.co/3eZBoXtimY"
+48	2020-02-25 13:36:50+00:00	CoinDesk	"Derivatives exchange FTX is hosting a public sale for tokenized equity in the hopes it can attain a billion-dollar valuation. 
+
+Report by @paddybaker_ https://t.co/irmaSPmbIQ
+
+@FTX_Official"
+49	2020-02-25 12:47:20+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• BTC Keeps Hitting $10K
+• Crypto Capital Operator Faces Charges
+• Simspsons Did It!
+https://t.co/i3kDLvFiXi"
+50	2020-02-25 12:42:37+00:00	CoinDesk	"New Zealand's tax authority is considering changes to its treatment of cryptocurrencies that would drop the controversial application of goods and services tax.
+
+@Dan_Z_Palmer reports https://t.co/qicgxzLymd"
+51	2020-02-25 12:04:15+00:00	CoinDesk	"Blockchain services firm Diginex is closer to listing on @Nasdaq after the SEC approved its bid to merge with a publicly traded firm.
+
+Via @realDannyNelson https://t.co/vgnH0D4Aan
+
+@DiginexGlobal"
+52	2020-02-25 10:14:13+00:00	CoinDesk	"Nornickel, the Russian mining and smelting giant, has taken another step toward the issuance of tokens backed by metals on Atomyze, a @Hyperledger-based blockchain platform.
+
+Report by @baidakova https://t.co/PuMugpAwd1
+
+@NornickelGroup"
+53	2020-02-25 08:57:33+00:00	CoinDesk	"Singapore's Court of Appeals has ruled against digital currency exchange Quoine in a landmark cryptocurrency case, saying the platform unlawfully reverse seven trades in its favor.
+
+Via @Sebsinclair1989 https://t.co/QRN4Faxgl6
+
+@quoine_sg"
+54	2020-02-25 05:03:25+00:00	CoinDesk	"OPINION: Lightning-based fiat-bitcoin systems could popularize crypto payments, as long as fraud and bitcoin's non-reversibility don't get in the way, writes @jp_koning.
+
+https://t.co/9eLWrc5zlv"
+55	2020-02-25 03:47:57+00:00	CoinDesk	"OPINION: From ATMs to cargo containers, standards make global commerce work. The same goes for crypto, which needs standards to comply with anti-money laundering rules, writes @leah_cb. 
+
+https://t.co/O8lLLlaiq2"
+56	2020-02-25 01:05:05+00:00	CoinDesk	"NEW: @coolbitx raised $16.7M from Asian heavyweights to help financial institutions comply with the FATF Travel Rule.
+
+https://t.co/Oz6h8WaHX7
+
+@La__Cuen reports"
+57	2020-02-24 23:04:29+00:00	CoinDesk	"NEW: Understanding @justinsuntron's new ""Steemit Inc Ninja-Mined Stake"" and why it just drove a soft fork on @SteemNetwork.
+
+https://t.co/He0HYLo9H7
+
+@BradyDale reports"
+58	2020-02-24 22:02:18+00:00	CoinDesk	"NEW: @fnality, a high-profile digital fiat project backed by 14 big-name financial institutions, is teaming with the @Consensys-backed Adhara.
+
+https://t.co/Vh4ibCPHgZ
+
+@IanAllison123 reports"
+59	2020-02-24 21:35:20+00:00	CoinDesk	"As U.S. stocks tumbled on Monday by the most in six months amid renewed coronavirus fears, bitcoin barely budged - at least in terms of the notoriously volatile cryptocurrency’s trading history. Story by @Liqquidity: 
+
+https://t.co/KulDo6uC91"
+60	2020-02-24 18:16:13+00:00	CoinDesk	New Jersey Assemblywoman Yvonne Lopez (@AswLopez) has introduced a licensing regime for crypto businesses with a bill authorizing the state banking regulator to oversee the space if passed. https://t.co/rZ4U8pgv5d @nikhileshde reports
+61	2020-02-24 17:32:54+00:00	CoinDesk	"Daily trading volume in bitcoin futures listed on the Chicago Mercantile Exchange (CME) dropped to year-to-date lows on Friday. However, there's a reason this may not be bad news for bitcoin. Report by @godbole17
+
+https://t.co/B1BjSP2Ct6"
+62	2020-02-24 16:00:52+00:00	CoinDesk	"Finance ministers and central bankers from the G20 are pushing for wider adoption of FATF standards that compel cryptocurrency exchanges to disclose user information.
+
+Via @paddybaker_ 
+
+https://t.co/Rtu26WiGOw"
+63	2020-02-24 15:00:23+00:00	CoinDesk	"JUST IN: After drafting Wyoming's blockchain-friendly legislation, @CaitlinLong_ is partnering with @Blockstream to set up a crypto bank in the state.
+
+https://t.co/vEYM8oviP3 
+
+@Nate_DiCamillo reports"
+64	2020-02-24 14:03:18+00:00	CoinDesk	"PREVIEW: The SEC is poised to rule on another bitcoin ETF application this week. @nikhileshde breaks down @WilshirePhoenix's plans for approval. 
+
+https://t.co/MNGX0DKcUF"
+65	2020-02-24 13:01:04+00:00	CoinDesk	"What happens to your bitcoin after you die? Lightning developers are exploring a ""dead man's button"" as a tool to pass your crypto to your heirs.
+
+Report by @AlyssaHertig https://t.co/OMCZextIcV
+
+#lightningnetwork"
+66	2020-02-24 12:22:35+00:00	CoinDesk	"R3 says it's providing pension firms with the technology to build new blockchain-based identity solutions that could help savers reclaim some of the $48 billion in lost U.K. pension pots.
+
+Report via @paddybaker_ https://t.co/GtMZiRR5PX
+
+@inside_r3"
+67	2020-02-24 11:52:09+00:00	CoinDesk	"The @bankofengland's chief cashier has said it is ""crucial"" that central banks research digital currencies so they can strike a balance with private issuers. 
+
+Via @paddybaker_ https://t.co/IwCdX1fUgl"
+68	2020-02-24 11:33:05+00:00	CoinDesk	@btc_frankly @TheSimpsons @Dan_Z_Palmer @FOXTV Yes, good spot! Guessing it's a joke from the animators
+69	2020-02-24 10:46:29+00:00	CoinDesk	".@binance has opened a fiat gateway for Hong Kong dollars, serving a jurisdiction in which banking services for crypto firms are notoriously tough to find.
+
+@Dan_Z_Palmer reports https://t.co/8qSfeC3jex"
+70	2020-02-24 10:03:15+00:00	CoinDesk	"OPINION: From stopping double-lending in its credit industry to an escape from dollar hegemony, China has every reason in the world to invest in blockchain, says CoinDesk columnist and writer @ByrneHobart. 
+
+https://t.co/VUFbDoD67Z"
+71	2020-02-24 09:52:13+00:00	CoinDesk	@trends_trader @TheSimpsons @Dan_Z_Palmer @FOXTV That is mentioned in the article too
+72	2020-02-24 09:37:46+00:00	CoinDesk	"The latest episode of @TheSimpsons has tried to break down the complex world of cryptocurrencies, with some success.
+
+Report by @Dan_Z_Palmer https://t.co/fOmSmvRjQj
+
+@FOXTV"
+73	2020-02-24 09:12:20+00:00	CoinDesk	"NEW: The @ethereum Foundation's work with @UNICEF is already driving impact in Kazakhstan, Tunisia and beyond.
+
+@La__Cuen reports
+
+https://t.co/7Kee3zrEPZ"
+74	2020-02-24 08:02:10+00:00	CoinDesk	"OPINION: People mock Justin Sun and TRON. But, by several metrics, it's a successful business. Time to get over the snobbery, says VC @alexandersblum.
+
+https://t.co/ZnRsYbMZaC"
+75	2020-02-24 07:02:00+00:00	CoinDesk	"Central bank digital currencies (CBDCs) have been a hot topic in blockchain circles recently, but central banks are lukewarm about blockchains. 
+
+@baidakova reports from last week's CBDC confab in Kyiv.
+
+https://t.co/E2yjXIWSFG"
+76	2020-02-23 23:00:36+00:00	CoinDesk	"ICYMI: @BitGo has acquired @harbor, pushing beyond just custody of digital assets with the tokenization platform's broker-dealer and transfer agent registrations. https://t.co/g6CuRlK9Oe
+
+Report by @nikhileshde"
+77	2020-02-23 21:45:05+00:00	CoinDesk	"ICYMI: Sweden's Riskbank is trialing a blockchain-based version of its e-krona after all – but only as a simulation for the next year. https://t.co/sl1MReQay3
+
+Report by @realDannyNelson"
+78	2020-02-23 19:15:10+00:00	CoinDesk	ICYMI: DeFi project bZx lost close to $1 million due to a bug within its protocol and a spread between price feeds this week. @wsfoxley breaks down how it happened. https://t.co/2yf5Krveg5
+79	2020-02-23 17:15:12+00:00	CoinDesk	"ICYMI: SEC Commissioner @HesterPeirce's safe harbor proposal is sorely needed, but it also opens up some novel regulatory questions and potential risks, industry experts say. https://t.co/zNYp6cusha
+
+Report by @nikhileshde"
+80	2020-02-23 14:45:08+00:00	CoinDesk	"ICYMI: The Malta Financial Services Authority put out a statement Friday saying Binance is not licensed to operate in its jurisdiction, and that it does not regulate the exchange. https://t.co/0HUZTiiuaN
+
+Report by @paddybaker_"
+81	2020-02-23 11:15:08+00:00	CoinDesk	"ICYMI: U.S. presidential candidate Michael Bloomberg said he wants to clarify crypto regulations in his financial reform plan. https://t.co/xoz8450QiC
+
+Report by @nikhileshde"
+82	2020-02-22 22:55:05+00:00	CoinDesk	"ICYMI: @NexusMutual paid out two claims in relation to the bZx exploit, in a first for the crypto insurance firm since its launch. https://t.co/oFpN1wB08c
+
+Report by @BradyDale"
+83	2020-02-22 21:45:05+00:00	CoinDesk	"ICYMI: A U.S. District Judge told attorneys for the SEC and Telegram to look at the ""economic realities"" of its $1.7 billion ICO in remarks before a hearing last week. https://t.co/Dh8fyR654T
+
+Report by @Nate_DiCamillo"
+84	2020-02-22 19:15:13+00:00	CoinDesk	"ICYMI: Bitcoin coders are debating the best way to activate a long-awaited privacy and scaling upgrade, reopening the question of how to update bitcoin's software with no entity in charge. https://t.co/vQ6TDT2fLW
+
+Report by @AlyssaHertig"
+85	2020-02-22 16:45:09+00:00	CoinDesk	"ICYMI: Crypto exchange Fcoin revealed an up-to-13,000 bitcoin shortfall stemming from unchecked internal system errors derived from its ""trans-fee mining"" reward system. https://t.co/VNLGSz7n81
+
+Report by @WolfieZhao"
+86	2020-02-22 14:00:46+00:00	CoinDesk	"ICYMI: @Whatsminer_MBT sold about 600,000 units last year, meaning the company could be the fastest-growing miner manufacturer in the world right now. https://t.co/YyM7davWaX
+
+Report by @WolfieZhao"
+87	2020-02-22 12:28:35+00:00	CoinDesk	"The growth in crypto lending platforms is giving birth to a new type of valuation metric: interest rates. 
+
+@christine_dkim reports
+
+https://t.co/AM1kJ4jT3w"
+88	2020-02-22 12:00:35+00:00	CoinDesk	"ICYMI: @PaxosGlobal has conducted the first blockchain-based settlement of U.S. equities, the first time such equities have settled on an outside system since the formation of the Depository Trust &amp; Clearing Corporation. https://t.co/F9u0ZZEvgA
+
+Report by @IanAllison123"
+89	2020-02-22 10:25:41+00:00	CoinDesk	"OPINION: We may be entering one of those 200-year turning points when humanity’s system of money goes through radical change, writes @mikejcasey. 
+
+https://t.co/uaGhGGIE61"
+90	2020-02-21 21:54:05+00:00	CoinDesk	@Voatz @realDannyNelson @nikhileshde @benjaminopowers https://t.co/Bg3npX86Z4
+91	2020-02-21 21:53:51+00:00	CoinDesk	CORRECTION: Because of inaccurate information provided by the West Virginia Secretary of State's office, an earlier version of this article misdescribed the subject document as a declassified DHS report. It is a summary published by Voatz of a still-classified DHS report. https://t.co/1TVZ1GwlRo
+92	2020-02-21 21:02:53+00:00	CoinDesk	"IN DEPTH: The Swedish @riksbanken's CBDC pilot will run on DLT, an about-face for the blockchain-doubting central bank. But the entire project will be operated only as a simulation through at least 2021.
+
+https://t.co/bqgSSsuLlK
+
+@realDannyNelson reports"
+93	2020-02-21 20:33:24+00:00	CoinDesk	Reginald Fowler, an alleged operator of Crypto Capital, was indicted on wire fraud Friday, adding to four previous charges he already faced. https://t.co/zV7ElBUCCK @nikhileshde
+94	2020-02-21 18:50:35+00:00	CoinDesk	Wikipedia co-founder @jimmy_wales said Friday he has not seen a crypto use case convincing enough to integrate one into the platform. https://t.co/adtaBDF3vL @paddybaker_ reports
+95	2020-02-21 18:06:57+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• Bitcoin bears are still rolling
+• Riot sells off its exchange
+• Morgan Stanley buys E*Trade
+https://t.co/4AyHm3q8nC"
+96	2020-02-21 17:13:31+00:00	CoinDesk	"Current FCC Commissioner @JRosenworcel: “When the FCC repealed its net neutrality protections it gave a green light to broadband providers to muck around with their customer’s internet experience.""
+
+By @DanielGKuhn 
+
+https://t.co/IA9jre0P2Q"
+97	2020-02-21 17:13:30+00:00	CoinDesk	"OPINION: Ex-FCC staffer @gigibsohn says broadband is a right, not a privilege, net neutrality should be restored and every community that wants to build their own network should be able to.
+
+By @DanielGKuhn 
+
+https://t.co/2XjVFUYj1w"
+98	2020-02-21 16:28:10+00:00	CoinDesk	3/ As a reminder, if you are ever contacted by someone claiming to be one of our reporters on Telegram or LinkedIn, and that person asks for payment, know the account reaching out is a fraud. CoinDesk does not, and will never, accept payment for coverage. https://t.co/3eWwPIOb3h
+99	2020-02-21 16:25:48+00:00	CoinDesk	"2/ If you received this email, know that it did not come from us. 
+Please forward it to fraud@coindesk.com, copy nik@coindesk.com and block the sender. We are not giving away any cryptocurrency. https://t.co/r4YQhN8DO6"
+100	2020-02-21 16:22:49+00:00	CoinDesk	"1/ SCAM ALERT: Impostors have been sending fake versions of CoinDesk's daily newsletter to try to trick recipients into visiting a dodgy ""XRP giveaway"" site. They copied our logo and design and even used our executive editor's name in the ""from"" field. (Note the actual address.) https://t.co/64Wl9Pd6q0"
+101	2020-02-21 15:50:59+00:00	CoinDesk	"FCC Commissioner @JRosenworcel is on one side of a battle over #netneutrality and opening up internet for all, not just where providers want to go. 
+
+By @DanielGKuhn 
+
+https://t.co/IA9jre0P2Q"
+102	2020-02-21 15:22:40+00:00	CoinDesk	"In the never-ending search for signals to give traders an edge, could bullish comments on Reddit serve as a momentum indicator for bitcoin? That’s what a recent graphic by startup ChartStar suggests. Report by @danielcawrey:  
+https://t.co/5oX4BNWvR4"
+103	2020-02-21 15:16:48+00:00	CoinDesk	BREAKING: @Shopify is joining the @Libra_ Association, it announced Friday. https://t.co/Wue2OVaNpe @nikhileshde reports
+104	2020-02-21 14:53:13+00:00	CoinDesk	"NEW: Here's how crypto exchanges are onboarding unbanked users in Nigeria.
+
+https://t.co/6H9flxZPe5
+
+@La__Cuen reports"
+105	2020-02-21 14:31:42+00:00	CoinDesk	"A blockchain-based system might better flag fake images and prevent copyright violations, the technical group behind the JPEG format believes.
+
+Via @paddybaker_ https://t.co/xhfbXTF1BF"
+106	2020-02-21 13:32:13+00:00	CoinDesk	"Last weekend at #ETHDenver, CoinDesk met some of the decentralized internet alternatives leveraging blockchain’s censorship-resistant nature.
+
+Via @wsfoxley 
+
+https://t.co/XAHa38LZZK
+
+#ethereum @ensdomains @unstoppableweb @unilogin"
+107	2020-02-21 12:48:48+00:00	CoinDesk	"BREAKING: @binance is neither licensed to operate nor is it regulated in Malta, the country's chief financial watchdog has said.
+
+@paddybaker_ reports https://t.co/O6vF6DvLHU"
+108	2020-02-21 12:26:47+00:00	CoinDesk	"Fidelity International has invested $14 million in BC Group – the Hong Kong-based operator of crypto exchange OSL.
+
+@WolfieZhao reports https://t.co/OMPUwZMUPC"
+109	2020-02-21 10:53:10+00:00	CoinDesk	"NEW: Legacy Trust's digital asset division will soon launch the first settlement layer in Asia for institutional investors trading both fiat and cryptocurrencies.
+
+Via @paddybaker_ https://t.co/teA8SzfKUo
+
+@legacytrusthk"
+110	2020-02-21 10:17:33+00:00	CoinDesk	"LATEST: Cryptocurrency exchange FCoin, which revealed its insolvency this week, may have already been leaking bitcoin as early as July 2018 – just two months after its debut.
+
+@WolfieZhao reports https://t.co/ELGSvFXs4M"
+111	2020-02-21 09:00:06+00:00	CoinDesk	"Nasdaq-listed crypto mining company @RiotBlockchain is planning to sell its U.S.-based crypto exchange RiotX as it doubles down on bitcoin mining with a $6.35 million investment in Bitmain hardware.
+
+@DavidPan_1 reports https://t.co/hYGoqGjnLR"
+112	2020-02-20 21:16:29+00:00	CoinDesk	".@NexusMutual members voted to pay out two claims following the bZx flash loan attacks – a first for the DeFi insurance pioneer.
+
+https://t.co/KGHi8sIsc9
+
+@BradyDale reports"
+113	2020-02-20 20:40:58+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• Bitcoin bloodbath
+• Samsung adds crypto features
+• Victoria's Secret on the rocks
+https://t.co/Myxnt8hMKs"
+114	2020-02-20 20:32:03+00:00	CoinDesk	"The lightning network is ""increasingly centralized,"" thus more susceptible to attacks,  says a new paper. Co-author @Snyke says the situation is ""likely temporary"" but sees such discussions as important to hardening the system.
+
+Story by @AlyssaHertig 
+
+ https://t.co/fb0yRH3a20"
+115	2020-02-20 19:34:24+00:00	CoinDesk	"VIDEO: Where do things stand with the tech overhaul of the world’s second-largest blockchain? We asked @VitalikButerin at @EthereumDenver.
+
+https://t.co/Fe1wnZHeeQ
+
+@wsfoxley reports"
+116	2020-02-20 17:55:57+00:00	CoinDesk	"OPINION: Tired of Big Tech taking your personal data and making billions from it? Entrepreneur and investor @jenzhuscott has a plan, as she explains in a TED talk and post here: 
+
+https://t.co/z8h9fA4rm1
+
+@TEDTalks"
+117	2020-02-20 17:34:34+00:00	CoinDesk	Morgan Stanley is acquiring E*Trade for $13 billion, hoping to target its 5.2 million-strong client base. https://t.co/mFA8oBfQYB via @realDannyNelson
+118	2020-02-20 17:29:20+00:00	CoinDesk	"For skeptics and traditional market investors, bitcoin is synonymous with extreme bouts of price volatility. However, in recent times, oil has become a relatively risky asset. 
+
+@godbole17 
+
+https://t.co/eFS6c6GO8n"
+119	2020-02-20 17:15:34+00:00	CoinDesk	"IN DEPTH: @decentraland opened for gameplay today, delivering on promises of bringing an NFT-based ""metaverse"" to ethereum.
+
+https://t.co/M6ViN2iueP
+
+@BradyDale reports"
+120	2020-02-20 15:55:30+00:00	CoinDesk	"NEW: A ""large-scale"" money laundering organization is allegedly using cryptocurrency to wash the proceeds from drug sales, according to a DEA agent's complaint against one alleged launderer. https://t.co/DOjfvoGPgl via @nikhileshde"
+121	2020-02-20 14:51:23+00:00	CoinDesk	"The crypto markets need more opportunistic investors, like @Carl_C_Icahn, who come and go and aren't solely crypto investors, says CoinDesk columnist @jdorman81 of @arca.  
+
+https://t.co/qRFGw3Z8fT"
+122	2020-02-20 14:38:08+00:00	CoinDesk	@telegram @SEC_News @Nate_DiCamillo https://t.co/yUdFfNbN02
+123	2020-02-20 14:37:42+00:00	CoinDesk	UPDATE: This article has been updated to include the full transcript from Wednesday's hearing. https://t.co/VSS3yfvZxS
+124	2020-02-20 14:01:40+00:00	CoinDesk	"Top Italian soccer team Juventus is launching digital collectibles of its star players on blockchain-enabled fantasy football platform Sorare.
+
+Via @Dan_Z_Palmer https://t.co/TQJGygKrzo 
+
+@juventusfcen @SorareHQ"
+125	2020-02-20 14:00:42+00:00	CoinDesk	"JUST IN: Crypto startup Paxos, in conjunction with Credit Suisse and Nomura-owned broker-dealer Instinet, has claimed bragging rights for the first live blockchain-based settlement of U.S. equities. 
+
+@IanAllison123 reports https://t.co/RCwvwRP3VV
+
+@PaxosGlobal @CreditSuisse"
+126	2020-02-20 13:01:16+00:00	CoinDesk	"Travelers on Norwegian Air, one of the largest airlines in Europe, will soon be able to pay for flights using cryptocurrency. 
+
+@paddybaker_ reports https://t.co/wQhkc6BIeW
+
+@Fly_Norwegian @nbxcom"
+127	2020-02-20 12:06:24+00:00	CoinDesk	"Private equity firm Fortress has issued a ""premium"" offer to buy out creditor claims from the now-defunct Mt. Gox exchange. 
+
+Via @paddybaker_ https://t.co/l0q7Hf4tlB"
+128	2020-02-20 10:01:39+00:00	CoinDesk	"The National Stock Exchange of Australia and financial institution iSignthis are planning a blockchain-based securities trading platform to compete with ASX.
+
+Report by @Sebsinclair1989 https://t.co/adRgWWLAtG"
+129	2020-02-20 08:30:26+00:00	CoinDesk	"Brazil's central bank is responding to the growth of cryptocurrencies with a new payments system promising near-instant transfers for individuals and businesses.
+
+Via @Dan_Z_Palmer https://t.co/mljuhWCpdl"
+130	2020-02-20 06:11:19+00:00	CoinDesk	"Dutch tax enforcers with the Netherlands’ Fiscal Intelligence and Investigation Service arrested two men Monday for allegedly laundering millions of euros in cryptocurrency.
+
+Report by @realDannyNelson.
+
+https://t.co/qFwufGNGpS"
+131	2020-02-20 05:06:51+00:00	CoinDesk	"OPINION: Bitcoin's resilience doesn't depend on widely distributed mining power. It just requires self-interested miners, says CoinDesk columnist @hasufl. 
+
+https://t.co/rAtkVvV3QX"
+132	2020-02-20 04:32:06+00:00	CoinDesk	"The Bank of Korea is reportedly looking to build a blockchain system for the Korean bond market, via @paddybaker_.
+
+https://t.co/kCAGMM3Czs"
+133	2020-02-19 23:55:50+00:00	CoinDesk	Bitcoin has dipped back below the psychological area of support near the $10,000 level amid a 20 minute bearish sell-off. https://t.co/stKyGw8ppR. Report by @Sebsinclair1989
+134	2020-02-19 23:36:23+00:00	CoinDesk	"Want to understand the recent DeFi hacks? #CoinDesk has got you covered. #defi #bzx via @johnbiggs @wsfoxley
+https://t.co/HKDavtl5Lx https://t.co/Vd7mF8PXVQ"
+135	2020-02-19 23:00:28+00:00	CoinDesk	"NEW: @OpenNodeCo has found a way for bitcoin-loving retailers to receive $BTC from customers who pay in fiat.
+
+https://t.co/KKFnvmIPbe
+
+@La__Cuen reports"
+136	2020-02-19 22:56:21+00:00	CoinDesk	"NEW: In his first public comments on the case, U.S. judge P. Kevin Castel called on @telegram and the @SEC_News to consider the ""economic realities"" of the case, including the secondary market for gram tokens. https://t.co/7nPnAK7Mkz 
+
+@Nate_DiCamillo reports from the courthouse"
+137	2020-02-19 22:51:57+00:00	CoinDesk	"IN DEPTH: Here's a plain-English explainer of the @bzxHQ attacks and their broader implications for the budding DeFi markets.
+
+By @wsfoxley 
+
+https://t.co/UTvUPqxwSr"
+138	2020-02-19 21:30:51+00:00	CoinDesk	"Steve Chen agreed to plead guilty to tax evasion and conspiracy to commit wire fraud in connection with the $147 million Gemcoin scheme. https://t.co/AAhYzBBbUb
+
+@realDannyNelson reports"
+139	2020-02-19 20:44:25+00:00	CoinDesk	"Bitcoin’s price volatility spiked in January and could further increase over the near term because “whales” have begun accumulating coins.
+
+@godbole17 @krakenfx 
+
+https://t.co/Aw2CYdvWF6"
+140	2020-02-19 20:07:49+00:00	CoinDesk	"The European Union is still trying to figure out what to do about Libra, according to a new memo.
+
+@realDannyNelson 
+
+https://t.co/zNSMiOqahx"
+141	2020-02-19 19:25:38+00:00	CoinDesk	"🚨NEW EPISODE: Today we're breaking down the flash loan attacks that rocked the DeFi community last week. Join @johnbiggs and @gamerandy as we break down the news of the day.
+https://t.co/2jrYnWXtir"
+142	2020-02-19 17:26:53+00:00	CoinDesk	"The next era of financial services will pit Wall Street vs. Silicon Valley vs. open protocols, says author @alextapscott in an excerpt from his book ""Financial Services Revolution: How Blockchain Is Transforming Money, Markets and Banking.""
+
+https://t.co/NowF3bqmeH"
+143	2020-02-19 17:09:54+00:00	CoinDesk	JUST IN: The @SEC_News settled charges with @EnigmaMPC alleging it raised $45 million in an unregistered securities sale with its 2017 ICO. Engima will refund investors and pay a penalty. https://t.co/ZNsNPrqNT3 @nikhileshde reports
+144	2020-02-19 17:05:50+00:00	CoinDesk	".@OpenfinanceIO is listing the LDCC security token, which aims to raise funds for charities across the globe. 
+
+https://t.co/YIE07xaE29
+
+@Sebsinclair1989"
+145	2020-02-19 17:02:06+00:00	CoinDesk	"JUST IN: Venture capitalist @TimDraper now controls about 2.5 percent of $ANT, the token behind @AragonProject's digital court system.
+
+https://t.co/qk9xs5GnX6
+
+@realDannyNelson reports"
+146	2020-02-19 16:05:09+00:00	CoinDesk	".@Blockstation, a Canadian digital asset trading systems firm, has built a streamlined disclosures filing tool for companies seeking an STO with the Jamaica Stock Exchange. https://t.co/MGwOWnPCOE 
+
+Via @realDannyNelson"
+147	2020-02-19 15:16:14+00:00	CoinDesk	".@binance exchange has said it suspended trading Wednesday due to a problem with a data feed.
+
+Via @Liqquidity and @paddybaker_ 
+
+https://t.co/0miiHzsFFJ"
+148	2020-02-19 13:01:40+00:00	CoinDesk	"An $8 million ICO project focused on content sharing is shutting down, saying poor perceptions of crypto caused regulatory uncertainty and difficulties in onboarding new users.
+
+@paddybaker_ reports https://t.co/QUjTqRUoHI"
+149	2020-02-19 12:37:55+00:00	CoinDesk	"OPINION: The blockchain industry must not only build the products people want, but also the platforms developers need to get there, writes CoinDesk columnist @jillruthcarlson.
+
+https://t.co/3dxL8J5dBH"
+150	2020-02-19 12:00:31+00:00	CoinDesk	"JUST IN: @Coinfloor exchange, which dropped ethereum to focus solely on bitcoin, is launching a simplified buying service for crypto newbies.
+
+@IanAllison123 reports https://t.co/DwYJ42cgln"
+151	2020-02-19 11:34:49+00:00	CoinDesk	"Opinion: U.S. policymakers are worried that CBDCs and crypto will harm the dollar's reserve status. But maybe they have it backwards, writes CoinDesk columnist @nic__carter. 
+
+https://t.co/gFWH130WeI"
+152	2020-02-19 11:32:56+00:00	CoinDesk	".@coinbase has become the first ""pure-play"" crypto firm to be awarded Visa principal member status, the exchange says.
+
+Via @Dan_Z_Palmer
+ 
+https://t.co/pEnZLHYHRs"
+153	2020-02-19 10:00:37+00:00	CoinDesk	"OPINION: U.S. policymakers are worried that CBDCs and crypto will harm the dollar's reserve status. But maybe they have it backwards, writes CoinDesk columnist Nic Carter. 
+
+https://t.co/0FMhQqwsIp"
+154	2020-02-19 09:00:43+00:00	CoinDesk	"IN DEPTH: An old debate is resurfacing in the bitcoin developer community, underscoring one of the critical challenges facing decentralized systems: how to update the software when ostensibly no one's in charge. 
+
+Via @AlyssaHertig https://t.co/yYUDvVC6M3
+
+#bitcoin"
+155	2020-02-19 06:01:10+00:00	CoinDesk	"IN DEPTH: Crypto advocates are praising SEC Commissioner @HesterPeirce’s token “safe harbor” proposal, though not without questioning the details. 
+
+@nikhileshde reports.
+
+https://t.co/eK6veC3Q1d"
+156	2020-02-19 03:05:00+00:00	CoinDesk	".@Samsung Electronics' newly launched Galaxy smartphone will come with the same crypto storage facilities found on previous models.
+
+@paddybaker_ reports.
+
+https://t.co/9LIHuJel5H"
+157	2020-02-18 21:18:01+00:00	CoinDesk	@telegram @baidakova https://t.co/w0qAkecMBF
+158	2020-02-18 21:17:39+00:00	CoinDesk	UPDATE: The @SEC_News asked a federal court to bar the TON Community Foundation from submitting an amicus brief in support of @telegram. The regulator claims some members of the nonprofit are investors with an interest in the case's outcome.  h/t @baidakova https://t.co/84SDmJ4aIz
+159	2020-02-18 21:15:39+00:00	CoinDesk	The @irs will hold a summit to better inform its thinking around taxing cryptocurrencies next month. https://t.co/9PB8LiU21a @nikhileshde reports
+160	2020-02-18 20:20:38+00:00	CoinDesk	And finally, to show that an opinion section is all legal proposals, our roving correspondent @jeffwilser has a long in-depth sit-down with ShapeShift's bitcoin OG @ErikVoorhees. It's a fun read: https://t.co/zTYs4fP3pH
+161	2020-02-18 20:20:37+00:00	CoinDesk	"And @DonnaRedel and @AndoniOlta give suggestions for improving Peirce's proposal, including beefing up its protections for token holders during the three-year grace period and limiting fundraising. 
+https://t.co/IuNMpt2C7x"
+162	2020-02-18 20:20:37+00:00	CoinDesk	Legal advisers @Carol_VanCleef and @addisonkyang argue the Safe Harbor is unlikely to be formally considered by the SEC, but say it could help define and refine future rule-making. https://t.co/JPWGc8QdFg
+163	2020-02-18 20:20:37+00:00	CoinDesk	"In response, @prestonjbyrne questioned whether it's possible to define ""decentralization"" as a test for the Safe Harbor: ""I would struggle to advise a client seeking to adhere to the 'decentralization' test whether they are decentralized or not."" https://t.co/mK0m3Mqew8"
+164	2020-02-18 20:20:37+00:00	CoinDesk	To kick off this morning, we published a piece by @HesterPeirce about her Safe Harbor proposal for token sales: https://t.co/e3zY65rroc She wants feedback on the best way forward for the industry while protecting the investing public.
+165	2020-02-18 20:20:36+00:00	CoinDesk	CoinDesk's new opinion section, launching today, features a star group of columnists including @jillruthcarlson @prestonjbyrne @nic__carter @hasufl @shurder @jp_koning @yorkerhodes @byrneseyeview @jdorman81 @LexSokolin and more https://t.co/EFv1mQ88UE
+166	2020-02-18 18:31:39+00:00	CoinDesk	"BREAKING: Digital asset custodian @BitGo is building a “full stack” security token services provider by acquiring tokenization platform @harbor, including its broker-dealer and transfer agent. https://t.co/ZCLlNzbC0n
+
+@nikhileshde reports"
+167	2020-02-18 16:37:05+00:00	CoinDesk	"Given the odds against it, should the crypto industry invest time and resources in support of @HesterPeirce's safe harbor proposal? @Carol_VanCleef @addisonkyang weigh up the pros and cons. 
+
+https://t.co/p7kgb4dQ0R"
+168	2020-02-18 15:20:52+00:00	CoinDesk	WATCH: Who is the most crypto-aware presidential candidate? We asked folks at #ETHDenver to chime in on who they're voting for in the U.S. Presidential Election. The answers may surprise you. https://t.co/4MHu0zdQxY
+169	2020-02-18 15:05:04+00:00	CoinDesk	JUST IN: US presidential candidate @MikeBloomberg said he would clarify tax and securities laws around crypto in a new financial reform plan. https://t.co/XAbVxcUzfV @nikhileshde reports
+170	2020-02-18 14:19:05+00:00	CoinDesk	"CoinDesk's new columnist @prestonjbyrne takes issue with @HesterPeirce's proposal for a token safe harbor. 
+
+""I would struggle to advise a client seeking to adhere to the 'decentralization' test whether they are decentralized or not,"" he writes.  
+
+https://t.co/wdoq8j5SdP"
+171	2020-02-18 14:08:41+00:00	CoinDesk	"OPINION: The SEC's @HesterPeirce talks about the reaction to her recent Safe Harbor proposal for token sales. 
+
+""The securities laws cannot be ignored, but neither can securities regulators ignore the conundrum our laws create,"" she writes.  
+
+https://t.co/nJ6JVKVH6X"
+172	2020-02-18 13:06:19+00:00	CoinDesk	"Bad actors have made off with $630,000-worth of the ether ($ETH) cryptocurrency after exploiting a price feed of the ethereum-based lending project bZx. 
+
+@paddybaker_ reports https://t.co/ERH794TwSQ
+
+@bzxHQ"
+173	2020-02-18 12:12:17+00:00	CoinDesk	"Blocknox, a subsidiary of the second largest German stock exchange @boersestuttgart, is expanding its cryptocurrency custody service to institutional players.
+
+Via @Dan_Z_Palmer 
+
+https://t.co/AOui77UBbP"
+174	2020-02-18 10:39:21+00:00	CoinDesk	".@enjin has announced the launch of its game development platform on #ethereum, enabling developers to integrate crypto assets into games and apps with no knowledge of writing blockchain code.
+
+Via @Sebsinclair1989 
+
+https://t.co/QqCImqMnt6"
+175	2020-02-18 09:48:38+00:00	CoinDesk	"OPINION: When @ShapeShift_io implemented KYC requirements, @ErikVoorhees lost 95 percent of his users. But he remains as committed to crypto as ever.
+
+Interview by Jeff Wilser
+
+https://t.co/KzgcWydYqP"
+176	2020-02-17 21:00:34+00:00	CoinDesk	"The Australian entrepreneur who claims to be the inventor of bitcoin has suggested he might take legal action over claimed infringement of his intellectual property. https://t.co/3x4cI8Dv92
+By @Dan_Z_Palmer"
+177	2020-02-17 19:05:07+00:00	CoinDesk	"Russia is looking at creating a regulatory distinction between asset tokenization and 'pure' cryptocurrencies. https://t.co/jab43bUebi 
+
+Via @paddybaker_"
+178	2020-02-17 17:15:30+00:00	CoinDesk	"The latest developments are unlikely to impact crypto assets in the long-term, as the issuance of a digital yuan would be tightly controlled with no public mining or trading with existing cryptos, said eToro analyst Nemo Qin. https://t.co/A5jYQKvurC
+
+Report by @Sebsinclair1989"
+179	2020-02-17 16:04:44+00:00	CoinDesk	"Panama-based @DeribitExchange has listed daily ether (ETH) options. 
+
+Via @godbole17 https://t.co/5K7srZVOAx"
+180	2020-02-17 15:50:06+00:00	CoinDesk	Want to know what's next in $ETH? Listen to @VitalikButerin talk about plans for the platform. Part 2 of 2. #ETHDenver https://t.co/wtCRM463lj
+181	2020-02-17 15:41:45+00:00	CoinDesk	"WATCH: ""Libra was always very ambitious and it's very hard. It's not right for everyone all the time."" Libra partner speaks out on Facebook's project. https://t.co/vxlDH7c7yr"
+182	2020-02-17 15:31:23+00:00	CoinDesk	Want to know what's next in $ETH? Listen to @VitalikButerin talk about plans for the platform. Part 1 of 2. #ETHDenver https://t.co/QyuqPucJZz
+183	2020-02-17 15:27:07+00:00	CoinDesk	"Speculation creates congestion on the blockchain that harms a cryptocurrency's utility and overall value, a senior economist at the @bankofengland has said in a working paper. 
+
+Report by @paddybaker_ https://t.co/rOhzhyWaIY"
+184	2020-02-17 14:06:00+00:00	CoinDesk	".@FCoinOfficial, a crypto exchange that adopted the controversial “trans-fee mining” model, has paused trading and withdrawal as it reveals a shortage of crypto assets worth up to $130 million.
+
+@WolfieZhao reports.
+
+https://t.co/keFca1SYen"
+185	2020-02-17 13:00:38+00:00	CoinDesk	"JUST IN: @binance is launching a digital asset trading platform that can be rebranded by smaller exchanges for their local markets.
+
+Report by @danielcawrey https://t.co/plLLQ9Q3kv"
+186	2020-02-17 12:16:32+00:00	CoinDesk	"Crypto custody provider @CopperHQ has raised $8 million in a Series A round to fund launches in overseas markets. 
+
+Via @paddybaker_ https://t.co/A9IoElJ7xY"
+187	2020-02-17 09:03:17+00:00	CoinDesk	".@binance is hoping to get the official green light to operate in Singapore, having applied for a license under the island state's new rules for crypto firms.
+
+Via @Dan_Z_Palmer https://t.co/7p2mPvnjmt"
+188	2020-02-17 06:03:09+00:00	CoinDesk	"Beijing-based blockchain startup @ConfluxChain has hired the former head of crypto at VC firm Outlier Ventures @OVioHQ to lead a North American expansion. 
+
+@DavidPan_1 reports.
+
+https://t.co/IimfMAkEjw"
+189	2020-02-17 03:03:50+00:00	CoinDesk	"Shenzhen-based @Whatsminer_MBT has rapidly grown its share in the bitcoin miner market by selling over half a million units in 2019, chipping away at rival @BITMAINtech's dominance.
+
+@WolfieZhao reports.
+
+https://t.co/QcmD9LDwE1"
+190	2020-02-16 23:25:04+00:00	CoinDesk	"ICYMI: Witches are using crypto to bypass financial censorship on platforms like Instagram and eBay, which bar occult religious practices. https://t.co/9DCjDnnZyR 
+
+Report by @La__Cuen"
+191	2020-02-16 14:30:18+00:00	CoinDesk	"ICYMI: @DHSgov's cybersecurity branch audited blockchain voting app provider @Voatz last year, applauding the company's approach to its services in stark contrast with an MIT report Thursday. https://t.co/szfCmx3xcP
+
+Report by @realDannyNelson, @nikhileshde and @benjaminopowers"
+192	2020-02-16 13:17:59+00:00	CoinDesk	"Sometimes the very laws meant to enforce privacy can result in companies sharing it, writes @benjaminopowers.
+
+https://t.co/HnSjejZoTT"
+193	2020-02-16 11:15:07+00:00	CoinDesk	"ICYMI: Michael Novogratz's Galaxy Digital laid off 13 people, or roughly 15 percent of its workforce, last month after the digital asset market failed to develop as quickly as expected. https://t.co/ahh6kfewpc 
+
+Report by @MarcHochstein"
+194	2020-02-16 09:21:37+00:00	CoinDesk	"DeFi lending tends to decelerate in bull markets, pointing to a possible limit on its use beyond early adopters. 
+
+Via @galenmoore https://t.co/AnEOIQDLQh"
+195	2020-02-16 01:00:18+00:00	CoinDesk	"Two percent of @bzxHQ's assets under management were stolen by a savvy attacker in what is considered a learning moment for DeFi protocols reports @wsfoxley 
+
+@EthereumDenver
+
+https://t.co/A43ZjGFRUN"
+196	2020-02-15 23:30:18+00:00	CoinDesk	"ICYMI: A review of public documents shows the U.S. govt. paid @chainalysis more than $10 million over the past five years, tapping the blockchain forensics firm's tools as well as asking the company to train federal employees. https://t.co/Z4smaMMyh6 
+
+Report by @realDannyNelson"
+197	2020-02-15 20:06:22+00:00	CoinDesk	Colorado Governor @jaredpolis said Colorado startups have raised $50 million in venture capital via @willsfoxley  https://t.co/8ILzULBmpp
+198	2020-02-15 19:45:07+00:00	CoinDesk	"ICYMI: @federalreserve Chair Powell didn't advocate for privacy coins or endorse a U.S. CBDC, but his comments before the @FSCDems last week do hint any digitized dollar may support financial privacy. https://t.co/6LKawzMgb8
+
+@MarcHochstein and @benjaminopowers break down how"
+199	2020-02-15 17:33:34+00:00	CoinDesk	"EXCLUSIVE: ""We can move fast, but we can only do what we're allowed to do."" What does entrepreneur and Colorado Governor @jaredpolis think about crypto? Find out with CoinDesk's @wsfoxley  in this exclusive video from #ETHDenver #crypto #colorado https://t.co/36S64FA1LP"
+200	2020-02-15 16:30:25+00:00	CoinDesk	"ICYMI: A prosecutor indicated that merely using bitcoin mixer services might be illegal after Coin Ninja CEO Larry Harmon was arrested last week on allegations of laundering funds for AlphaBay. https://t.co/oBr7XrBzDl 
+
+Report by @La__Cuen"
+201	2020-02-15 14:25:04+00:00	CoinDesk	"ICYMI: Bitcoin's mining difficulty is still growing, but the rate at which it's doing so has stagnated recently as the delivery of new mining machines was interrupted by the coronavirus outbreak controls in China. https://t.co/iviyK1VlKP 
+
+Report by @DavidPan_1"
+202	2020-02-15 11:30:55+00:00	CoinDesk	"There are concrete safety implications to consumer privacy violations, says Lindsey Barrett of Georgetown Law. 
+
+Via @benjaminopowers https://t.co/0541paua8p"
+203	2020-02-15 11:15:07+00:00	CoinDesk	"ICYMI: An Iranian government-backed research center report suggesting the country could generate revenue from its domestic bitcoin mining industry could be behind the Trump administration's recent comments on crypto controls. https://t.co/pthddBR420
+
+Report by @La__Cuen"
+204	2020-02-15 10:42:24+00:00	CoinDesk	"WATCH: Developer Cindy Zimmerman and her mother Judy Katzman are among the cryptocurrency community’s most quietly prolific builders.
+
+https://t.co/maAHjgPjqv"
+205	2020-02-14 22:00:31+00:00	CoinDesk	NEW: The @CFTC is charging Breonna Clark and Venture Capital Investments with defrauding investors by pretending to run a commodity pool invested in crypto and foreign currency contracts. https://t.co/6iSuOYQF9C @nikhileshde reports
+206	2020-02-14 20:58:11+00:00	CoinDesk	Correction: Following the publication of this article, a spokesperson clarified that Google, not its cloud subsidiary, would be joining the council. https://t.co/fg0Y0v7PBY
+207	2020-02-14 20:31:21+00:00	CoinDesk	"To the operators of high-speed computers used to mine for bitcoin, the halving looks more like a doubling — of costs.
+
+@Liqquidity 
+
+https://t.co/Qvl1fAcD4J"
+208	2020-02-14 20:16:30+00:00	CoinDesk	"The cloud services arm of the Silicon Valley tech giant becomes the 11th member to join the council, but said it has no plans to further endorse the network. https://t.co/SYcrhFVFCF
+
+ @Nate_DiCamillo reports"
+209	2020-02-14 17:59:22+00:00	CoinDesk	"JUST IN: Cardano maker @InputOutputHK is establishing a blockchain R&amp;D lab at the University of Wyoming after donating $500,000 in $ADA to the school.
+
+https://t.co/rO90Uxrklh
+
+@paddybaker_ reports"
+210	2020-02-14 17:20:37+00:00	CoinDesk	"NEW: An organization composed of TON developers and investors has filed an amicus brief supporting @telegram in its legal fight against the SEC.
+
+https://t.co/ikWdxhel0B
+
+Report by @baidakova"
+211	2020-02-14 16:03:25+00:00	CoinDesk	"NEW: @steemit, the blockchain-based social media platform, is partnering with the @Tronfoundation, introducing Steem dapps and users to the Tron network. https://t.co/cRdTubL9N3
+
+Via @nikhileshde"
+212	2020-02-14 15:34:01+00:00	CoinDesk	"SCOOP: @polychaincap, one of the crypto industry's leading venture firms, is targeting $200 million for its second fund. 
+
+https://t.co/e0QTjlNbNI
+
+@ads_adb reports"
+213	2020-02-14 15:03:07+00:00	CoinDesk	"The chief of the @ASX has said the stock exchange's approaching shift to blockchain tech could bring opportunities to the wider securities industry.  
+
+Via @Dan_Z_Palmer https://t.co/jAYEeNvSeC"
+214	2020-02-14 14:31:31+00:00	CoinDesk	".@coinbase's merchant payments arm has added support for the $DAI stablecoin, bringing together online retail and decentralized finance.  
+
+@paddybaker_ reports https://t.co/7XVc4wMbWw
+
+@CommerceCB"
+215	2020-02-14 13:29:02+00:00	CoinDesk	"NEW: Amber Group, a Hong Kong-based startup offering a range of cryptocurrency finance services, has raised $28 million from investors including Pantera, Paradigm and Coinbase Ventures.
+
+Via @Dan_Z_Palmer https://t.co/nkuaw8VsHn
+
+@ambergroup_"
+216	2020-02-14 13:00:34+00:00	CoinDesk	"Mumbai-based cryptocurrency exchange @coindcx has partnered with @OKEx to launch futures products for the Indian market. 
+
+Via @paddybaker_ https://t.co/PxF0pl5hx5"
+217	2020-02-14 12:00:55+00:00	CoinDesk	"The New York Senate's Internet and Technology Committee is once again pushing forward blockchain legislation, with a pair of bills aimed to bolster economic activity in the Empire State. 
+
+@realDannyNelson reports from Albany 
+
+https://t.co/4NzBbucgjj"
+218	2020-02-14 10:03:34+00:00	CoinDesk	"JUST IN: @binance has added payment support for 15 fiat currencies via an integration with Israeli firm Simplex.
+
+Via @paddybaker_ https://t.co/SLyjc8rNPA
+
+@SimplexCC"
+219	2020-02-14 09:04:00+00:00	CoinDesk	"NEW: U.S. intelligence officials aim to sponsor a post-doc researcher to study what would happen if the U.S. dollar lost its status as the world’s reserve currency.
+
+@Nate_DiCamillo reports https://t.co/sZeKRRnz4j"
+220	2020-02-14 06:07:29+00:00	CoinDesk	"A group of trading vets from NASDAQ, Visa and Morgan Stanley say they’ve built a liquidity solution for the world’s disparate cryptocurrency markets. 
+
+@realDannyNelson reports.
+
+https://t.co/5gzRZ6wzlq"
+221	2020-02-14 02:11:47+00:00	CoinDesk	"Judy Shelton, President Trump’s nominee to the Federal Reserve Board, told lawmakers that digitizing the U.S. dollar could help maintain the currency’s ascendancy in global commerce. 
+
+Report by @DavidPan_1.
+
+https://t.co/x9WF2KrQg9"
+222	2020-02-14 01:09:14+00:00	CoinDesk	"A newly declassified DHS cyber audit complicates Thursday's reports of major security vulnerabilities in the @Voatz mobile voting app. https://t.co/DcTAWo7Cxg
+
+@realDannyNelson @nikhileshde and @benjaminopowers report"
+223	2020-02-13 23:50:24+00:00	CoinDesk	"NEW: The arrest of Larry Harmon for an alleged connection to AlphaBay raises major questions: Do bitcoiners have a right to build privacy tech?
+
+https://t.co/kxe7I9lq29
+
+@La__Cuen reports"
+224	2020-02-13 23:25:17+00:00	CoinDesk	"The German nonprofit, which supports several decentralized platforms, said it received reports of fund theft from its Trinity Wallet users and decided to shut off the Coordinator node in the network for further investigation. 
+
+https://t.co/aOLLZfLe1E
+
+@DavidPan_1 reports"
+225	2020-02-13 23:17:51+00:00	CoinDesk	"NEW: @GalaxyDigital, the cryptocurrency merchant bank founded by Wall Street vet Michael @novogratz, has laid off roughly 15 percent of its workforce, people familiar with the situation said. 
+
+Report by @MarcHochstein 
+
+https://t.co/TiamDlE1by"
+226	2020-02-13 22:16:26+00:00	CoinDesk	"NEW: The Trump administration may be tightening the reins on crypto because of Iran.
+
+https://t.co/5sjsIar3Zy
+
+@La__Cuen reports"
+227	2020-02-13 21:02:18+00:00	CoinDesk	"B2C2, a London-based over-the-counter (OTC) market maker, is sharing its data and allowing transactions on the Los Angeles-based exchange aggregator SFOX. 
+
+@danielcawrey @B2C2Group @SFox 
+
+https://t.co/NtjdCI4eiP"
+228	2020-02-13 20:48:08+00:00	CoinDesk	Hey, #ETHDenver folks: This is tonight. Meet us at 3200 Pecos St for a good time 🎉https://t.co/hrHav4irdU
+229	2020-02-13 20:05:12+00:00	CoinDesk	"“As we look at cryptocurrencies and an overall societal shift toward digitizing our financial transactions, it's vital that we build privacy values into both the technology and the regulatory systems,” says @EFF's @RaineyReitman 
+https://t.co/Z8OkHHh94S"
+230	2020-02-13 18:36:31+00:00	CoinDesk	"XRP, the native asset of San Francisco-based Ripple’s XRP Ledger, saw a flash crash on Hong Kong-based derivatives exchange BitMEX on Thursday.
+
+@danielcawrey @BitMEXdotcom 
+
+https://t.co/YfzhctH4rW"
+231	2020-02-13 17:36:08+00:00	CoinDesk	"The @EFF is defending a former @kraken employee embroiled in a lawsuit over an anonymous review of the crypto exchange on Glassdoor. https://t.co/7HsgopMrtu
+
+Via @Dan_Z_Palmer"
+232	2020-02-13 17:18:59+00:00	CoinDesk	"NEW: @binance has hired Matt Shroder, formerly of Uber, as its VP of Global Expansion Operations.
+
+https://t.co/kMvqBB2ZI7
+
+@paddybaker_ reports"
+233	2020-02-13 17:05:17+00:00	CoinDesk	"Former CFTC Chairman @giancarloMKTS touts U.S. constitutional privacy protections as a competitive edge for a proposed digital dollar, differentiating it from China's digital yuan and @Libra_
+
+https://t.co/7KMYa2RL2S https://t.co/MY0fyUFBA0"
+234	2020-02-13 16:43:10+00:00	CoinDesk	"As ether's price rose to seven-month highs on Wednesday, the aggregate daily volume in ether futuers exceeded $4.5 billion for the first time since June 27, 2019. https://t.co/uCQDI8lVHn
+
+Via @godbole17"
+235	2020-02-13 15:29:16+00:00	CoinDesk	"With bitcoin’s next likely major upgrade in the works, students of the cryptocurrency can inspect the code themselves, helped by core developers.
+
+@AlyssaHertig 
+
+https://t.co/RHwZcxovRq"
+236	2020-02-13 15:25:57+00:00	CoinDesk	"NEW: @TorusLabs, a key-management startup offering one-click logins for the decentralized web, launched out of beta Thursday with a handful of big-name hosting partners.
+
+https://t.co/Dp7pnshaSV
+
+@wsfoxley reports"
+237	2020-02-13 15:00:33+00:00	CoinDesk	".@The_DTCC wants the financial sector to form a consortium alongside regulators to reduce any security risks associated with blockchain tech. 
+
+Via @paddybaker_ https://t.co/LG9m83KdPf"
+238	2020-02-13 14:05:14+00:00	CoinDesk	"""Powell implied that any digital currency implemented in the U.S. would have to be privacy-preserving or privacy-respecting, and not provide another method of surveillance a la the Chinese government’s plan,"" says @hackylawyER 
+
+https://t.co/6rLYqzn0bf"
+239	2020-02-13 14:00:07+00:00	CoinDesk	"JUST IN: Crypto lending startup @TheRealBlockFi has secured a $30M Series B after raising $18.3M last August.
+
+https://t.co/u2lF6kHf28
+
+@Nate_DiCamillo reports"
+240	2020-02-13 13:00:26+00:00	CoinDesk	"JUST IN: Banking giant @WellsFargo is backing blockchain forensics firm @elliptic in its now-$28 million Series B round.
+
+@IanAllison123 reports https://t.co/DpbRNMNBmu"
+241	2020-02-13 11:57:47+00:00	CoinDesk	"A former @Apple executive has joined @Santander to lead growth of its P2P payments division.
+
+Via @Dan_Z_Palmer https://t.co/UJqF7ldumq"
+242	2020-02-13 09:24:57+00:00	CoinDesk	"Record-breaking Catalan soccer club FC Barcelona has launched a fan token with help from blockchain firm @Chiliz 
+
+Via @Dan_Z_Palmer https://t.co/vUrP5M271X"
+243	2020-02-13 04:32:09+00:00	CoinDesk	"Mastercard, the innovation arms of Ripple and Binance and eight other firms joined a group supporting blockchain education in universities worldwide.
+
+https://t.co/OxjX9QId4G"
+244	2020-02-13 00:16:27+00:00	CoinDesk	"ANALYSIS: Fed Chair Powell has given financial privacy advocates a glimmer of hope – and hinted at how the U.S. might competitively position a digitized dollar.
+
+@benjaminopowers and @MarcHochstein read between the lines
+
+ https://t.co/MK5oFyPksl
+
+@federalreserve"
+245	2020-02-12 23:55:48+00:00	CoinDesk	The IRS has refused to clarify that part of its 2019 guidance on tax treatment of cryptocurrencies is not binding, a government watchdog said. https://t.co/AwRWZ2gNhK @nikhileshde reports
+246	2020-02-12 21:12:23+00:00	CoinDesk	"NEW: A company called @opyn_ is bringing trustless insurance to the @compoundfinance DeFi protocol.
+
+https://t.co/wy4sNsYYZ6
+
+@BradyDale reports"
+247	2020-02-12 20:59:48+00:00	CoinDesk	"U.S. Treasury Secretary Steven Mnuchin said FinCEN is preparing ""significant new requirements"" around cryptocurrencies to tamp down illicit activity. https://t.co/ce7Z6i9ih7 @nikhileshde reports"
+248	2020-02-12 19:50:37+00:00	CoinDesk	"Ohio resident Larry Dean Harmon, 36, has been charged with laundering more than $300 million in bitcoin for the darknet marketplace AlphaBay.
+
+https://t.co/g0WPqB3AJN
+
+@realDannyNelson reports"
+249	2020-02-12 19:48:10+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• Bitcoin showing fatigue
+• New botnet infects TVs, mines $XMR
+• Andrew Yang drops out
+https://t.co/dwGim6zzsx"
+250	2020-02-12 19:34:04+00:00	CoinDesk	NEW: @coinbase is rolling out margin trading to retail and institutional investors in the U.S. and nine other countries, offering 3x leverage to traders. https://t.co/v4YC62iXyz Via @Liqquidity
+251	2020-02-12 19:31:52+00:00	CoinDesk	"Scammers are impersonating #CoinDesk writers. Don't fall for it. Here's how to reach out and stay safe.
+
+https://t.co/wyhPllN8GE https://t.co/JhXkLknHtr"
+252	2020-02-12 19:09:41+00:00	CoinDesk	WATCH: “Digital currency, stablecoins, and the role of central banks  is now a central theme for world economic leaders,” said Jeremy Allaire said. Watch him talk to @mikejcasey about the steady move to blockchain tech on #coindeskvideo https://t.co/extClxxMq2 via @johnbiggs
+253	2020-02-12 18:31:36+00:00	CoinDesk	"IN DEPTH: How the buzzy @CeloOrg plans to rival @Libra_ on financial inclusion.
+
+https://t.co/zpf1ps8cOf
+
+@La__Cuen reports"
+254	2020-02-12 15:43:42+00:00	CoinDesk	Correction: An earlier version of this article misstated the chronology of events: bitcoin started rising to above $10,300 just before Jerome Powell’s speech, not after. https://t.co/yYkBR9B6A4
+255	2020-02-12 15:32:04+00:00	CoinDesk	"Despite being one of the largest crypto derivatives platforms, an @eToro executive told CoinDesk the firm isn't stressing over the U.K.'s proposed retail ban.
+
+Report by @paddybaker_ https://t.co/SyF9KEFIwp"
+256	2020-02-12 15:08:38+00:00	CoinDesk	LATEST: @investvoyager plans to convert 40,000 @circleinvest accounts to its own platform by the end of next month after acquiring the retail-focused trading platform from @circlepay. https://t.co/xp36EoNPCi @nikhileshde reports
+257	2020-02-12 14:27:23+00:00	CoinDesk	"IP traffic suggests North Korea is stepping up its efforts to mine the privacy coin #monero, according to a report from cybersecurity firm @RecordedFuture.
+
+Via @paddybaker_ https://t.co/nQ84JTHFIw"
+258	2020-02-12 13:45:04+00:00	CoinDesk	"Australian A-League football team Perth Glory is being acquired by a fan-focused group that says it raised $70 million in a 2018 token offering.
+
+Via @Dan_Z_Palmer https://t.co/28rLlcwQkQ
+
+@TheLFEToken"
+259	2020-02-12 11:53:07+00:00	CoinDesk	"One of the world's largest defense contractors is looking for ""cryptocurrency exploiters"" to support a client based in Washington, D.C.
+
+@paddybaker_ reports https://t.co/7Op1m6kAuY
+
+@BAESystemsplc"
+260	2020-02-12 10:24:23+00:00	CoinDesk	"Cryptocurrency exchange @Poloniex, recently acquired by an investment group including Tron founder Justin Sun, has been forced to roll back trading activity after it introduced an error in its system.
+
+Via @Dan_Z_Palmer https://t.co/wLCWhaYFzG"
+261	2020-02-12 09:03:42+00:00	CoinDesk	"NEW: The firm behind the tether stablecoin is using Chainalysis' ""Know Your Transaction"" tool to create risk profiles for #USDT users and monitor potentially suspicious activity. 
+
+Report via @nikhileshde https://t.co/i8iLCxRrso
+
+@Tether_to @chainalysis"
+262	2020-02-12 06:07:02+00:00	CoinDesk	"LabCFTC, the CFTC's fintech research wing, is visiting New York in April to discuss startups' concerns and projects with their teams.
+
+@nikhileshde reports.
+
+https://t.co/NSPMEv1msX"
+263	2020-02-12 05:08:58+00:00	CoinDesk	"IN DEPTH: A key measure of competition among bitcoin miners has stagnated in the past two weeks as the coronavirus outbreak disrupts economic activity in China.
+
+Report by @jp4874.
+
+https://t.co/po1zUugcJR"
+264	2020-02-12 04:04:48+00:00	CoinDesk	"IN DEPTH: Security token offerings were supposed to be the next big blockchain-based investment vehicle. But investors and entrepreneurs in parts of Asia aren't so interested.
+
+Report by @thesamreynolds
+
+https://t.co/T9bKj8UZ4J"
+265	2020-02-12 03:19:14+00:00	CoinDesk	"Bitcoin’s price has hit its five-month high above $10.3k, following U.S. Fed Chair Powell’s privacy praise in his testimony on Tuesday.
+
+@Sebsinclair1989 reports.
+
+https://t.co/DvCDRPp78O"
+266	2020-02-12 02:34:05+00:00	CoinDesk	Presidential contender @AndrewYang dropped out of the 2020 election Tuesday. He advocated for clear crypto guidelines in the U.S. during his run. https://t.co/6AuB0LzuFS @nikhileshde reports
+267	2020-02-11 21:37:13+00:00	CoinDesk	"An esports smackdown at @advbitcoin was meant to highlight the power of bitcoin's lightning network – since the system is fast, cheap and lets users send even a fraction of a cent.
+
+https://t.co/7tDIrgw5jI
+
+@AlyssaHertig reports
+
+@NicolasDorier @nopara73 @zebedeeio"
+268	2020-02-11 21:00:27+00:00	CoinDesk	JUST IN: US authorities charged Michael Ackerman and unnamed business partners with defrauding investors of $33M in a crypto-trading scheme targeting doctors. https://t.co/V3sZNnfaKM @nikhileshde reports
+269	2020-02-11 20:33:05+00:00	CoinDesk	"OPINION: It is profitable for exchanges to list low market-cap coins despite the potential for 51 percent attacks, say @ashwinrz and @hosseeb of Dragonfly Capital. 
+
+https://t.co/LgHlEfBQkW"
+270	2020-02-11 19:31:32+00:00	CoinDesk	"Outlaw, a group specializing in cryptojacking machines to mine monero, has returned after a brief hiatus and is expanding its global reach, according to Trend Micro.
+
+@paddybaker_   @TrendMicro 
+
+https://t.co/BbZXgtHmiW"
+271	2020-02-11 19:01:11+00:00	CoinDesk	"Ether will face more volatility than bitcoin over the next six months, according to how options have been priced in recent weeks. 
+
+Report by @godbole17: 
+
+https://t.co/vZeBjg10qQ"
+272	2020-02-11 18:37:28+00:00	CoinDesk	"Vermont state regulators will begin recording the production of hemp – a low-THC cannabis strain popular in textiles – on the ethereum mainnet this year.
+
+@realDannyNelson 
+
+https://t.co/mLsyzzYfJb"
+273	2020-02-11 16:01:58+00:00	CoinDesk	"JUST IN: A @Consensys platform launching Tuesday actively polices speculative token issuance through its ""proof of use"" protocol.
+
+Report by @Nate_DiCamillo 
+
+https://t.co/b1wKiOwaFb"
+274	2020-02-11 15:26:29+00:00	CoinDesk	"Crypto payments provider @BitPay is now taking its service into bricks-and-mortar stores via a new point-of-sale partnership with @Poynt.
+
+@Dan_Z_Palmer reports
+
+https://t.co/8MXyYXI1pu"
+275	2020-02-11 15:24:04+00:00	CoinDesk	@WilliamShatner Hi Bill. We just spun up @CoinDeskPodcast to support our growing podcast network, which we're excited about. Check out the followers on this account if you want to get a sense of the audience. We're all big fans.
+276	2020-02-11 15:11:58+00:00	CoinDesk	@GoodTexture @paddybaker_ Hi! 'Private placement' refers to the sale of securities to investors privately, not as a public offering. Those securities would be tokenized on Stellar, in this case
+277	2020-02-11 15:01:31+00:00	CoinDesk	"American computer giant @Dell is among 15 companies joining an IOTA working group to explore how the firm's ""Tangle"" technology can be integrated into commercial solutions. 
+
+Via @paddybaker_ https://t.co/dMVSqfiiPy
+
+@iotatoken"
+278	2020-02-11 14:45:18+00:00	CoinDesk	"CoinDesk will be on location at ETHDenver this Thursday. Introduce yourself and one of us will buy you a beer or beverage.
+
+@johnbiggs @wsfoxley @EthereumDenver 
+
+https://t.co/UVLhPF130l"
+279	2020-02-11 14:31:05+00:00	CoinDesk	"One of the oldest banks in Europe is developing a euro stablecoin to facilitate private placements in securities tokenized on the Stellar blockchain. 
+
+@paddybaker_ reports https://t.co/IYhqkhFOlC"
+280	2020-02-11 12:51:59+00:00	CoinDesk	".@binance users can now trade rubles directly with bitcoin, ether, tether and binance coin without any transaction fees. 
+
+Via @paddybaker_ https://t.co/kIOkzDoitp"
+281	2020-02-11 12:20:36+00:00	CoinDesk	"NEW: @jpmorgan may soon merge its Quorum blockchain project with @Consensys, the ethereum-focused software developer and investor, according to a Reuters report.
+
+Via @Dan_Z_Palmer
+
+https://t.co/nWLhZ5hZKP"
+282	2020-02-11 11:20:12+00:00	CoinDesk	"JUST IN: Canada Stablecorp, a joint venture between @Mavennet_ and @3iq_corp, has begun issuing its QCAD stablecoin in a bid to digitize financial services such as international remittances. 
+
+@nikhileshde reports
+
+https://t.co/F4UfREzcWZ"
+283	2020-02-11 10:35:54+00:00	CoinDesk	".@coinbase has now added the privacy-enhancing cryptocurrency #zcash and its own #USDC stablecoin in New York state.
+
+Via @Dan_Z_Palmer 
+
+https://t.co/BBiUxYQvli"
+284	2020-02-11 10:12:40+00:00	CoinDesk	"IN DEPTH: Just four years ago, two lifelong friends turned a small investment into the largest crypto miner in North America. Now they are warring over the company's future.
+
+Via @Liqquidity 
+
+https://t.co/ktmdiJ7VdM"
+285	2020-02-11 09:01:49+00:00	CoinDesk	"Blockchain technology is reportedly helping to streamline medical paperwork processing for insurance service providers as global #coronavirus containment efforts continue.
+
+@Sebsinclair1989 reports 
+
+https://t.co/W0IY0Modd4"
+286	2020-02-11 01:23:35+00:00	CoinDesk	"NEW: Optimism is building a scaling fix that would make ethereum's calling card – smart contracts – work above the base layer.
+
+@La__Cuen reports.
+
+https://t.co/zIDVHOhTzW"
+287	2020-02-10 23:04:29+00:00	CoinDesk	"NEW: San Francisco's #0xpo conference offered the perfect venue for pondering the token ""Safe Harbor"" proposed by SEC Commissioner Hester Peirce.
+
+https://t.co/kLpGc6KGBy 
+
+@wsfoxley reports
+
+@0xProject"
+288	2020-02-10 21:31:23+00:00	CoinDesk	"U.S. President Donald Trump's proposed 2021 budget would shift the U.S. Secret Service from the Department of Homeland Security back to the Treasury Department, creating ""new efficiencies"" in investigations including crypto. https://t.co/jkh2ALlJoj
+
+@realDannyNelson reports"
+289	2020-02-10 18:53:12+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. 
+Today's Topics:  
+•Bitcoin Breaks Above $10K
+•Ukraine Won't Regulate Crypto Mining
+•New Crypto Exchange Altsbit Closes After Hack
+
+https://t.co/MMs4jjgdRM"
+290	2020-02-10 18:00:48+00:00	CoinDesk	"IN DEPTH: Public records show @chainalysis made more than $10 million in 5 years from the U.S. government and stands to take in more than $14 million, dwarfing its competitors in the blockchain surveillance industry. https://t.co/jhS2XOGD4T
+
+@realDannyNelson breaks down the data."
+291	2020-02-10 17:33:01+00:00	CoinDesk	"NEW: Enterprise blockchain is a catalyst for further spending at Big Blue, according to @IBM's @JerryCuomo.
+
+https://t.co/q4NUoEPTzm
+
+@IanAllison123 reports"
+292	2020-02-10 15:01:56+00:00	CoinDesk	"A London-based finance startup says it wants to provide banking to crypto firms, and it's applying for a U.K. license to do just that.
+
+@Dan_Z_Palmer https://t.co/f9krK9pkRE
+
+@DAG_Global"
+293	2020-02-10 14:15:32+00:00	CoinDesk	"NEW: @SeedCX is expanding its services with the addition of eight new order books for the euro-crypto market.
+
+Via @nikhileshde https://t.co/awb0I6mTwF"
+294	2020-02-10 14:14:36+00:00	CoinDesk	"JUST IN: Cold storage custody provider @Crypto_Vo1T is offering clients secure data centers from @IBM to hold and encrypt their private keys.
+
+Via @Nate_DiCamillo https://t.co/HfetJsCo6v"
+295	2020-02-10 13:25:25+00:00	CoinDesk	".@BitGo is expanding its institutional cryptocurrency storage service to Europe with the launch of two new entities in Switzerland and Germany.
+
+Report via @Dan_Z_Palmer https://t.co/NzOHRASEB9"
+296	2020-02-10 12:35:44+00:00	CoinDesk	"In a new manifesto, Ukraine's Ministry of Digital Transformation has indicated it won't be creating regulations for the crypto mining sector.
+
+Via @baidakova https://t.co/0vhSAHT72C"
+297	2020-02-10 11:44:56+00:00	CoinDesk	".@altsbit  – a cryptocurrency exchange that only launched in the last few months – says it has been hit by a hack and will shut down as a result.
+
+Via @Dan_Z_Palmer https://t.co/pKpWkAgujc"
+298	2020-02-10 10:47:02+00:00	CoinDesk	"The U.K.'s financial watchdog has asked a China-based cryptocurrency investment firm to remove adverts for its service from London Underground trains.
+
+Via @Dan_Z_Palmer https://t.co/fzuvccin7G
+
+@TheFCA @ZeuxApp"
+299	2020-02-10 10:01:09+00:00	CoinDesk	"IN DEPTH: Cryptocurrency lets modern-day witches transact beyond the grasp of restrictive e-commerce platforms.
+
+Report by @La__Cuen https://t.co/eo7qwcOdG8"
+300	2020-02-10 09:00:29+00:00	CoinDesk	"The Australian government has unveiled a new push for blockchain innovation across a number of industries with an updated national roadmap released Friday.
+
+@Sebsinclair1989 reports https://t.co/nZ6kAW1WS9"
+301	2020-02-09 21:30:13+00:00	CoinDesk	"ICYMI: Even as it fights the @SEC_News in court over its $1.7B ICO, @telegram is continuing its work on its TON blockchain, publishing a technical white paper last week. https://t.co/JiZtwP7fBB
+
+Report by @baidakova"
+302	2020-02-09 18:30:18+00:00	CoinDesk	"ICYMI: SEC Commissioner @HesterPeirce has proposed a 3-year safe harbor for crypto startups to conduct token sales and build out their networks without worrying about U.S. securities laws. https://t.co/U6G7gZpl9I
+
+Report by @nikhileshde"
+303	2020-02-09 17:07:57+00:00	CoinDesk	"WARNING: Scammers are posing as CoinDesk reporters, offering articles in turn for payment. CoinDesk does not and will never accept payment for coverage. Don't be fooled. https://t.co/ZmpDFSNOCq
+
+Via @johnbiggs, @nikhileshde and @MarcHochstein"
+304	2020-02-09 16:45:08+00:00	CoinDesk	"ICYMI: China's quarantine controls to contain the coronavirus outbreak might have an extended impact on manufacturing, including of crypto miners, local industry experts say. https://t.co/6uz8t0BhSe
+
+Report by David Pan / @jp4874"
+305	2020-02-09 14:35:04+00:00	CoinDesk	"ICYMI: @Ripple backer @novogratz told an audience of registered investment advisors that he expects $XRP to ""underperform immensely"" this year – at least in part due to Ripple's ownership of billions of the tokens. https://t.co/YiPUCZGHZj
+
+Report by @lvlewitinn"
+306	2020-02-09 12:46:00+00:00	CoinDesk	"For the first time in three months, bitcoin’s price is being quoted in five digits to the left of the decimal.  
+
+Report by @godbole17:
+https://t.co/IO1j32YqSt"
+307	2020-02-09 11:20:04+00:00	CoinDesk	"ICYMI: Internal tensions at @tendermint_team, the company building out the @cosmos ecosystem, have begun to spill into public view. https://t.co/o2LXjSSEpU
+
+Report by @BradyDale"
+308	2020-02-09 09:03:09+00:00	CoinDesk	"OPINION: As long as the #coronavirus keeps everyone indoors, China's big, bold blockchain ambitions are on hold, writes James Cooper, professor of law. https://t.co/Omesd8zM8X
+ https://t.co/YcrS0Iff4v"
+309	2020-02-08 23:30:11+00:00	CoinDesk	"ICYMI: Dr. Li Wenliang, the Chinese doctor who tried to raise awareness of the coronavirus outbreak in its early days, has been memorialized in a smart contract on ethereum after his death of the disease last week. https://t.co/eD8166Ql36 
+
+Report by @WolfieZhao"
+310	2020-02-08 20:20:07+00:00	CoinDesk	ICYMI: Crypto businesses are vying to build new technical standards compliant with the @FATFNews' travel rule guidance. @IanAllison123 breaks down the debate. https://t.co/bQNvpdhY2M
+311	2020-02-08 17:15:10+00:00	CoinDesk	"ICYMI: @SEC_News enforcement actions against crypto startups appear to be ramping up, according to research from @coindeskdata. https://t.co/M0kZrR2cfz
+
+Report by @christine_dkim"
+312	2020-02-08 14:15:09+00:00	CoinDesk	"ICYMI: Germany's financial regulator, BaFin, published new guidance last month to clarify how it's approaching the country's new crypto custody law. https://t.co/AoQbpV0nzt
+
+Report by @Nate_DiCamillo"
+313	2020-02-08 11:15:05+00:00	CoinDesk	"ICYMI: Merchants processing bitcoin payments are seeing sustained traction, despite volatile market activity. https://t.co/WVCURErczi
+
+Report by @La__Cuen"
+314	2020-02-08 09:53:06+00:00	CoinDesk	"Mutale Nkonde, a Harvard researcher, argues the US should pass a privacy law modeled on California's new CCPA. 
+
+Via @benjaminopowers https://t.co/Hgtf3kKpcJ
+
+@mutalenkonde"
+315	2020-02-08 01:50:04+00:00	CoinDesk	"There's 5 more passes left in our #FLASHSALEFRIDAY deal! Register for #Consensus2020 with code FF50 and get a second pass for 50% off! Time is ticking, don't delay! Quantities are limited! 
+https://t.co/sO432n6Wb9 https://t.co/1scS1WyqHm"
+316	2020-02-07 22:00:06+00:00	CoinDesk	"The DeFi market hitting $1 billion in locked crypto is something even the most fervent ethereum skeptics would have a tough time dismissing as meaningless.
+
+https://t.co/zb9YHt6tsh
+
+@BradyDale reports"
+317	2020-02-07 20:50:07+00:00	CoinDesk	"#Consensus2020 is less than 100 days away :exploding_head:If you haven't registered, you're in luck! TODAY ONLY register with code FF50 and get 50% off a pass for a friend. Quantities are limited to the First 50! 
+https://t.co/eXWJoVh5gD https://t.co/lcaE6zSB2V"
+318	2020-02-07 19:51:42+00:00	CoinDesk	"NEW: At London's @advbitcoin conference, developers discussed user-experience fixes for the world's leading crypto. #BTC
+
+https://t.co/Ut0c4twI68
+
+@AlyssaHertig reports"
+319	2020-02-07 19:37:34+00:00	CoinDesk	"Crypto traders outside the U.S. now have a way to weigh in on President Trump thanks to a new digital token, the TRUMP. 
+
+@Liqquidity 
+
+https://t.co/wWQoBQQhMv"
+320	2020-02-07 18:56:26+00:00	CoinDesk	UPDATE: The full text of SEC Commissioner @HesterPeirce's speech and safe harbor proposal was shared Friday morning and is now linked in the article. https://t.co/LYONMrlYSu
+321	2020-02-07 18:40:51+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. 
+Today's Topics:  
+• Bitcoin rolling to $10K? 
+• A unique Ethereum elegy 
+• Chinese phone makers take on Google
+https://t.co/iCHaToqyMe https://t.co/S1gQxdlxnP"
+322	2020-02-07 18:20:36+00:00	CoinDesk	A U.S. judge has asked lawyers at the @CFTC to weigh in on the @SEC_News' ongoing case against @telegram. https://t.co/WKZPNtju7a @baidakova reports
+323	2020-02-07 18:17:35+00:00	CoinDesk	"RESEARCH: The frequency of ICO-related enforcement actions has been increasing in the U.S.
+
+https://t.co/wL5QMT5EoQ 
+
+@christine_dkim reports via @coindeskdata"
+324	2020-02-07 17:41:36+00:00	CoinDesk	"Social networks with crypto aspirations must guard their systems against criminal exploitation, said FinCEN's deputy chief.
+
+@realDannyNelson 
+
+https://t.co/5nNgHN9NEH"
+325	2020-02-07 16:35:10+00:00	CoinDesk	"TODAY ONLY! Secure your pass to #Consensus2020 and get a second one for HALF PRICE! Register with code FF50.This only applies to the FIRST 50 people to register, so don't wait.
+https://t.co/5WjP3wdoqF https://t.co/xpkRuAVkE0"
+326	2020-02-07 15:24:59+00:00	CoinDesk	"Bitcoin futures listed on the Chicago Mercantile Exchange rose to multi-month highs, breaking above $10,000 early Friday. Report by @godbole17: 
+
+https://t.co/QyLmZAaaaK"
+327	2020-02-07 14:27:09+00:00	CoinDesk	".@Paystand, a platform using blockchain tech to automate commercial payments, has raised $20 million in Series B funding. 
+
+@Dan_Z_Palmer reports https://t.co/AOhKTYVvPf"
+328	2020-02-07 13:43:46+00:00	CoinDesk	"The company formerly known as London Block Exchange (LBX) says it has been placed into compulsory liquidation.
+
+Report by @paddybaker_ https://t.co/WlsJl0GU96
+
+@LBXSocial"
+329	2020-02-07 12:21:28+00:00	CoinDesk	"Japanese ruling party politicians are calling on G7 members to respond to China's digital yuan by collaborating on digital currency research. 
+
+Via @paddybaker_ https://t.co/bVEm2UMx31"
+330	2020-02-07 12:00:36+00:00	CoinDesk	"#FLASHSALEFRIDAY is here! For today only we're giving you the chance to get 50% off a pass to #Consensus2020. Register with code FF50 and get a second pass at half price! Quantities are limited, so don't wait!
+https://t.co/XMbPA1Iml1 https://t.co/PfAn73Eshz"
+331	2020-02-07 11:00:55+00:00	CoinDesk	"A crypto conference, planned to be held in Hong Kong in March, has now been pushed back to October over concerns about the #coronavirus outbreak. Binance, too, was forced to push back its Vietnam event just days ago.
+
+@Dan_Z_Palmer reports https://t.co/0A0OKRenTt"
+332	2020-02-07 10:08:53+00:00	CoinDesk	"The parent company behind the bitcoin-based smart contract platform RSK has launched a new token bridge joining it to ethereum.
+
+Via @paddybaker_ https://t.co/pSQzuk47Ir
+
+@RSKsmart"
+333	2020-02-07 09:01:59+00:00	CoinDesk	".@SettleBit, a new institutional settlement solution that allows clients to trade directly from custody, has completed its first transaction.
+
+Report by @paddybaker_ https://t.co/F7502WZzWf
+
+@BitGo"
+334	2020-02-07 08:07:47+00:00	CoinDesk	"Nevada-based trust company @PrimeTrustCo has partnered with @BlockQuake to perform KYC and AML checks as well as FDIC-insured bank accounts for the New York digital asset exchange.
+
+@Nate_DiCamillo reports.
+
+https://t.co/Qe9NayysJp"
+335	2020-02-07 05:20:54+00:00	CoinDesk	"Someone has just created a contract on ethereum with source codes in the shape of a monument in memorial of Dr. Li Wenliang, the whistleblower of China's coronavirus outbreak who died of the disease.
+
+@WolfieZhao reports.
+
+https://t.co/BQJzfDCRd9"
+336	2020-02-06 22:18:31+00:00	CoinDesk	"Ethereum’s next system-wide upgrade, Eth 2.0, won’t launch in Q2 2020 as expected, but researchers remain confident the initial network parameters will deploy in 2020. Anything less would be considered a “failure,” they said.
+
+https://t.co/TymxEJOxJR
+
+@wsfoxley reports"
+337	2020-02-06 21:14:20+00:00	CoinDesk	"Catalonia is exploring digital identity and hopes to leapfrog its way into true digital sovereignty. Watch 
+@mikejcasey at #WEF2020 talk about the region's blockchain goals.
+https://t.co/esAlbf9pjL"
+338	2020-02-06 20:41:16+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• Bitcoin rolling to $10K?
+• Coronavirus causing trouble with miners
+• Lighting Labs is taking on VISA
+https://t.co/Uko1AR99K3 https://t.co/StFGQRdn6p"
+339	2020-02-06 20:01:27+00:00	CoinDesk	"The chairman of the Global Blockchain Business Council is working with others on a way to add transparency and openness to taxes.
+
+@johnbiggs @mikejcasey 
+
+https://t.co/KgmKLXOk1Y"
+340	2020-02-06 19:48:18+00:00	CoinDesk	"On the day bitcoin hit fresh three-month highs, open interest in monthly bitcoin futures on the Intercontinental Exchange's (ICE) Bakkt platform jumped to record highs. 
+
+@godbole17 @Bakkt 
+
+https://t.co/KIS0ladMun"
+341	2020-02-06 18:13:03+00:00	CoinDesk	"Join us in Denver for a reader meet and greet.
+
+@wsfoxley @johnbiggs  @EthereumDenver 
+
+https://t.co/1rbx6LRnEC"
+342	2020-02-06 16:00:58+00:00	CoinDesk	BREAKING: SEC Commissioner @HesterPeirce has unveiled her proposal to create a safe harbor for crypto startups, allowing them three years to build out their networks before having to address federal securities laws. https://t.co/lmbOBViaaw @nikhileshde reports
+343	2020-02-06 16:00:40+00:00	CoinDesk	"JUST IN: @blockstack is rolling out a new consensus mechanism that presents a fresh use case for the world's most popular cryptocurrency.
+
+https://t.co/mgDPY3J5sW
+
+@BradyDale reports
+
+$BTC $STX"
+344	2020-02-06 15:31:48+00:00	CoinDesk	"Like the dystopia of the ""Purge"" movies, a newly uncovered potential attack on bitcoin would permit users to rob each other for a short period of time.
+
+Report by @AlyssaHertig 
+
+https://t.co/1hYW86eqUH
+
+h/t @hasufl"
+345	2020-02-06 14:22:04+00:00	CoinDesk	"LATEST: @Bakkt's acquisition of Bridge2 Solutions, a loyalty program marketplace, will ""expand Bakkt's presence across an asset class that today spans over $1 trillion in value,"" says parent firm @ICE_Markets' CEO Jeffrey Sprecher. https://t.co/wejvQ2cGhx @nikhileshde reports"
+346	2020-02-06 13:39:08+00:00	CoinDesk	.@justinsuntron finally had his $4.5 million charity dinner with Berkshire Hathaway chief Warren Buffett last month. https://t.co/wjWyUvAtVA @paddybaker_ reports
+347	2020-02-06 12:32:58+00:00	CoinDesk	NEW: Vindhu Singh is @ErisX_Digital's first chief risk officer, and will report to Head of Eris Clearing Liz James. https://t.co/BgxPpHF33n @Nate_DiCamillo reports
+348	2020-02-06 12:00:54+00:00	CoinDesk	"Lael Brainard says the Fed Reserve is ""conducting research and experimentation related to distributed ledger technologies ... including the potential for a CBDC.""
+
+Via @paddybaker_ https://t.co/0EP3Y8Nqne"
+349	2020-02-06 11:39:09+00:00	CoinDesk	".@ClearBlockchain, provider of a settlement system that uses blockchain to facilitate cross-border B2B trading, has finalized a $13 million Series A investment round led by Fidelity's investment arm, Eight Roads. 
+
+@paddybaker_ reports https://t.co/HsNcP1Kr1h"
+350	2020-02-06 10:38:27+00:00	CoinDesk	"In mid-April, six central banks and the Bank for International Settlements will hold a meeting in Washington to discuss the potential creation of their own digital currencies, according to a report.
+
+@Sebsinclair1989 reports https://t.co/GH6OETeI8B"
+351	2020-02-06 09:03:05+00:00	CoinDesk	"EXCLUSIVE: Andy Cheung, former chief operating officer at OKEx, plans to launch a crypto derivative exchange called ACDX by the end of the first quarter.
+
+Report by David Pan / @jp4874 https://t.co/M7k1OQtelg
+
+@AndyC0125"
+352	2020-02-06 08:02:30+00:00	CoinDesk	"Crypto ATM startup CoinFlip has added Stellar Lumens (XLM) to its network of 450 machines.
+
+@realDannyNelson reports https://t.co/5AhEYhxmhK
+
+@CoinFlipATM"
+353	2020-02-06 03:02:06+00:00	CoinDesk	"NEW: Germany’s Financial Supervisory Authority (BaFin) is clarifying how the country’s new cryptocurrency custody law will apply to firms that operate outside of Germany but still serve the German market. 
+
+@Nate_DiCamillo reports.
+
+https://t.co/u1wAu4ynli"
+354	2020-02-06 02:12:10+00:00	CoinDesk	"Bitcoin has reached its highest point in over 3 months above $9,700, after defying expectations of a temporary pullback in its price, via @Sebsinclair1989. 
+
+https://t.co/BfhbKeHwaL"
+355	2020-02-05 21:39:28+00:00	CoinDesk	Telegram has revealed more details about its TON blockchain's block validation process, even as it fights the SEC in court over its $1.7 billion token sale. https://t.co/PLyNRrGkbB @baidakova reports
+356	2020-02-05 21:17:35+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• Bitcoin sees bull revival
+• Galaxy's Novogratz says XRP will 'Underperform'
+• LISTEN: What sex workers want from crypto
+https://t.co/m5YoBVm9CV"
+357	2020-02-05 21:17:19+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets. Today's Topics: 
+• Bitcoin sees bull revival
+• Galaxy's Novogratz says XRP will 'Underperform'
+• LISTEN: What sex workers want from crypto
+https://t.co/FFxBjoDh08"
+358	2020-02-05 19:58:02+00:00	CoinDesk	#CryptoRoundUp w/ @johnbiggs and @GamerAndy - What's wilder than an ICO run by Pablo Escobar's brother? A foldable cellphone he's selling that's a clone of the Samsung Galaxy Fold. Listen now: https://t.co/dXA7tzHykK https://t.co/obD7bSczVq
+359	2020-02-05 19:54:37+00:00	CoinDesk	"The number of bitcoin on-chain deposits has dropped sharply over the last six months, indicating a strong optimistic or “HODLing,” sentiment in the market. Report by @godbole17:
+
+https://t.co/3eoV4X3Ksl"
+360	2020-02-05 19:10:41+00:00	CoinDesk	IN-DEPTH: A shortage of new mining machines caused by the coronavirus outbreak could curb computing power growth from Chinese miners who contribute over 65% of Bitcoin's hash power. https://t.co/ydt4Ave8GU @jp4874 dives in
+361	2020-02-05 17:55:39+00:00	CoinDesk	"A U.S. court has dismissed UnitedCorp's market manipulation lawsuit against Bitmain, Kraken, https://t.co/4YGH1BSDLx and others without prejudice.
+
+@paddybaker_ @krakenfx 
+
+https://t.co/4jyqk7OfcO"
+362	2020-02-05 16:00:27+00:00	CoinDesk	".@Consensys has purchased a U.S.-based broker-dealer in an attempt to overhaul the multi-trillion-dollar municipal bond market.
+
+@paddybaker_ reports https://t.co/B0rbkHm9aa
+
+#ethereum"
+363	2020-02-05 15:00:25+00:00	CoinDesk	"JUST IN: @starkness's @lightning Labs has raised a $10 million Series A as it gears up to launch its first paid service for merchants accepting bitcoin payments.
+
+@La__Cuen reports https://t.co/GLdhXX9jYO"
+364	2020-02-05 14:50:39+00:00	CoinDesk	"WATCH: Libra Vice Chair Dante A. Disparte said some departing Libra partners left the door wide open for an eventual return. They will be welcomed back when they're ready.
+
+@mikejcasey @johnbiggs @Libra_ 
+
+https://t.co/Sieb1hPFpS"
+365	2020-02-05 14:46:28+00:00	CoinDesk	JUST IN: @ICE_Markets, @Bakkt's parent firm, has acquired loyalty services provider Bridge2 Solutions to boost the bitcoin warehouse's efforts to build a consumer-focused crypto payments app. https://t.co/4COBVA3bLp @nikhileshde reports
+366	2020-02-05 14:01:16+00:00	CoinDesk	"JUST IN: Arwen, developer of a non-custodial settlement protocol, has raised $3.3 million in a funding round that included Meltem Demirors at CoinShares and Jill Carlson at Slow Ventures.
+
+@realDannyNelson reports https://t.co/27yapjSRin
+
+@Melt_Dem @jillruthcarlson"
+367	2020-02-05 13:30:50+00:00	CoinDesk	".@binance has added a feature allowing users put up their crypto holdings as collateral to fund futures trading.
+
+Via @Sebsinclair1989 https://t.co/KIMwjPcd5V"
+368	2020-02-05 12:04:55+00:00	CoinDesk	@ProbiC_ @lvlewitinn @novogratz Apologies for that, the lost tweet was due to a glitch in our social media posting service and we had to re-post.
+369	2020-02-05 12:01:30+00:00	CoinDesk	"JUST IN: Transparent, a Seattle-based startup developing a real-time ""cryptographic settlement"" network, has closed a Series-A funding round bringing in over $14 million. Investors included @PanteraCapital and @Square. 
+
+@Sebsinclair1989 reports https://t.co/qyVETlLx3Q"
+370	2020-02-05 11:45:50+00:00	CoinDesk	"XRP will have another lackluster year in 2020, Galaxy Digital CEO Mike Novogratz recently told a roomful of financial advisers.
+
+Via @lvlewitinn https://t.co/ezFYe7MNyQ"
+371	2020-02-05 11:38:11+00:00	CoinDesk	".@Ripple's technology will form the basis for a new XRP-based remittance service from International Money Express (Intermex).
+
+@paddybaker_ reports https://t.co/hvc5MVPjNP
+
+@IntermexWire"
+372	2020-02-05 10:00:52+00:00	CoinDesk	"A venture capital fund under the management of Sony Financial Ventures and VC firm Global Brain has invested an undisclosed amount in security token issuance platform @Securitize. 
+
+@Dan_Z_Palmer reports https://t.co/LAFVhYjmOp"
+373	2020-02-05 03:56:30+00:00	CoinDesk	"Lawyers representing the brother of Craig Wright's deceased business partner have accused the Australian entrepreneur of ""abusing"" client-attorney privilege to withhold documents and ""obfuscate"" trial proceedings.
+
+https://t.co/bNd1hd7jUr"
+374	2020-02-04 22:40:23+00:00	CoinDesk	"IN DEPTH: Internal tensions at @tendermint_team, the company building out the @cosmos ecosystem, have begun to spill into public view.
+
+https://t.co/GvAgGP04uq 
+
+@BradyDale reports"
+375	2020-02-04 21:22:16+00:00	CoinDesk	"Iowa's election mess shows the risks of relying on centralized, digital systems and software that lacks transparency. 
+
+reports @benjaminopowers #Election2020 
+
+https://t.co/azVG9vMauX"
+376	2020-02-04 20:30:49+00:00	CoinDesk	"LISTEN: Spankchain's Allie Eve Knox talks to CoinDesk's Leigh Cuen about what sex workers need from crypto.
+
+@La__Cuen @SpankChain @johnbiggs 
+
+https://t.co/H3aYRvnzkx"
+377	2020-02-04 20:02:44+00:00	CoinDesk	"OPINION: We'd be the first to tell you: No, a blockchain wouldn't have prevented the voting debacle in Iowa.
+
+A preemptive reality check from @GamerAndy 
+
+https://t.co/iYrSyesUSC"
+378	2020-02-04 17:01:59+00:00	CoinDesk	"JUST IN: Ethereum venture studio @Consensys is shifting focus – and downsizing 14% as a result. 
+
+https://t.co/ozL3sILjd8
+
+@zackseward reports"
+379	2020-02-04 16:15:10+00:00	CoinDesk	"IN DEPTH: FATF's Travel Rule says identifying information must be attached to crypto transactions above a certain amount. 
+
+But putting technical solutions in place is proving to be just as tricky as the operational issues involved.
+
+https://t.co/3yz75qKqms
+@IanAllison123 reports"
+380	2020-02-04 15:01:58+00:00	CoinDesk	"The Binance exchange is adjusting its fee structure to incentivize market makers to add liquidity on its futures platform.
+
+@godbole17 @binance 
+
+https://t.co/1PPhmxclR7"
+381	2020-02-04 13:17:36+00:00	CoinDesk	"Bitcoin SV has hard forked with apparently a minor ""inadvertent"" split, taking its blockchain back to the first iteration of the bitcoin protocol.
+
+Via @paddybaker_ https://t.co/f1YCEDAZgp"
+382	2020-02-04 12:06:10+00:00	CoinDesk	"JUST IN: Thanks to a new integration, users of the @Gemini exchange can now execute trades directly through the @tradingview interface.
+
+Via @Sebsinclair1989 
+
+https://t.co/EtnXMS0Lvl"
+383	2020-02-04 10:42:52+00:00	CoinDesk	"The southern Indian state of Telangana is to launch a dedicated blockchain incubator with assistance from top educational institutions.
+
+Via @Dan_Z_Palmer https://t.co/Z6fc1dlmFP"
+384	2020-02-04 09:28:25+00:00	CoinDesk	"Hong Kong-based remittance startup @BitsparkLtd is shutting down next month. 
+
+Via @nikhileshde https://t.co/THBMj26SJ5"
+385	2020-02-04 04:14:31+00:00	CoinDesk	Research conducted by Gartner predicts a 50 percent increase in overall data quality by 2023 for all businesses and organizations using blockchain smart contracts. https://t.co/w6PPG3IlKo. Report by @Sebsinclair1989
+386	2020-02-03 23:50:04+00:00	CoinDesk	"Former CFTC Chairman @giancarlomkts sees the current set of financial systems as hopelessly obsolete. He talks about how to fix them with CoinDesk's @mcasey.
+
+https://t.co/KCv5oYYkFw via @johnbiggs"
+387	2020-02-03 18:43:48+00:00	CoinDesk	"🚨NEW EPISODE: #CryptoRoundUp w/ @johnbiggs and @gamerandy. A daily dive into news and trends impacting markets.
+Today's Topics:
+• Why MasterCard left Libra
+• MIT invents a new protocol
+• @jack adds #bitcoin emoji
+https://t.co/oC3S6kDSLf"
+388	2020-02-03 18:02:17+00:00	CoinDesk	"Users will be able to create private assets using the Aztec protocol. 
+
+@paddybaker_
+
+https://t.co/XKQ02aTAAS"
+389	2020-02-03 16:32:31+00:00	CoinDesk	"The U.S. Marshals Service plans to auction more than 4,000 bitcoin, worth about $37.7 million at press time, later this month. 
+
+@nikhileshde 
+
+https://t.co/6Clm7NfVSZ"
+390	2020-02-03 16:01:48+00:00	CoinDesk	"A new @Minecraft server allows players in the blocky universe to compete against one another to find hidden treasure and receive a bitcoin reward.
+
+Via @paddybaker_ https://t.co/MsedVunM3X"
+391	2020-02-03 15:54:10+00:00	CoinDesk	Regardless of your line of business, #Consensus2020 hosts a variety of industry leaders who are shaping the future and advancing the reach of blockchain &amp; crypto. Explore the many ways to get involved and increase your exposure exponentially. Register: https://t.co/nREiweD57f https://t.co/GqCHwV5AM4
+392	2020-02-03 15:11:41+00:00	CoinDesk	"The story of the digital yuan is more complex than we knew and Professor Michael Sung explains why.
+
+@johnbiggs @mikejcasey 
+
+https://t.co/2eTHisyNZJ"
+393	2020-02-03 15:04:22+00:00	CoinDesk	"JUST IN: @PoolTogether_ is announcing a $1.05 million investment round as it adds a $USDC pool to its DeFi-powered ""no-loss lottery."" 
+
+https://t.co/m1LrHwf2Ql 
+
+@BradyDale reports"
+394	2020-02-03 14:02:00+00:00	CoinDesk	"Researchers at MIT have co-developed technology that they say can help avoid congestion on off-chain cryptocurrency payments networks. 
+
+Via @Dan_Z_Palmer https://t.co/mfRG6JFh4K
+
+@MIT_CSAIL"
+395	2020-02-03 13:14:21+00:00	CoinDesk	".@Mastercard's CEO has opened up on why the credit-card giant pulled out of the @Libra_ project in October.
+
+Via @paddybaker_ https://t.co/IU7mOszemU"
+396	2020-02-03 12:07:36+00:00	CoinDesk	".@IBM is building a blockchain proof-of-concept for the Food Safety and Inspection Service, America’s food exports safety hawk.
+
+@realDannyNelson reports https://t.co/5JLDAnJmdr
+
+@USDA"
+397	2020-02-03 11:18:38+00:00	CoinDesk	"Bitcoin printed a three-month high on major exchanges early on Monday, with a key indicator eyeing its first bullish turn in 11 months. 
+
+Report by @godbole17 https://t.co/fp9DvByH60"
+398	2020-02-03 10:50:15+00:00	CoinDesk	".@Twitter has activated a bitcoin emoji, with founder @jack Dorsey apparently calling for it to become part of the universal web standard. 
+
+@paddybaker_ reports https://t.co/v2L7vr27n1"
+399	2020-02-03 10:01:34+00:00	CoinDesk	"JUST IN: The Monetary Authority of Singapore has greenlit tokenized securities trading firm @istoxexchange for full operations within the city-state.
+
+David Pan / @jp4874 reports https://t.co/82F2Jt4Td5"
+400	2020-02-03 09:04:28+00:00	CoinDesk	"NEW: Merchant #bitcoin usage is quietly growing, according to 2019 data from @CommerceCB and @BitPay.
+
+https://t.co/t41xyGms7B
+
+@La__Cuen reports"
+401	2020-02-03 08:06:32+00:00	CoinDesk	"Reginald Fowler has rejected a plea deal with the U.S. government in an ongoing case that accuses him of operating ""shadow bank"" services tied to crypto exchanges.
+
+Report by @WolfieZhao 
+
+https://t.co/vddTHerMXd"
+402	2020-02-03 05:03:05+00:00	CoinDesk	"The owners of the @Gemini crypto exchange have won a flurry of U.S. patents for stablecoin technology they say could be issued by commercial banks. 
+
+Report by @paddybaker_
+
+https://t.co/Mj90fhuoeo"

@@ -1,13 +1,674 @@
-Date	User	Tweet
-2018-09-27 23:00:15+00:00	CoinDesk	A closer look at @bitmaintech's crypto assets, courtesy of its IPO prospectus: https://t.co/4ZGIliJUxD https://t.co/8KwVLTXGhp
-2018-09-27 22:30:17+00:00	CoinDesk	"Is there something fishy about a crypto exchange like @bitforexcom reporting similar volume to the London stock exchange? @business analyzes it in detail.
+	Date	User	Tweet
+0	2018-09-27 23:00:15+00:00	CoinDesk	A closer look at @bitmaintech's crypto assets, courtesy of its IPO prospectus: https://t.co/4ZGIliJUxD https://t.co/8KwVLTXGhp
+1	2018-09-27 22:30:17+00:00	CoinDesk	"Is there something fishy about a crypto exchange like @bitforexcom reporting similar volume to the London stock exchange? @business analyzes it in detail.
 
 https://t.co/RbZJM7EqH8"
-2018-09-27 21:42:14+00:00	CoinDesk	JUST IN: The SEC and CFTC are suing bitcoin derivatives trader 1pool and CEO Patrick Brunner for violating federal law with a security swap scheme. https://t.co/WdJB2toAr5
-2018-09-27 19:50:02+00:00	CoinDesk	.@BITMAINtech may be diversifying its product lines ahead of its IPO, but it's mining hardware that pays the bills: https://t.co/4bc7k99r2Z https://t.co/iK35dhQNUS
-2018-09-27 19:00:31+00:00	CoinDesk	JUST IN: Compound, a crypto money market, launched today on ethereum. Now hodlers can earn interest on their crypto. https://t.co/rHeQCQEZA0
-2018-09-27 18:55:13+00:00	CoinDesk	Get a #job in the #blockchain industry by stopping by our #career center: https://t.co/erJKcyPa9G https://t.co/xQSkxrVEmU
-2018-09-27 18:04:04+00:00	CoinDesk	The U.S. House of Representatives has reconsidered a proposed federal task force to investigate cryptocurrencies' use in financing acts of terror. https://t.co/h5Qwd5vHwO
-2018-09-27 16:15:45+00:00	CoinDesk	Chinese search engine Baidu has published a new white paper outlining its upcoming XuperChain network. https://t.co/arls93xWz4
-2018-09-27 15:45:21+00:00	CoinDesk	Subscribe to our daily #podcast, #LateConfirmation for all the latest #blockchainnews. https://t.co/7jxSo7CfqI
-2018-09-27 15:16:36+00:00	CoinDesk	The world's largest telecoms firm, AT&amp;T, has launched a suite of blockchain services targeting diverse industries. https://t.co/dRNIyAo2OG
+2	2018-09-27 21:42:14+00:00	CoinDesk	JUST IN: The SEC and CFTC are suing bitcoin derivatives trader 1pool and CEO Patrick Brunner for violating federal law with a security swap scheme. https://t.co/WdJB2toAr5
+3	2018-09-27 19:50:02+00:00	CoinDesk	.@BITMAINtech may be diversifying its product lines ahead of its IPO, but it's mining hardware that pays the bills: https://t.co/4bc7k99r2Z https://t.co/iK35dhQNUS
+4	2018-09-27 19:00:31+00:00	CoinDesk	JUST IN: Compound, a crypto money market, launched today on ethereum. Now hodlers can earn interest on their crypto. https://t.co/rHeQCQEZA0
+5	2018-09-27 18:55:13+00:00	CoinDesk	Get a #job in the #blockchain industry by stopping by our #career center: https://t.co/erJKcyPa9G https://t.co/xQSkxrVEmU
+6	2018-09-27 18:04:04+00:00	CoinDesk	The U.S. House of Representatives has reconsidered a proposed federal task force to investigate cryptocurrencies' use in financing acts of terror. https://t.co/h5Qwd5vHwO
+7	2018-09-27 16:15:45+00:00	CoinDesk	Chinese search engine Baidu has published a new white paper outlining its upcoming XuperChain network. https://t.co/arls93xWz4
+8	2018-09-27 15:45:21+00:00	CoinDesk	Subscribe to our daily #podcast, #LateConfirmation for all the latest #blockchainnews. https://t.co/7jxSo7CfqI
+9	2018-09-27 15:16:36+00:00	CoinDesk	The world's largest telecoms firm, AT&amp;T, has launched a suite of blockchain services targeting diverse industries. https://t.co/dRNIyAo2OG
+10	2018-09-27 14:01:52+00:00	CoinDesk	The Austrian government is planning to use the ethereum blockchain to notarize the auction of a bond worth around $1.3 billion. https://t.co/bJDyI2xUij
+11	2018-09-27 13:07:40+00:00	CoinDesk	OPINION: It remains to be proven if permissioned blockchains provide a real business benefit at all. Take it from one who used to advise banks on them. https://t.co/VN9Y0DrZq3
+12	2018-09-27 12:19:22+00:00	CoinDesk	A U.S. judge has sided with the Commodity and Futures Trading Commission in a fraud lawsuit, ruling cryptocurrencies are commodities. https://t.co/iph1dCztaD
+13	2018-09-27 11:11:19+00:00	CoinDesk	Bitcoin is still being squeezed into a tightening range, with support at $6,300 being a key level for the bulls to defend. https://t.co/vBv2ycvZHf
+14	2018-09-27 10:40:54+00:00	CoinDesk	Blockchain payments startup Veem has closed a $25 million funding round led by Goldman Sachs, it announced Wednesday. https://t.co/V8eENzz8cx
+15	2018-09-27 09:35:07+00:00	CoinDesk	A state-owned commercial bank in China has completed the issuance of mortgage-backed securities worth $1.3 billion using a blockchain network. https://t.co/3canto8MkU
+16	2018-09-27 08:03:02+00:00	CoinDesk	Professional services firm Marsh is launching a commercial insurance verification program on a blockchain in partnership with IBM. https://t.co/CLr2kcRK7z
+17	2018-09-27 07:26:15+00:00	CoinDesk	A Swiss startup launched by several former UBS bankers has raised $104 million in a bid to establish a regulated crypto-friendly bank. https://t.co/uEexFKojFi
+18	2018-09-27 04:11:42+00:00	CoinDesk	For the first time, the crypto community is getting a close look at Bitmain's financials.  https://t.co/AQRMQsMYK9
+19	2018-09-27 03:55:03+00:00	CoinDesk	Listen to the latest episode of #LateConfirmation: #Coinbase Rolls Out the Welcome Mat. https://t.co/knuRmgcwPj
+20	2018-09-26 23:30:18+00:00	CoinDesk	"A customized Sony phone with a crypto wallet known as the SIKURPhone comes with security features such as the ability to remotely wipe the device, @mashable reports. 
+
+https://t.co/1gV1ZBO6u0"
+21	2018-09-26 22:30:19+00:00	CoinDesk	",@business reports that the #pharma industry may have a valid case to use #blockchain
+
+https://t.co/5CGcrsaOer"
+22	2018-09-26 22:15:11+00:00	CoinDesk	Subscribe to our daily #podcast, #LateConfirmation: https://t.co/BnMcprVwdT https://t.co/PVzkBIwGYr
+23	2018-09-26 21:30:23+00:00	CoinDesk	"""A miner, a dev and a crypto trader walk into a bar...."" According to this report by @HardFork, to some comedians #bitcoin has more value as a punch line than as a currency.
+
+https://t.co/RaUKUWhF1u"
+24	2018-09-26 20:01:10+00:00	CoinDesk	The U.S. Securities and Exchange Commission recently moved to delay their decision over yet another bitcoin exchange traded fund proposal. https://t.co/0yIpWK9sGN
+25	2018-09-26 19:15:22+00:00	CoinDesk	INSTITUTIONAL INVESTORS: Subscribe to our weekly Institutional #Crypto #newsletter to get a weekly digest of the most important news and analysis  delivered to your inbox: https://t.co/KvepPMRX2P https://t.co/riOcLalKF3
+26	2018-09-26 18:05:13+00:00	CoinDesk	FedEx, Honeywell and 12 blockchain startups joined the Hyperledger consortium, the group announced Wednesday. https://t.co/vE5SoVWAYs
+27	2018-09-26 17:02:17+00:00	CoinDesk	The SEC is taking seeking further action against the founders of the Plexcoin crypto scheme, alleging they are not complying with court orders. https://t.co/BAFbJE3ynj
+28	2018-09-26 16:16:45+00:00	CoinDesk	4/ Providing such clarity may bring businesses back to the U.S., ConsenSys' Joyce Lai added.
+29	2018-09-26 16:16:31+00:00	CoinDesk	"3/ Attendees at the event called for clarity on how regulators would apply securities laws to crypto startups. CoinList general counsel Georgia Quinn noted that ""regulation by enforcement,"" as has been happening, does not explain how businesses should operate."
+30	2018-09-26 16:16:20+00:00	CoinDesk	"2/ Davidson said the forum was ""critical"" to prevent regulators from taking a ""heavy-handed approach that could ... kill the U.S. ICO market"" in prepared remarks. He intends to introduce a bill aiding startups within the next 3 weeks."
+31	2018-09-26 16:15:57+00:00	CoinDesk	1/ ICYMI: U.S. lawmakers are gearing up to aid ICO projects in the nation, with Rep. Warren Davidson hosting a forum Tuesday for industry players to share their grievances: https://t.co/5LdClEUDBR
+32	2018-09-26 16:05:19+00:00	CoinDesk	Take our #Crypto Investor Survey. We intend to gather data on investor thoughts and behaviors in the #cryptocurrency industry. https://t.co/W0cEXrglQz https://t.co/xVBgyKGM35
+33	2018-09-26 16:03:41+00:00	CoinDesk	The Dairy Farmers of America will trial a blockchain platform to track milk products, the company announced Tuesday. https://t.co/BGPIhSYvTg
+34	2018-09-26 15:55:33+00:00	CoinDesk	ICYMI: Bitmain's IPO prospectus has been published. Dig into the details here: https://t.co/rnDCK3YhcF
+35	2018-09-26 15:04:53+00:00	CoinDesk	Datawallet and Enigma have partnered to create an alternative to all those annoying captchas – and hopefully reduce the prevalence of bot nets. https://t.co/SeF4qhxj9U
+36	2018-09-26 14:22:18+00:00	CoinDesk	"8/ The abbreviated prospectus can be found here (https://t.co/CcG3Ciu77f). 
+
+OR 
+
+Read the full 400-page filing: https://t.co/X29feF425G"
+37	2018-09-26 14:11:29+00:00	CoinDesk	"7/ The filing shows @BITMAINtech has also become a landowner.
+
+The company owns more than 118K square meters of land in Inner Mongolia, Ningxia and Sichuan on which it’s mining crypto. Additionally, it's leasing land or properties in 55 locations."
+38	2018-09-26 14:08:24+00:00	CoinDesk	"@BITMAINtech 6/ The prospectus also shows the diversification of the mining products Bitmain sells. 
+
+In 2015, all of its hardware was geared toward bitcoin. 
+
+By H1 2018, 73.2 percent of its miners sold could be used to mine either bitcoin or bitcoin cash"
+39	2018-09-26 14:03:14+00:00	CoinDesk	CC @Techmeme
+40	2018-09-26 14:02:30+00:00	CoinDesk	"5/ According to the filing, @BITMAINtech saw a major boost to its hardware sales between 2015 and H1 2018.
+
+In 2015, Bitmain generated roughly $107.8 million in revenue. For H1 2018, Bitmain made about $2.6 billion."
+41	2018-09-26 13:59:32+00:00	CoinDesk	"4/ Information about the companies that Bitmain has invested in:
+
+@BITMAINtech now owns a 3% stake in app browser @opera, having invested $50 million.
+
+Global Digital Mercantile Ltd., a firm described as a ""crypto finance"" company, received $1 million from Bitmain for a 5% stake."
+42	2018-09-26 13:53:37+00:00	CoinDesk	3/ Parties overseeing the filing include China International Capital Corporation Hong Kong Securities Limited (the sole sponsor). Commerce and Finance Law Offices, Maples and Calder LLP, KPMG and Frost &amp; Sullivan also oversaw aspects of the filing
+43	2018-09-26 13:50:00+00:00	CoinDesk	2/ With the filing, Bitmain is reporting YTD gross profit of $1.03 billion and $2.84 billion in revenue through June 30, 2018
+44	2018-09-26 13:45:12+00:00	CoinDesk	BREAKING: Bitcoin mining giant Bitmain has filed an application for its planned initial public offering (IPO) in Hong Kong. More details to come. https://t.co/kKDRuxThNE
+45	2018-09-26 13:01:06+00:00	CoinDesk	Crypto finance firm Circle has officially released its dollar-pegged stablecoin for limited trading, the company announced Wednesday. https://t.co/1NSN5cFWCs
+46	2018-09-26 12:03:32+00:00	CoinDesk	The U.N. World Food Programme plans to test blockchain for tracking food delivery in East Africa, following a refugee aid pilot in Jordan. https://t.co/KdfoGBM8eS
+47	2018-09-26 11:22:42+00:00	CoinDesk	Bitcoin price volatility, as indicated by Bollinger band width, has hit the lowest level since December 2016. https://t.co/BB0UEvHXf5
+48	2018-09-26 10:02:16+00:00	CoinDesk	Blockchain startup Bitwala has raised €4 million in new funding that will help develop a planned blockchain bank account offering. https://t.co/SHOu3X3tZ1
+49	2018-09-26 09:03:31+00:00	CoinDesk	A joint venture between SBI Holdings and Ripple has taken a step closer to launching its blockchain-based payments app for consumers. https://t.co/LbI9c0GYr4
+50	2018-09-26 08:05:42+00:00	CoinDesk	"Most ethereum scaling technologies are a far from completed, but OpenST says it's got a solution that's ready for the ""here and now."" https://t.co/zDrlz0Vfgg"
+51	2018-09-26 07:33:19+00:00	CoinDesk	Australia's federal science agency says a blockchain network it developed has achieved 30,000 transactions per second in a global test. https://t.co/QzXN8XvnfD
+52	2018-09-26 04:03:01+00:00	CoinDesk	A crypto startup aiming to disrupt AWS has suffered a massive token theft. While few details are available, here's what we know and don't know.  https://t.co/Jyi4YiCe7S
+53	2018-09-26 03:55:00+00:00	CoinDesk	Watch highlights from #TechXLR8's Asia Summit and see what's next: six major tech shows, one festival of connective innovation in #Singapore. #ConsensusSingapore https://t.co/TFiRk8HZP8
+54	2018-09-25 23:30:18+00:00	CoinDesk	"In @qz, Maja Vujinovic explains the changing meaning of ""value"" in the new  #tokeneconomy 
+
+https://t.co/WodYQUsv4b"
+55	2018-09-25 22:30:21+00:00	CoinDesk	"A company called @PlasticBank in Haiti is leveraging blockchain to help alleviate poverty and #cleantheoceans, @inversedotcom reports.
+
+https://t.co/X9SlJl0jf3"
+56	2018-09-25 21:45:17+00:00	CoinDesk	"The @FinancialTimes takes a detailed look at ""the largest implementation of blockchain technology for humanitarian aid in the world,"" the @WFP's Building Blocks program for refugees in Jordan.
+
+https://t.co/wgY41leGMm"
+57	2018-09-25 21:36:31+00:00	CoinDesk	3/Coinbase will add listings on a jurisdiction-by-jurisdiction basis. As a result, some coins won't be available for customers to trade in certain places, depending on local regulations. https://t.co/GGAZIWVaSU
+58	2018-09-25 21:33:44+00:00	CoinDesk	"2/  ""We're now actively reaching out to asset developers with this,"" says Coinbase CTO @balajis ""Satoshi and Vitalik were not Coinbase customers. But all future and current asset creators and developers are."" https://t.co/GGAZIWVaSU"
+59	2018-09-25 21:31:34+00:00	CoinDesk	BREAKING: Coinbase has revamped how it lists new cryptocurrencies, replacing an ad hoc process with one the startup hopes will rapidly expand the range of assets traded on its exchange. https://t.co/q2SZq29rsK
+60	2018-09-25 21:10:06+00:00	CoinDesk	Listen to part 2 of our #Concordia18 Annual Summit #LateConfirmation: Do You Really Need a #Blockchain for That? Thanks to @GBBCouncil! https://t.co/Cu8kJtdjoY
+61	2018-09-25 20:32:18+00:00	CoinDesk	More than 80 representatives from a variety of cryptocurrency projects and companies spent four hours calling for clarity around ICOs and tokens. https://t.co/kXWU91f4X2
+62	2018-09-25 16:32:53+00:00	CoinDesk	JUST IN: Soon after closing a $5.5 million funding round, music-focused blockchain startup Audius is revealing just how its network will operate when it launches in roughly a year. https://t.co/fWvuqdWKqR
+63	2018-09-25 16:02:40+00:00	CoinDesk	JUST IN: A proposal to radically expand the capabilities of bitcoin such that it would be able to add vast new features to its limited supply of cryptocurrency has arrived on testnet. https://t.co/Cy6gEHvDhL
+64	2018-09-25 15:52:44+00:00	CoinDesk	"Google has revealed that it will begin allowing advertisements for ""regulated"" crypto exchanges beginning next month. https://t.co/CSNar549tf"
+65	2018-09-25 15:03:34+00:00	CoinDesk	Japan's top financial regulator is seeking answers from the operator of the Zaif cryptocurrency exchange in the wake of a $60 million hack. https://t.co/p8cjxgTehG
+66	2018-09-25 14:12:37+00:00	CoinDesk	The Japanese trustee for Mt. Gox has sold cryptos worth $230 million since March as part of the collapsed exchange's bankruptcy proceedings. https://t.co/EYGdNRtqiR
+67	2018-09-25 13:10:25+00:00	CoinDesk	Listen to #LateConfirmation's special edition at the #Concordia18 Annual Summit with  @prestonjbyrne @jalak @brianbehlendorf  and @yorkerhodes. https://t.co/XA3FMmoBMT https://t.co/Tbt2s33BbF
+68	2018-09-25 13:02:05+00:00	CoinDesk	As https://t.co/BB9JOGO6cm was raising $4 billion from Silicon Valley and Wall Street, a group of executives decided to quit and build a bigger, better blockchain. https://t.co/oD8zK08eXn
+69	2018-09-25 11:42:52+00:00	CoinDesk	A blockchain payments trial launched by JPMorgan, Australia's ANZ and the Royal Bank of Canada has just gained over 75 new banks as participants. https://t.co/PAFtGCjJFM
+70	2018-09-25 11:13:02+00:00	CoinDesk	A bearish crossover between key moving averages on the monthly chart indicates scope for a deeper drop in bitcoin. https://t.co/mXkw7CZ3Fp
+71	2018-09-25 09:39:23+00:00	CoinDesk	"Financial giant SBI Group has announced that it is testing a crypto token called ""S coin"" to enable retail payments over mobile devices. https://t.co/NUTvPOe18Z"
+72	2018-09-25 08:05:44+00:00	CoinDesk	Even in blockchain-friendly jurisdictions, some say regulatory hurdles and old mindsets are holding back innovation and growth for the industry, https://t.co/hm0XdXMcGK
+73	2018-09-25 06:05:04+00:00	CoinDesk	A newly filed lawsuit finds one of the most well-known cryptocurrency startups taking aim at a firm seeking to launch an upcoming ICO. https://t.co/xCxnwDXnk1
+74	2018-09-25 04:46:44+00:00	CoinDesk	In the wake of a severe code vulnerability, bitcoin developers are asking if current code review processes are enough to prevent further failures. https://t.co/AJbAco7NFe
+75	2018-09-25 03:55:03+00:00	CoinDesk	Listen to the latest episode of #LateConfirmation special edition at the #Concordia18 Annual Summit with  @prestonjbyrne @jalak @brianbehlendorf and @yorkerhodes. Thanks to our partners @GBBCouncil! https://t.co/Z7rCLuu30I
+76	2018-09-24 21:55:08+00:00	CoinDesk	Looking for a #job in the #blockchain space? Head over to our #career center now: https://t.co/UEvDfcTyYO https://t.co/pnVqbpAz8Q
+77	2018-09-24 20:22:26+00:00	CoinDesk	Walmart will begin tracking leafy greens using IBM's blockchain technology starting late next year, the company announced Monday. https://t.co/wiDgycgHB3
+78	2018-09-24 19:15:16+00:00	CoinDesk	We're excited to be a media partner at The 2018 Concordia Annual Summit. #LateConfirmation will be there today and tomorrow. Thanks to our partners @GBBCouncil! https://t.co/pN2MBoBzuw
+79	2018-09-24 19:08:54+00:00	CoinDesk	A new report from the Bank of International Settlements (BIS) contends that bitcoin markets are swayed by news events related to regulation. https://t.co/VJJJNmzPHl
+80	2018-09-24 16:02:17+00:00	CoinDesk	U.S.-based crypto exchange Coinbase has teamed up with institution-focused crypto trading platform Caspian to boost its offerings for financial pros. https://t.co/2Hjh9EFl1Z
+81	2018-09-24 15:03:22+00:00	CoinDesk	The US Should Take a 'Leadership' Role on Blockchain, IBM Report Argues https://t.co/EZh8F6NNYj
+82	2018-09-24 14:04:14+00:00	CoinDesk	Australia's securities regulator said late last week that it has halted five initial coin offerings (ICOs) in as many months. https://t.co/8BALWVHn9I
+83	2018-09-24 13:06:26+00:00	CoinDesk	An increasing amount of bitcoin is held by active individual users, suggesting the market is ripe for transactional growth, according to Chainalysis. https://t.co/EC9FXKSAPH
+84	2018-09-24 12:01:59+00:00	CoinDesk	"A form of cryptography pioneered by zcash might help scale ethereum ""by a huge amount,"" says founder Vitalik Buterin. https://t.co/EcjWF1ke11"
+85	2018-09-24 11:24:47+00:00	CoinDesk	Bitcoin's narrowing price range means a bull breakout could occur if prices beat key resistance at $6,970. https://t.co/ik1LlmFWok
+86	2018-09-24 09:32:51+00:00	CoinDesk	"One of the most popular soccer clubs in the world is launching a crypto token that it says will boost fan numbers by allowing them to ""be heard."" https://t.co/Hd8eyc1aKB"
+87	2018-09-24 08:03:27+00:00	CoinDesk	From ShapeShift's capitulation to KYC to the New York Attorney General's critical look at exchanges, officialdom is striking heavy blows. Stay tuned. https://t.co/KOa90uBSqq
+88	2018-09-24 04:09:43+00:00	CoinDesk	Cryptocurrency exchange ShapeShift's decision to require user ID wasn't forced upon it but represented a preemptive step to reduce legal risks, its CEO said. https://t.co/79MJUb0xx2
+89	2018-09-23 22:15:08+00:00	CoinDesk	"FEATURE from @IanAllison123:  A #blockchain team from Royal Bank of Scotland (RBS) has left to start a blockchain ""venture studio"" called Chorum. https://t.co/S1NyHAvSxz"
+90	2018-09-23 19:15:11+00:00	CoinDesk	FEATURE by @BradyDale: Governance is one of the hottest topics in #crypto right now – and Decred developers' take is that the community should decide. https://t.co/yPqBJSCZPN
+91	2018-09-23 15:50:10+00:00	CoinDesk	FEATURE by @AlyssaHertig: An abnormally severe bug was discovered in #bitcoin's software, prompting developers to put together and release a fix on Tuesday. https://t.co/ALibDKjPip
+92	2018-09-23 13:05:13+00:00	CoinDesk	FEATURE from @IanAllison123: This space ain't big enough for all of us. https://t.co/ylQf9JfZo5
+93	2018-09-23 10:07:25+00:00	CoinDesk	It used to be that downtime was unheard of on blockchain networks. As new protocols and new trade-offs emerge, that's no longer the case. https://t.co/vHMEpbQEOh
+94	2018-09-23 09:03:02+00:00	CoinDesk	The MACD is one of the most widely used indicators for gauging trend strength and momentum. Best of all, it's also one of the easiest to master. https://t.co/F4B0YjoLb3
+95	2018-09-23 04:15:05+00:00	CoinDesk	"FEATURE by @AlyssaHertig: ""It's no bullshit. We have code running in our lab."" @chaumdotcom https://t.co/1cvgOdl2zp"
+96	2018-09-22 21:55:07+00:00	CoinDesk	"""[bitcoin] is its own monetary system and it will have its own payment solutions."" @saifedean https://t.co/XJGvILrhYm"
+97	2018-09-22 19:05:12+00:00	CoinDesk	FEATURE: Bancor, one of the most popular and valuable decentralized applications on #ethereum, is expanding to the EOS #blockchain. https://t.co/6rYrYouQT7
+98	2018-09-22 16:10:14+00:00	CoinDesk	FEATURE from @1024YB: A 14-month-long civil forfeiture case to seize assets and property that belonged to Alexandre Cazes. https://t.co/jF4iwfFcsQ
+99	2018-09-22 16:00:34+00:00	CoinDesk	"""For the next week or so you should consider there to be a small possibility of any transaction with less than 200 confirmations being reversed."" https://t.co/RrzQEljDhJ"
+100	2018-09-22 13:00:39+00:00	CoinDesk	OPINION: @mikejcasey explains why gas ain't gold. https://t.co/X5n9sBM5xC
+101	2018-09-22 13:00:23+00:00	CoinDesk	ICYMI: This week's major bitcoin bug was even worse than developers initially let on. https://t.co/7kge9VsnDM https://t.co/CZLcrD9HQV
+102	2018-09-22 11:47:52+00:00	CoinDesk	Several ethereum miners and developers have come forward in the hope of halting ASICs from effectively operating on the ethereum network. https://t.co/AolMOUu0Pb
+103	2018-09-22 04:00:23+00:00	CoinDesk	"""What we observe is that most tokens are used only on exchanges for trading purposes or within their own specific platforms if the platform is live,"" @loi_luu said."
+104	2018-09-21 23:30:17+00:00	CoinDesk	"Swiss banking authorities issue guidelines for banks to interact safely with #crypto companies while abiding by #AML guidelines, @Reuters reports
+
+https://t.co/vJaEo8zH10"
+105	2018-09-21 22:31:29+00:00	CoinDesk	This week's major bitcoin bug was even worse than developers initially let on. https://t.co/KOENS79KYI
+106	2018-09-21 21:30:20+00:00	CoinDesk	"#stablecoins seem to be the new fad, with @businessinsider Australia reporting that a #stablecoin pegged to the Australian Dollar will be launched in 2019.
+
+https://t.co/hfOrG5q66w"
+107	2018-09-21 21:24:17+00:00	CoinDesk	The price of XRP spiked as high as 75 percent above its opening price at one point during Friday's trading session amidst a broader market bull parade. https://t.co/um3uI4C7zZ
+108	2018-09-21 20:34:16+00:00	CoinDesk	The parent company of Brazil's largest independent broker is setting up a cryptocurrency exchange, Bloomberg reports. https://t.co/bs1rfz10Mk
+109	2018-09-21 19:22:03+00:00	CoinDesk	U.S. Representative Tom Emmer plans to introduce three blockchain-focused bills to Congress in the coming weeks aimed at spurring development. https://t.co/ebMaW9iwSS
+110	2018-09-21 18:05:16+00:00	CoinDesk	Subscribe to our #LateConfirmation #podcast to get your recommended, daily dose of #blockchainnews: https://t.co/USEcu8MGZC https://t.co/hoaJRdu3ms
+111	2018-09-21 18:01:17+00:00	CoinDesk	A report by a group of cybersecurity researchers found that cryptojacking instances jumped more than 400 percent in a year. https://t.co/GuZO3T4D4z
+112	2018-09-21 17:02:03+00:00	CoinDesk	Michael Novogratz, the founder of the cryptocurrency asset management firm Galaxy Digital, believes the market has hit a bottom. https://t.co/QiCSWlfrm1
+113	2018-09-21 16:00:38+00:00	CoinDesk	JUST IN: Privacy-focused internet browser Brave will use Civic's identity verification services to ensure that publishers are paid for their content. https://t.co/rdpACChaaB
+114	2018-09-21 15:01:55+00:00	CoinDesk	Bitman has launched a new 7nm ASIC processor that it says will soon be powering a new range of its Antminer mining machines. https://t.co/TC07tegQvs
+115	2018-09-21 14:07:44+00:00	CoinDesk	News reports claim that Taiwan authorities have arrested Cody Wilson after he was accused of sexually assaulting a minor. https://t.co/yh7vwSlJlU
+116	2018-09-21 13:03:41+00:00	CoinDesk	A U.S. Navy command is exploring blockchain tech as part of a plan to reduce paper-based processes in tracking aircraft and weapons parts. https://t.co/XrcQ84TnrO
+117	2018-09-21 12:01:48+00:00	CoinDesk	Issuance of tether (USDT), the controversial stablecoin, has had no meaningful impact on the price of bitcoin, a newly published academic study found. https://t.co/GgEexA59DW
+118	2018-09-21 11:24:49+00:00	CoinDesk	BTC has bounced back into bullish territory over $6,700 amid increased investor interest in altcoins. https://t.co/3uHcTgcfoR
+119	2018-09-21 09:32:58+00:00	CoinDesk	Venezuela's president is ordering the use of the petro in international trade, despite doubts the token will be widely accepted. https://t.co/sf1Y6rxRzJ
+120	2018-09-21 08:02:43+00:00	CoinDesk	Candidates for public office in California may not receive donations in cryptocurrency, the state's political watchdog has ruled. https://t.co/FOve284VvM
+121	2018-09-21 04:03:49+00:00	CoinDesk	Instead of tacking ethereum's transaction costs, developer Alexey Akhunov focused on the blockchain's state, and the software is ready.  https://t.co/ILFyLpeeE8
+122	2018-09-20 23:30:17+00:00	CoinDesk	"The #bitcoin network has allegedly been vulnerable to #DenialofService attacks since March. Fortunately @Independent reports that the patch has been released.
+
+https://t.co/K35gpivLR8"
+123	2018-09-20 22:30:20+00:00	CoinDesk	"Miners are no longer safe in small towns. @KUOW reports that counties in #washington are charging #cryptominers higher rates of electricity from 2019.
+
+https://t.co/bh5eITv3ds"
+124	2018-09-20 21:30:18+00:00	CoinDesk	"The @WIRED writes about @htcexodus the world's first #blockchain phone.
+
+https://t.co/KJO3Sqp4M4"
+125	2018-09-20 20:49:51+00:00	CoinDesk	FULL STORY: The SEC has officially begun the process of deciding whether to clear the way for a proposed bitcoin ETF. https://t.co/E5eLgb28tz
+126	2018-09-20 20:27:24+00:00	CoinDesk	3/ Today's move follows a previous delay by the SEC for its decision on the VanEck/SolidX proposal. Our story: https://t.co/Ijl3tNvZcf
+127	2018-09-20 20:25:00+00:00	CoinDesk	"2/ From the order: ""Institution of proceedings does not indicate that the Commission has reached any conclusions with respect to any of the issues involved. Rather...the Commission seeks and encourages interested persons to provide comments on the proposed rule change."" Story TK."
+128	2018-09-20 20:24:21+00:00	CoinDesk	"BREAKING: The Securities and Exchange Commission has begun the process of deciding whether to approve the proposed bitcoin ETF from VanEck/SolidX. SEC says it has received ""more than 1,400 comment letters on the proposed rule change"" to date. The order: https://t.co/rQ8NQUQStz"
+129	2018-09-20 19:31:16+00:00	CoinDesk	The next stage in the privacy protocol's roadmap will no longer occur in Q3, according to the company. https://t.co/UYQcfghL18
+130	2018-09-20 18:00:59+00:00	CoinDesk	A Bitfury-led engineering team has created a coffee vending machine capable of accepting bitcoin payments through the Lightning Network. https://t.co/Z4TmR7EjvN
+131	2018-09-20 16:55:52+00:00	CoinDesk	Executives from several bitcoin mining firms have said at Consensus Singapore that they are not concerned by current low crypto prices. https://t.co/Ru2rHdV2pn
+132	2018-09-20 15:50:14+00:00	CoinDesk	Listen to the latest episode of our #podcast, #LateConfirmation: New York, the Jealous Ex? https://t.co/wReNHIDRNv
+133	2018-09-20 15:40:37+00:00	CoinDesk	"BREAKING: A blockchain team from Royal Bank of Scotland (RBS) has left to start a ""venture studio"" called Chorum from which full-blown startups an be spun out. It will build on R3's Corda platform https://t.co/vlYrZoB098 https://t.co/VCsHcvilmh"
+134	2018-09-20 15:26:39+00:00	CoinDesk	XRP's price is boasting double-digit percentage growth today for the second time this week as the broader market picks up the bid. https://t.co/SYGBbf4ym9
+135	2018-09-20 14:10:13+00:00	CoinDesk	A group of US lawmakers have called on the IRS to provide more tax guidance to cryptocurrency investors – read more about their letter here: https://t.co/MmrbRbuBqp
+136	2018-09-20 13:04:30+00:00	CoinDesk	Bitfury Group unveiled a new generation of bitcoin mining ASICs on Wednesday, boasting greater efficiencies than previous models. https://t.co/fRtQunKmVy
+137	2018-09-20 12:09:10+00:00	CoinDesk	Investors are looking forward to Decred's new approach to blockchain governance – in part, because its devs are opening up $20 million in tokens. https://t.co/pqman8FlDt
+138	2018-09-20 11:18:42+00:00	CoinDesk	Bitcoin's rebound from the five-week low of $6,100 has saved the day for the bulls and kept range-bound trading conditions intact. https://t.co/aO6qgTFcTj
+139	2018-09-20 10:02:40+00:00	CoinDesk	Japan's police agency has released data revealing that cyberattacks leading to thefts of cryptocurrency rose sharply earlier this year. https://t.co/QpWvTJiWm2
+140	2018-09-20 09:47:10+00:00	CoinDesk	"Alex Ao from Innosilicon Technology said he's not deterred by the market downturn and it's actually a good time to move in as the history repeats itself, referring to the price decline in 2014. ""That's just the nature of economy."" #ConsensusSingapore"
+141	2018-09-20 09:39:25+00:00	CoinDesk	"""Still too early to decide whether Bitfury will expand to mine cryptocurrencies on other networks."" - Bitfury's Henry Monzon on future plans. #ConsensusSingapore"
+142	2018-09-20 09:38:10+00:00	CoinDesk	Bitfury's Henry Monzon and Xin Xu of SparkPool agree that miners' IPO deals are a sign that the crypto mining industry is getting more mature than ever. #ConsensusSingapore
+143	2018-09-20 09:26:25+00:00	CoinDesk	The last panel at the #ConsensusSingapore event: what happens when crypto mining goes public? Now on stage are Bitfury's Henry Monzon, C Block Capital's Bing Lin, Xin Xu of SparkPool, and Innosilicon's Alex Ao. https://t.co/00WrCQuitZ
+144	2018-09-20 09:19:38+00:00	CoinDesk	"""Last year, we didn't really care if a crypto project is denominated by the USD or bitcoin. But now we are more careful on those that are pegged to the USD."" - Jason Fang on the changing landscape of VCs' investment strategy. #ConsensusSingapore"
+145	2018-09-20 09:08:14+00:00	CoinDesk	"Jason Fang on Asian pump-and-dumps: ""A lot of the funds in China are not really VC funds, but hedge funds. That's why they don't have the obligation to hold your coins."" #ConsensusSingapore"
+146	2018-09-20 09:03:50+00:00	CoinDesk	Alphaslot's Raymond Chan, Sora Ventures' Jason Fang, and Stan Miroshnik of Element Group, are now on stage to chat about how to run a big-time iCO in 2018. #ConsensusSingapore
+147	2018-09-20 09:02:15+00:00	CoinDesk	"Q: Are they all scam? ""Absolutely not,"" says Zane Tackett. ""The most exciting crypto projects are all from Asia."" #ConsensusSingapore"
+148	2018-09-20 09:01:50+00:00	CoinDesk	Brazil's antitrust watchdog is investigating major banks for potentially collaborating to prevent crypto brokerages from gaining banking services. https://t.co/qzTiKUprGW
+149	2018-09-20 09:00:12+00:00	CoinDesk	""" A global reference network that provides background of people in the industry will be helpful for investors to background check teams behind crypto projects."" - Dovey Wan at #ConsensusSingapore"
+150	2018-09-20 08:57:17+00:00	CoinDesk	"Dovey Wan's tips on background-check founders: ""Try to talk to founders of a crypto project separately and question them individually how they get to know each other."" #ConsensusSingapore"
+151	2018-09-20 08:53:33+00:00	CoinDesk	"""There are even services that charge $1,500 and pre-write weekly updates for scam projects that can be published on a weekly basis without running any code."" - Dovey Wan on scams in Asia. #ConsensusSingapore"
+152	2018-09-20 08:47:56+00:00	CoinDesk	"B2C2's Tackett on FCoin's trans-fee mining model: ""It's an interesting model that brings users into the exchange. But when you are dealing with such an innovation that pushes the boundary, it's hard to run a simulation what things are going to happen."" #ConsensusSingapore"
+153	2018-09-20 08:41:22+00:00	CoinDesk	Dovey Wan thinks the crypto exchange FCoin could have done a better job at its communication channel with the community when it suffered from rumors and misrepresentation. #ConsensusSingapore
+154	2018-09-20 08:35:41+00:00	CoinDesk	The cultural and language barrier is also a factor that plays into this bias, Tackett added.  https://t.co/jXzfGqpIi0
+155	2018-09-20 08:33:46+00:00	CoinDesk	"""Institutional buyers are more biased to think that scammers are mostly from China and Asia."" - Zane Tackett from B2C2 at #ConsensusSingapore"
+156	2018-09-20 08:31:57+00:00	CoinDesk	"""Scammers are all over the place."" - Dovey Wan kicked off the panel discussion at #ConsensusSingapore"
+157	2018-09-20 08:27:52+00:00	CoinDesk	Now on stage: are they all scams? CoinDesk's Pete Rizzo will discuss with B2C2's Zane Tackett, Primitive Ventures' Dovey Wan, and MarziPR's Rostik Rusev. #ConsensusSingapore
+158	2018-09-20 08:26:13+00:00	CoinDesk	"On project scams: ""In the crypto space, people should have more education on how to differentiate. Speculation is good, everyone wants to make money in this space. But we should be aware of what the reality is."" - Nathan Li from FBG Capital #ConsensusSingapore"
+159	2018-09-20 08:17:34+00:00	CoinDesk	"Pantera's Veradittakit on how VCs select crypto projects: ""We examine why and how a token is being used, what's its value and is there really a need to use blockchain."" #ConsensusSingapore"
+160	2018-09-20 08:12:38+00:00	CoinDesk	"Li added FBG fund's return still keeps at a bit less than 5 percent in the past fourth months despite the market decline.  
+https://t.co/VwBlHuX7gV"
+161	2018-09-20 08:08:57+00:00	CoinDesk	FBG's Nathan Li believes the current market downturn will not stop crypto and decentralization technology from going mainstream. #ConsensusSingapore
+162	2018-09-20 08:05:54+00:00	CoinDesk	Now on stage: Pantera's Paul Veradittakit, FBG's Nathan Li, and Kim-Mai Cutler of Initialized Capital are discussing how VCs are dealing with cryptos.  #ConsensusSingapore
+163	2018-09-20 07:52:28+00:00	CoinDesk	Coinbase and other exchanges have hit back at claims of vulnerability to market manipulation in a report from New York's Attorney General's Office. https://t.co/1V690MKme5
+164	2018-09-20 07:33:43+00:00	CoinDesk	"""We wanted to go to China. Vitalik even speaks Mandarin. But we feel that the Chinese government never wanted us. But if one day they change their mind, we're happy to go back."" - Virgil Griffith from Ethereum at #ConsensusSingapore"
+165	2018-09-20 07:29:35+00:00	CoinDesk	NEO's Da Hongfei agrees with Virgil Griffith from ethereum that the two groups should work together in the future to fund projects. #ConsensusSingapore
+166	2018-09-20 07:23:38+00:00	CoinDesk	"""The decision of integrating PKI with the network is because NEO needs the identity layer for business application adoption."" - Da Hongfei of NEO at #ConsensusSingapore"
+167	2018-09-20 07:17:21+00:00	CoinDesk	Now on stage: The current state of Ethereum and NEO with Virgil Griffith and Da Hongfei. #ConsensusSingapore
+168	2018-09-20 06:35:42+00:00	CoinDesk	Cryptocurrency forks may slow down in the future, as argued by leaders of several crypto hard fork projects at #ConsensusSingapore  https://t.co/l4f64Gjjax
+169	2018-09-20 06:31:30+00:00	CoinDesk	"""Non-fungible tokens can generate exponential benefits for the industry in the next a few years."" - Jehan Chu of Kenetic Capital at #ConsensusSingapore"
+170	2018-09-20 06:28:53+00:00	CoinDesk	Kenetic's Jehan Chu, DigixGlobal's Shaun Djie, and Matthew Tan of https://t.co/TxdSq0IMQt, are now on stage to discuss non-fungible tokens. #ConsensusSingapore
+171	2018-09-20 06:18:56+00:00	CoinDesk	Unblock's $10 million crypto fund will primarily invest in tokens while Recruit's planned crypto fund will combine both tokens and equity ownership. #ConsensusSingapore  https://t.co/vgxJQh9BG3
+172	2018-09-20 06:16:18+00:00	CoinDesk	He added that the company's motivation right now for the crypto fund is not so focused on the return but more of an experiment. #ConsensusSingapore https://t.co/0GvIkZAhp5
+173	2018-09-20 06:14:32+00:00	CoinDesk	"Unblock's Sabrina Tachdijian on how her crypto fund selects projects: ""We are increasingly looking for beyond just white paper of crypto projects, including codes, testnet, and founders' reputation."" #ConsensusSingapore"
+174	2018-09-20 06:09:46+00:00	CoinDesk	Recruit's Yongrok Kim said the Japan-based multinational corporation is launching a dedicated crypto token fund very soon, though details can't be revealed yet. #ConsensusSingapore
+175	2018-09-20 06:06:55+00:00	CoinDesk	Jon Russell from TechCrunch is now moderating a panel to discuss the rise of corporate token fund with LINE's Sabrina Tachdijian and Recruit's Youngrok Kim. #ConsensusSingapore
+176	2018-09-20 06:05:20+00:00	CoinDesk	@hackapreneur Someone's gotta put on the show. Figured you could use the chair :P
+177	2018-09-20 04:59:06+00:00	CoinDesk	Unblock's Jinhee Lee said LINE now has two decentralized applications in Japan: one is a predication service and another is a Quora-like Q&amp;A platform. Both can be participated using the LINK tokens. #ConsensusSingapore
+178	2018-09-20 04:52:53+00:00	CoinDesk	#ConsensusSingapore Read our full story about LINE's blockchain roadmap for the future here:  https://t.co/2hBosdRtq0
+179	2018-09-20 04:50:00+00:00	CoinDesk	"""LINE expects to go live with its framework for the LINK token as well as the LINEAR NETWORK in December."" - Jinhee Lee of Unblock #ConsensusSingapore"
+180	2018-09-20 04:48:01+00:00	CoinDesk	Unblock's Jinhee Lee is now on stage to reveal the messaging giant LINE's blockchain roadmap at #ConsensusSingapore https://t.co/XJjEGhBqsd
+181	2018-09-20 04:20:10+00:00	CoinDesk	Crypto in retail payments: the next panel is now on with Larry Tang from FAMA Group, Coinbase's Emre Tekisalp, and Pundi X Labs' Peko Wan. #ConsensusSingapore
+182	2018-09-20 04:14:58+00:00	CoinDesk	"""Every fork could lead to the loss of certain internet effect and you can only do that for a certain amount of times. I think there may be many many forks in the future, but 99 percent of them may eventually worth nothing."" Amaury Sechet from Bitcoin ABC #ConsensusSingapore"
+183	2018-09-20 04:07:50+00:00	CoinDesk	"""I think the bear market is one reason that leads to the slowdown of cryptocurrency forks so far this year."" - Jack Liu of LighteningASIC at #ConsensusSingapore"
+184	2018-09-20 04:06:50+00:00	CoinDesk	"James Wo from ETC Labs: ""ETC still competes with ETH for sure. But we both exist for different business demands: ETC for those who look for cheaper transaction fees and ETH for those who demand more diverse services."" #ConsensusSinagpore"
+185	2018-09-20 04:00:30+00:00	CoinDesk	Jack Liu of Bitcoin Gold said much of the attacks among bitcoin communities derive from different marketing and PR strategies, like Bitcoin Cash's branding itself as the real bitcoin. #ConsensusSingapore
+186	2018-09-20 03:53:38+00:00	CoinDesk	"Amaury Sechet of Bitcoin ABC: ""The bitcoin communities had so many arguments before about forks, but not many people really give anything because every one just keeps fighting with each other."" #ConsensusSingapore"
+187	2018-09-20 03:48:04+00:00	CoinDesk	"""The value of cryptocurrency forks comes from the string of the disagreement among communities regarding the blockchain code."" - James Wo at ETC Labs #ConsensusSingapore"
+188	2018-09-20 03:46:12+00:00	CoinDesk	CoinDesk's Pete Rizzo is now on stage to discuss with LighteningASIC's Jack Liu, Bitcoin ABC's Amaury Séchet, and ETC Lab's James Wo on how they see the future of cryptocurrency forks. #ConsensusSingapore https://t.co/qT7b5fVdjR
+189	2018-09-20 03:18:11+00:00	CoinDesk	The @coolwallet team showing off their #crypto wallet at their packed #ConsensusSingapore booth https://t.co/PXvvakfSfg
+190	2018-09-20 02:55:03+00:00	CoinDesk	"""We see lots of interest from ICO projects outside South Korea to enter the country as the market is very investor-focused, very speculative and regulation is still very loose at this point."" - said Erica Kang of KryptoSeoul at #ConsensusSingapore"
+191	2018-09-20 02:51:26+00:00	CoinDesk	Panelists comment on the South Korean watchdog FSC's recent inquiry into ICO projects: They wanted to know how many meet-ups a project has hosted, how many kinds of coins one has and how much the assets are worth. #ConsensusSingapore
+192	2018-09-20 02:46:03+00:00	CoinDesk	The South Korean government recently removed crypto exchanges from the venture business category. As such, they can no longer enjoy tax and other government benefits.  https://t.co/fwtFqzJrRr
+193	2018-09-20 02:44:36+00:00	CoinDesk	"""We need to change the exchange's business model to include more blockchain-related projects to continue enjoying government benefits as a venture business."" - Richard Yun from exchange Coinplug said at #ConsensusSingapore."
+194	2018-09-20 02:36:45+00:00	CoinDesk	CoinDesk Korea's Shinjae Yoo is now discussing the blockchain ecosystem in South Korea at ConsensusSingapore with BOScoin's Myungsan Jun, KryptoSeoul's Erica Kang, and Richard Yun from Coinplug. #ConsensusSingapore
+195	2018-09-20 02:33:14+00:00	CoinDesk	"""Private key is the number one hurdle for crypto wallets to get a wider adoption."" - Ben He from imToken added.  https://t.co/rPSExRlQNA"
+196	2018-09-20 02:27:37+00:00	CoinDesk	"HTC's Phil Chen on crypto wallet security: ""Security is an architecture. It has to be architected right. That's also what worries me about the future of the internet."" #ConsensusSingapore"
+197	2018-09-20 02:18:13+00:00	CoinDesk	"""The landscape of crypto wallet apps is very much different from traditional payment apps on mobile like AliPay because user education about private keys storage is a major part of our job"" - Ben He from ethereum wallet imToken #ConsensusSingapore"
+198	2018-09-20 02:06:27+00:00	CoinDesk	The first panel today at #ConsensusSingapore will have HTC's Phil Chen, Coinbase's Sid Coelho-Prabhu, Charles Hamel of Opera Software and imToken's Ben He to discuss crypto wallets.
+199	2018-09-20 02:05:02+00:00	CoinDesk	"Q by @writenolan: ""Do we need a better bitcoin [for mainstream blockchain]?"" A: @chaumdotcom We need a better payment system. #ConsensusSingapore"
+200	2018-09-20 01:56:22+00:00	CoinDesk	"David Chaum at #ConsensusSingapore: ""It's not in anybody's interest that blockchain doesn't get a wider consumer adoption."""
+201	2018-09-20 01:47:08+00:00	CoinDesk	“With this, we’re able to realize Satoshi’s dream and take the blockchain to mass consumer applications.” – David Chaum at #ConsensusSingapore
+202	2018-09-20 01:41:47+00:00	CoinDesk	.@chaumdotcom speaking live now at #ConsensusSingapore about his new project Elixxir: https://t.co/Ba2j2Percr
+203	2018-09-20 01:34:43+00:00	CoinDesk	Yet another Japan-based cryptocurrency exchange has been hacked, losing about $60 million worth of cryptocurrency, including 6,000 bitcoins. https://t.co/z3sIu22AYy
+204	2018-09-20 01:33:57+00:00	CoinDesk	“There's a long history of nation states trying to destroy payment systems in times of war. We need a quantum resistant approach and I think it would be irresponsible to proceed without that.” – @chaumdotcom #ConsensusSingapore
+205	2018-09-20 01:32:01+00:00	CoinDesk	"David Chaum: ""Blockchain needs at least 100,000 transactions per second before it can go mainstream."" #ConsensusSingapore"
+206	2018-09-20 01:30:12+00:00	CoinDesk	“We'd agree that Satoshi's vision was for a payment system.” – @chaumdotcom takes the stage at #ConsensusSingapore
+207	2018-09-20 01:29:57+00:00	CoinDesk	Ecash's creator David Chaum is back with the launch of Elixxir at #ConsensusSingapore and his ambition to create the fastest-ever blockchain. https://t.co/WAQqyNFkOq
+208	2018-09-20 00:30:46+00:00	CoinDesk	"JUST IN: Famed cryptographer and digital money pioneer, David Chaum, revealed exclusively to CoinDesk he thinks he's built a ""better"" cryptocurrency.  https://t.co/FzQstWRLKa"
+209	2018-09-20 00:00:17+00:00	CoinDesk	Watch #ConsensusSingapore LIVE: https://t.co/zY9MjpP9tC https://t.co/Xfw39LwVBh
+210	2018-09-19 23:30:17+00:00	CoinDesk	"The most recent victim of #crypto theft @TLDoublelift told @HardFork that he believes that sim-swappers are responsible for his loss of $200,000 in #cryptocurrency 
+
+https://t.co/7Psg7XienR"
+211	2018-09-19 22:30:19+00:00	CoinDesk	"As reported by @tnooz #blockchain is set to take the aviation industry by storm. Notedly, @AirFranceKLM is experimenting with use cases.
+
+https://t.co/A2e7Ho4uQ2"
+212	2018-09-19 21:30:23+00:00	CoinDesk	"The @nytimes explores the effects that #cryptomining has on small towns with cheap electricity in Northern New York.
+ 
+https://t.co/sg9gYYlyTr"
+213	2018-09-19 21:27:45+00:00	CoinDesk	Bitcoin's volatility was on full display on Wednesday when its price fell from $6,300 to $6,100 before shooting up to $6,500 – all within an hour's time. https://t.co/L8Cd6USdiM
+214	2018-09-19 20:46:28+00:00	CoinDesk	JUST IN: Coinbase has hired former Fannie Mae executive Brian Brooks as its new chief legal officer. https://t.co/1fwApVWHat
+215	2018-09-19 20:06:37+00:00	CoinDesk	Bitcoin Core Developers Move to Fix Denial-of-Service Software Bug https://t.co/j4KSZS9E05
+216	2018-09-19 18:55:16+00:00	CoinDesk	Listen to the latest episode of our #LateConfirmation #podcast: Bitcoin in Palestine with @La__Cuen. https://t.co/tJRZ6BxQYu
+217	2018-09-19 18:09:41+00:00	CoinDesk	Cody Wilson, founder of the 3-D printed gun company Defense Distributed and cryptocurrency advocate, has been charged with sexually assaulting a minor. https://t.co/yF8SkhB3wD
+218	2018-09-19 17:06:38+00:00	CoinDesk	A group of commodity traders and major banks are backing a new blockchain platform called Komgo. https://t.co/MDB0z7RPUz
+219	2018-09-19 16:13:27+00:00	CoinDesk	Europol has warned against the rising threats of cryptocurrency hacks and mining malware in a new report. https://t.co/puVApZEJxu
+220	2018-09-19 16:05:20+00:00	CoinDesk	Subscribe to our Institutional #Crypto #newsletter to get a weekly digest of the most important news and analysis specifically for institutional investors delivered to your inbox: https://t.co/8na0IIUnAR https://t.co/QK6DYjcspE
+221	2018-09-19 15:02:21+00:00	CoinDesk	The Texas State Securities Board has taken emergency action against 3 crypto investment schemes it alleges are attempting to defraud local investors. https://t.co/bQraVUAh5b
+222	2018-09-19 14:02:02+00:00	CoinDesk	JUST IN: PNC Bank's Treasury Management division is to begin accepting cross-border transactions using Ripple's xCurrent product. https://t.co/jWFeDi4XbM
+223	2018-09-19 13:27:39+00:00	CoinDesk	Binance CEO and founder Zhao Changpeng announced an ambitious plan to build 5-10 fiat-to-crypto exchanges in the next year. https://t.co/W1gBdJ9mnQ
+224	2018-09-19 12:02:26+00:00	CoinDesk	Bitcoin apostate Mike Hearn and his R3 colleague Richard Gendal Brown view the enterprise blockchain game as, if not quite zero-sum, something close. https://t.co/PgQTKrz4Dr
+225	2018-09-19 11:18:09+00:00	CoinDesk	Bitcoin has again entered range-bound trading following a defense of $6,200 yesterday. https://t.co/lFawKIve3u
+226	2018-09-19 10:08:07+00:00	CoinDesk	Binance is hoping to launch 5-10 fiat-crypto exchanges by this time next year, ideally 2 per continent, CZ just said at #ConsensusSingapore
+227	2018-09-19 10:06:58+00:00	CoinDesk	Binance's CZ sold his house in 2014 to buy bitcoin, after which bitcoin's price dropped from $600 to $200. He said he didn't sell at the time #ConsensusSingapore
+228	2018-09-19 10:04:30+00:00	CoinDesk	Tim McCourt, managing director of the CME Group, has said that bitcoin futures are not to be blamed for the slump in the crypto market this year. https://t.co/h6II8qhlkt
+229	2018-09-19 10:04:14+00:00	CoinDesk	CZ also confirms Binance made $200 million in profits during Q1, and $150 million of profits in Q2.#ConsensusSingapore
+230	2018-09-19 10:01:31+00:00	CoinDesk	Binance's CZ on fiat-to-crypto trading: where all the money lies is still in fiat. And he hopes Binance could open the Singapore dollar fiat trading in a month. #ConsensusSingapore
+231	2018-09-19 09:42:23+00:00	CoinDesk	After leaving OKCoin in February 2015, CZ spent two years building a cloud-based system in Japan that allows exchanges to utilize to form their own platforms before taking that technology into Binance. #ConsensusSingapore
+232	2018-09-19 09:39:37+00:00	CoinDesk	Next on stage: Fireside chat between CoinDesk's Pete Rizzo and Binance's CZ about his crypto journey! #ConsensusSingapore https://t.co/qGoFPlEfLB
+233	2018-09-19 09:35:21+00:00	CoinDesk	Yusho Liu of Coinhako: Southeast Asia banks are generally open to supporting crypto exchanges. But in reality, it's just no one wants to be the first to back exchanges given the current uncertainty. That's just the mentality in Singapore, for example. #ConsensusSingapore
+234	2018-09-19 09:29:37+00:00	CoinDesk	OKCoin's Tim Byun to crypto exchanges: treat your banks as the regulator. #ConsensusSingapore
+235	2018-09-19 09:26:27+00:00	CoinDesk	Coinhako's Yusho Liu: a general consensus after talking to regulators in various jurisdictions in Southeast Asia is that cryptos are here to stay. #ConsensusSingapore
+236	2018-09-19 09:20:13+00:00	CoinDesk	Next on stage: Southeast Asia's exchange landscape with Luno's Vijay Ayyar, Coinhako's Yusho Liu, and Tim Byun from OKCoin USA. #ConsensusSingapore
+237	2018-09-19 08:53:13+00:00	CoinDesk	Crypto custody incumbent v.s startup: Now on stage with Thomas France from Ledger and Vincent Chok of Legacy Trust. #ConsensusSingapore
+238	2018-09-19 08:36:43+00:00	CoinDesk	OSL's Wayne Trench: clear regulatory environment, such as in Japan, actually makes the cryptocurrency trading space, including OTC, much more mature than before. #ConsensusSingapore
+239	2018-09-19 08:30:51+00:00	CoinDesk	Crypto OTC Trading panel is the next: Justin Chow of Cumberland, Loi Luu of Kyber Network and OSL's Wayne Trench. #ConsensusSingapore
+240	2018-09-19 08:10:08+00:00	CoinDesk	Tim McCourt of the CME Group on why he gets into crypto: when people at family gatherings start to ask him what CME's bitcoin futures is. #ConsensusSingapore
+241	2018-09-19 08:07:46+00:00	CoinDesk	"Tim McCourt, MD and Global Head of Equity Products and Alternative Investments
+of the CME Group, and B2C2's Phillip Gillespie, are now on stage to discuss crypto futures and Asia's markets. #ConsensusSingapore"
+242	2018-09-19 08:03:05+00:00	CoinDesk	Circle's Jack Liu: liquidity of stablecoins is crucial to an eventual wider adoption, including the liquidity of transacting one stablecoin into different crypto assets and the liquidity of exchanging one into the real dollars. #ConsensusSingapore
+243	2018-09-19 08:01:51+00:00	CoinDesk	EXCLUSIVE: Eidoo, the multicurrency crypto wallet and decentralized exchange, has announced a new token that's redeemable for actual gold. https://t.co/uOXhsGNote
+244	2018-09-19 07:58:35+00:00	CoinDesk	From a merchant's perspective, Carousell's Kirill Sofronov said stablecoins need a strong incentive mechanism to have consumers switch from fiat-backed payments methods like Visa and MasterCard. #ConsensusSingapore
+245	2018-09-19 07:55:05+00:00	CoinDesk	Jack Liu of Circle: having a stable could eventually break the walled garden that wraps fiat currencies and sets the barrier for consumers to use whatever payment channels they prefer in different jurisdictions. #ConsensusSingapore
+246	2018-09-19 07:47:37+00:00	CoinDesk	Now on stage: Jack Liu of Circle, Terra's Nicholas Platias and Carousell's Kirill Sofronov, discussing the new generation of stablecoins. #ConsensusSingapore
+247	2018-09-19 07:21:42+00:00	CoinDesk	Kyriacos Koupparis of USAID: we are aiming to harmonize regulators across jurisdictions so that blockchain solutions for financial inclusion won't have to deal with different regulatory hurdles. #ConsensusSingapore
+248	2018-09-19 07:12:32+00:00	CoinDesk	Roy Lai of Sentinel Chain said his firm's goal is to use blockchain to build a financing system that gives the unbanked a way to access financial transactions that are backed by collaterals such as the cattle they own. #ConsensusSingapore
+249	2018-09-19 07:04:54+00:00	CoinDesk	Blockchain for financial inclusion: the next panel at #ConsensusSingapore is on now with Jo Huynh from Perlin, Kyriacos Koupparis of USAID and Sentinel China's Roy  Lai.
+250	2018-09-19 07:01:58+00:00	CoinDesk	Maxine Ryan from Spark, which moves around funds for customers via cryptos: price volatility in certain markets is not necessarily bad. It's actually great because it gives us the opportunity to hedge the risk for customers. #ConsensusSingapore
+251	2018-09-19 06:50:51+00:00	CoinDesk	He added that initially in 2014, the exchange would hesitate to take in orders larger than $10,000 but now it's become much easier to facilitate a single order larger than $1 million. #ConsensusSingapore https://t.co/U2vQdNwM9z
+252	2018-09-19 06:49:35+00:00	CoinDesk	Dominik Weil, whose exchange is focused on the Vietnam market, said the trading volume in the country has increased significantly over the past a few years. #ConsensusSingapore.
+253	2018-09-19 06:43:58+00:00	CoinDesk	The next panel at #ConsensusSingapore: how money transfer on a blockchain has evolved - with Maxine Ryan from Spark and BitcoinVN's Dominik Weil.
+254	2018-09-19 06:42:08+00:00	CoinDesk	Venkateswaran echoed that the benefit is also to protect insurance companies from fraudulent claims as data can be stored in a tamper-proof blockchain network. #ConsensusSingapore https://t.co/S0V1fXmi1M
+255	2018-09-19 06:31:51+00:00	CoinDesk	Zia Zaman on MetLife's blockchain work: the company is testing smart contracts to automate payment transactions for pregnant women without them even having to file claims. #ConsensusSingapore
+256	2018-09-19 06:24:07+00:00	CoinDesk	The next panel will have Bluzelle's Ashok Venkateswaran and MetLife's Zia Zaman to discuss blockchain applications in insurance tech. #ConsensusSingapore
+257	2018-09-19 06:16:32+00:00	CoinDesk	Reinmueller also admitted one of the biggest challenges of deploying blockchain for loyalty programs is the scalability issue. #ConsensusSingapore
+258	2018-09-19 06:13:35+00:00	CoinDesk	KPMG's Jan Reinmueller: Consumers want real-time experience for loyalty programs, not to wait for days and weeks and that's where blockchain can come in to integrate different programs within one wallet. https://t.co/m4pPtiOflI
+259	2018-09-19 06:08:19+00:00	CoinDesk	Jan Reinmueller of KPMG Digital Village: one of the biggest problems in loyalty programs is most of them are in silos and transferring from A to B is slow and complicated. #ConsensusSingapore
+260	2018-09-19 06:02:48+00:00	CoinDesk	Tokenizing Loyalty: The next panel is now on at #ConsensusSingapore with Ryu Okada from Soramitsu Co. and Jan Reinmueller of KPMG Digital Village.
+261	2018-09-19 05:07:23+00:00	CoinDesk	JUST IN: The CEO of one of the world's top trading firms sees global demand for bitcoin futures, a product today only available on U.S. exchanges. https://t.co/63NMi0lY2c
+262	2018-09-19 04:56:38+00:00	CoinDesk	Toh Wee Kee clarifies that the DLT-based Singapore dollars that the MAS is experimenting with now is for cross-bank settlements instead of to be used by households in Singapore. #ConsensusSingapore
+263	2018-09-19 04:53:29+00:00	CoinDesk	See Kok Heng from Anquan, R3's Antony Lewis and MAS' Toh Wee Kee, are now on stage to discuss distributed ledger technology in post-trade settlement. #ConsensusSingapore
+264	2018-09-19 04:49:11+00:00	CoinDesk	Don't miss @cz_binance's fireside chat on #bitcoin #crypto and the future of #blockchain at 5:20 SGT: https://t.co/Ba2j2Percr https://t.co/1d326p0KPP
+265	2018-09-19 04:28:05+00:00	CoinDesk	Next panel: Blockchain Law Degrees with Tju Liang Chua from Chris Chua &amp; Associates and Alexis Chun from https://t.co/6ntHDbIHsg. #ConsensusSingapore
+266	2018-09-19 04:21:58+00:00	CoinDesk	He also added the networks is even scalable to reach 10 million transactions per second. #ConsensusSingapore  https://t.co/s7zkgI4MRx
+267	2018-09-19 04:19:10+00:00	CoinDesk	Seungjai Min said Samsung SDS started building its Nexledger blockchain platform in 2015 and adopted multiple networks including ethereum and Hyperledger so that blockchain applications can be customized depending on business demands. #ConsensusSingapore
+268	2018-09-19 04:12:28+00:00	CoinDesk	Akamai's Makoto Niimura claims its blockchain-based payment networks for MUFG can process 1 million transactions per second now. #ConsensusSingapore
+269	2018-09-19 04:09:09+00:00	CoinDesk	Blockchain in the cloud: next panel is now on with Seungjai Min from Samsung SDS and Akamai's Makoto Niimura. #ConsensusSingapore https://t.co/2Mg8g4nUI5
+270	2018-09-19 04:05:03+00:00	CoinDesk	A group of UK lawmakers has proposed giving the Financial Conduct Authority (FCA) greater powers to regulate the cryptocurrency industry. https://t.co/t9xf7vDjUM
+271	2018-09-19 03:49:13+00:00	CoinDesk	Li Ming, head of blockchain research at the China Electronics Standardization Institute, is now on stage to discuss China's latest development on blockchain. #ConsensusSingapore https://t.co/KNaqdyaL9Y
+272	2018-09-19 03:29:59+00:00	CoinDesk	JUST IN: A representative of Singapore's central bank is saying no tokens it's seen are securities, contrasting with regulators abroad. https://t.co/Zb1qZXQXpO
+273	2018-09-19 02:10:12+00:00	CoinDesk	He added that the MAS takes a close look at the characteristics of the tokens instead of just the technology built on . https://t.co/YX7q1vcJM9
+274	2018-09-19 02:07:00+00:00	CoinDesk	Damien Pang of the MAS: None of the tokens the authority has seen are securities so far. #ConsensusSingapore
+275	2018-09-19 01:57:45+00:00	CoinDesk	Pang reiterated that Singapore's securities and futures act applies to tokens that  have securities features, such as promising certain future earnings.  https://t.co/wNNB6r149G
+276	2018-09-19 01:55:44+00:00	CoinDesk	Damien Pang at #ConsensusSingapore: the MAS divides digital tokens into utility tokens, payments tokens, and securities. And the authority is not intending to regulate utility tokens. But a payment service bill will be enacted by the end of this year to apply to payment tokens.
+277	2018-09-19 01:44:43+00:00	CoinDesk	Next on stage: Damien Pang, head of the Technology Infrastructure Office at @MAS_sg, who will talk about the authority’s developments of using distributed ledger technology to boost the efficiency of settling cross-bank financial transactions. #ConsensusSingapore https://t.co/1R8cReIHfk
+278	2018-09-19 01:32:47+00:00	CoinDesk	Custody solution for crypto assets is a key for wider institutional adoption, Wilson said at #ConsensusSingapore.
+279	2018-09-19 01:07:10+00:00	CoinDesk	Don Wilson at #ConsensusSingapore: There's the argument about bitcoin's storage value. But the more interesting to me is the usefulness of bitcoin. The ability of transfer values without a trust in the system is hugely disruptive.
+280	2018-09-19 01:03:41+00:00	CoinDesk	Don Wilson, founder of DRW, the Chicago-based high-speed trading firm, is on stage to discuss his history with crypto assets after starting an OTC trading desk, the trends he’s seeing in Asia and what’s next for him and crypto. #ConsensusSingapore https://t.co/bXnJGCGyts
+281	2018-09-19 00:59:50+00:00	CoinDesk	CoinDesk's research director Nolan Bauerle on the latest State of Blockchain: ICOs dropped from $5.4 billion in June to $800 million in August. #ConsensusSingapore https://t.co/3ImTmfhxgW
+282	2018-09-19 00:46:30+00:00	CoinDesk	CoinDesk #ConsensusSingapore is now on! Watch live at: https://t.co/IcmzYwpTuR https://t.co/yFdHqNJax0
+283	2018-09-18 23:23:27+00:00	CoinDesk	2/ Here’s the first half of our day one schedule ft @DRWTrading, @MAS_sg and more #ConsensusSingapore https://t.co/aBrBw7rsjl
+284	2018-09-18 22:58:45+00:00	CoinDesk	"#ConsensusSingapore is just two hours away...
+
+WATCH LIVE starting at 8PM ET: https://t.co/Ba2j2Percr https://t.co/U9iGgcwEys"
+285	2018-09-18 19:05:15+00:00	CoinDesk	Subscribe to our #LateConfirmation #podcast now to get the latest in #blockchainnews: https://t.co/FbWFGERGQp https://t.co/pwOjTtv80b
+286	2018-09-18 18:42:22+00:00	CoinDesk	FULL STORY: The NY Attorney General's Office found that several crypto exchanges cannot monitor abusive trading activity, and referred 3 for potential legal violations. https://t.co/X60ef6eeh5
+287	2018-09-18 18:07:17+00:00	CoinDesk	"8/You can read the full @NewYorkStateAG survey of crypto exchanges here: https://t.co/2idVMxXLI2 
+Story coming up"
+288	2018-09-18 18:05:35+00:00	CoinDesk	"7/All crypto exchanges surveyed by @NewYorkStateAG try to discourage wash trading by limiting one account per customer. But this works only ""if a platform can actually detect customers attempting to open multiple accounts. That requires robust on-boarding procedures,"" report sez"
+289	2018-09-18 17:59:02+00:00	CoinDesk	6/And here, @NewYorkStateAG details which of the crypto exchanges it surveyed block VPN users and which ones don't. (Page 10) https://t.co/2idVMxXLI2 https://t.co/KU0aBL8odl
+290	2018-09-18 17:57:18+00:00	CoinDesk	5/Here is a detailed comparison of crypto exchanges' customer ID/on-boarding policies from the @NewYorkStateAG report https://t.co/2idVMxXLI2 https://t.co/aO922Ga2ZT
+291	2018-09-18 17:53:22+00:00	CoinDesk	"4/""Platforms differ significantly in how they confirm ID &amp; enforce site access policies. Most require customers to submit a range of personal info &amp; gov't-issued ID....Bitfinex and Tidex do not, requiring little more than an email address"": NY AG https://t.co/2idVMxXLI2"
+292	2018-09-18 17:50:07+00:00	CoinDesk	"3/""While most participating platforms reported that they monitor access by IP address, only Bitstamp and Poloniex (Circle) purported to limit VPN access,"" the NY State Attorney General notes, disapprovingly, in crypto exchange survey. https://t.co/2idVMxXLI2"
+293	2018-09-18 17:46:52+00:00	CoinDesk	"2/"" Based on this investigation, the
+[NY Attorney General's office] referred Binance, https://t.co/eJlF8f7SkF, and Kraken to the Department of Financial Services for potential violation of New York’s virtual currency regulations"" the report says https://t.co/2idVMxXLI2"
+294	2018-09-18 17:45:56+00:00	CoinDesk	"NEW: The @NewYorkStateAG says Binance, https://t.co/eJlF8f7SkF and Kraken are ""possibly operating unlawfully in New York"" in a new report: https://t.co/pgYW3P0H4R"
+295	2018-09-18 17:01:43+00:00	CoinDesk	JUST IN: Coinbase has brought LinkedIn head of analytics and data science, Michael Li, on as its new vice president of data. https://t.co/m5ePdicftF
+296	2018-09-18 16:04:08+00:00	CoinDesk	High Times has removed bitcoin as a payment option for its IPO, just days after admitting it was accepting the cryptocurrency. https://t.co/qbcZPQxHQH
+297	2018-09-18 15:50:15+00:00	CoinDesk	Do you want a weekly digest of the most important news and analysis specifically for institutional investors? Subscribe to our Institutional #Crypto #newsletter: https://t.co/3Uk4aF8iUO https://t.co/gd9SUkj7pq
+298	2018-09-18 15:16:45+00:00	CoinDesk	XRP is reporting double-digit gains today, despite a generally bearish trend across the wider crypto markets. https://t.co/Juspk3Ax27
+299	2018-09-18 14:01:38+00:00	CoinDesk	Digital security firm Gemalto is teaming up blockchain startup R3 to pilot a new platform aimed to bring digital identities closer to the mainstream. https://t.co/ky5u5H9k8H
+300	2018-09-18 13:05:19+00:00	CoinDesk	JUST IN: Kyber Network is adapting the liquidity tool it uses within its decentralized exchange to allow businesses to accept payments in any ethereum token. https://t.co/4tiXZgtqJb
+301	2018-09-18 12:55:15+00:00	CoinDesk	Subscribe to our #newsletters to get the latest in #blockchainnews: https://t.co/PwQNqD4nh9 https://t.co/d5DtS9QOjR
+302	2018-09-18 12:03:07+00:00	CoinDesk	A newly discovered botnet is seeking out and removing crypto-mining malware, but why it has been created is still unknown. https://t.co/kI0dAOCepn
+303	2018-09-18 11:13:26+00:00	CoinDesk	Bitcoin's drop to $6,200 on Monday has increased the odds of a drop toward key support below $6,000. https://t.co/9Lq652mhGf
+304	2018-09-18 09:35:03+00:00	CoinDesk	Founding partners of the $1 billion blockchain fund backed by a Chinese city government are planning to roll out a Japanese yen-pegged stablecoin. https://t.co/yn5kJrb9DW
+305	2018-09-18 09:34:47+00:00	CoinDesk	Attention! Consensus: Singapore starts tomorrow at the Marina Bay Sands expo &amp; convention centre on the fifth floor. See you there!
+306	2018-09-18 08:09:52+00:00	CoinDesk	The arrival of cryptos doesn't alter the need to maintain proper accounting records, the SEC's Wesley Bricker said Monday. https://t.co/YOoLJz5bq3
+307	2018-09-18 08:06:16+00:00	CoinDesk	The stage is set for two days of non-stop #crypto. Who’s ready for #ConsensusSingapore? https://t.co/MGKe0XMFeT
+308	2018-09-18 05:52:13+00:00	CoinDesk	For a small community of users in the occupied territories, bitcoin has become an economic lifeline to the outside world. But it can do only so much. https://t.co/8Bkj2CbVS0
+309	2018-09-18 04:05:06+00:00	CoinDesk	We're excited to announce our sponsor @DeribitExchange will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/BN1JfyF48F https://t.co/8sLVJsJ438
+310	2018-09-18 03:45:06+00:00	CoinDesk	Listen to the latest episode of our #LateConfirmation #podcast: Court Hodls Lambo. https://t.co/s2uPB3Ihhb https://t.co/XbVLKWZZeO
+311	2018-09-18 01:23:28+00:00	CoinDesk	Asia’s biggest blockchain conference is just 24 hours away 🚀 #ConsensusSingapore #TechXLR8Asia https://t.co/Iw2zpNCW09
+312	2018-09-17 23:30:20+00:00	CoinDesk	"In an interview with @CNBC, a representative of @Ripple hinted at the release of a new product xRapid in the future. 
+
+https://t.co/0vMpxl3kLn"
+313	2018-09-17 22:30:23+00:00	CoinDesk	"As reported by @Forbes, a company @coveware supports small companies during #ransomware attacks.
+
+https://t.co/N9VC44x1Ig"
+314	2018-09-17 21:50:11+00:00	CoinDesk	"Do you have a deep understanding of #blockchain technology and a
+clear and precise writing style? Apply for our Freelance Writer #job: https://t.co/dUDV1MN1rA https://t.co/hQlKJL1A8C"
+315	2018-09-17 21:30:23+00:00	CoinDesk	"The @WIRED reports on how some universities are embracing #blockchain and offering courses about the emerging technology.
+ 
+https://t.co/QHAQVnvEsa"
+316	2018-09-17 21:23:24+00:00	CoinDesk	The world's second-largest cryptocurrency, ether (ETH), erased half of last week's rally today amid a broader market sell-off. https://t.co/oUEtSTLqNK
+317	2018-09-17 20:32:19+00:00	CoinDesk	Municipal government websites in Andhra Pradesh are running cryptojacking scripts, a group of security researchers found earlier this month. https://t.co/o4B5vcpEx3
+318	2018-09-17 19:02:43+00:00	CoinDesk	The Ukrainian parliament has introduced a bill outlining taxes on cryptocurrency-related profits. https://t.co/uCeIejjegR
+319	2018-09-17 18:01:14+00:00	CoinDesk	BREAKING: Ethereum Dapp Bancor Is Expanding to EOS for Fast, Free Transactions https://t.co/QXgVWLV8hC
+320	2018-09-17 16:05:19+00:00	CoinDesk	We've partnered with @GBBCouncil for #BlockchainCentral at the @UN  General Assembly. Save 20% here: https://t.co/KdTepLg5ZS https://t.co/hyPcYLesax
+321	2018-09-17 15:32:20+00:00	CoinDesk	Cloudflare intends to announce a new cryptography-related product every day this week. The first: a gateway to access the InterPlanetary File System. https://t.co/eISL4sIYlU
+322	2018-09-17 14:03:41+00:00	CoinDesk	Research by the World Economic Forum and PwC has identified over 65 ways blockchain could address some of the most urgent environmental challenges. https://t.co/9TGJx9Dvr0
+323	2018-09-17 13:11:26+00:00	CoinDesk	"CoinDesk #crypto video sneak peak w/ @writenolan &amp; @MatthewRoszak #ConsensusSingapore 
+
+🌍 🚖 🚁 🌍 https://t.co/bYtF46WmFP"
+324	2018-09-17 13:05:35+00:00	CoinDesk	JUST IN: Caspian, a project aimed at giving crypto traders better tools, has attracted $16 million in funding from top industry investors. https://t.co/uMSPMR4Dtb
+325	2018-09-17 12:01:47+00:00	CoinDesk	The U.S. Department of Justice has won the right to confiscate money and items Alexandre Cazes enjoyed from his dark web e-commerce empire's riches. https://t.co/I8gSPNnIwV
+326	2018-09-17 11:10:46+00:00	CoinDesk	Bitcoin's corrective rally seems to have stalled around $6,550, making it a key level to beat for the bulls. https://t.co/aTAcJTWlYA
+327	2018-09-17 10:13:45+00:00	CoinDesk	The prospect of Tezos' official launch Monday has revved up investor interest in the project's XTZ token, pushing prices up 30% in a week. https://t.co/zQOMdOBeXT
+328	2018-09-17 09:05:05+00:00	CoinDesk	A South Korean telco owned by LG is to trial a blockchain-based mobile payment service aimed to let travelers save fees when shopping abroad. https://t.co/r8pLBerBu4
+329	2018-09-17 08:03:00+00:00	CoinDesk	A group of Mastercard patent applications outline how blockchain technology can be used to securely record transaction information. https://t.co/n64872B0VY
+330	2018-09-17 04:02:05+00:00	CoinDesk	OPINION by @mikejcasey : Can ether succeed as a store of value and a fuel for applications? That verdict might still be out: https://t.co/utOs6nwcOf
+331	2018-09-16 15:50:07+00:00	CoinDesk	FEATURE by @christine_dkim: Constantinople, ethereum's next system-wide upgrade, is coming soon to a node near you. https://t.co/UsubV8tyiv
+332	2018-09-16 12:45:11+00:00	CoinDesk	"FEATURE: ""When mining ether won't pay for power anymore, what will you do?"" https://t.co/E0yF3Ru0kB"
+333	2018-09-16 10:02:33+00:00	CoinDesk	Amid regulatory uncertainty, the ICO industry has all but cut off retail investors. But will a new model open it up again? Civil is testing it. https://t.co/jXaL50Voos
+334	2018-09-16 09:17:54+00:00	CoinDesk	The virtual machine that allows ethereum to compute everything in a decentralized way is getting a massive overhaul. https://t.co/F0OztpxwRO
+335	2018-09-16 08:50:06+00:00	CoinDesk	We're excited to announce our sponsor @LMAX will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/0ecnIPxJoT https://t.co/HNw9nkJvmM
+336	2018-09-15 21:55:07+00:00	CoinDesk	"FEATURE: Hank Paulson, former secretary of the U.S. Treasury, called it ""an economic 9/11."" https://t.co/UDICzkZ8jn"
+337	2018-09-15 19:00:56+00:00	CoinDesk	OPINION from @La__Cuen: One mobile app to rule them all. That's how Anthony Di Iorio sees the new Jaxx Liberty #crypto wallet. https://t.co/bQWuY6OBq3
+338	2018-09-15 16:05:17+00:00	CoinDesk	FEATURE: Things haven't been easy of late for #Bitmain. https://t.co/cgBupIfJe1
+339	2018-09-15 13:05:12+00:00	CoinDesk	OPINION: @mikejcasey asks, Can #bitcoin save Argentina? https://t.co/UDwms1LSRF
+340	2018-09-15 10:02:19+00:00	CoinDesk	Crypto industry unicorn Coinbase has aggressive growth plans for its newly opened New York office, which caters to institutional clients. https://t.co/EtTqKXMAlO
+341	2018-09-15 09:19:12+00:00	CoinDesk	Amid crypto's war on ASICs, the Grin community is taking a new approach – shut them out for a limited time with consistent hard forks. https://t.co/n0pURcj6cx
+342	2018-09-15 08:50:07+00:00	CoinDesk	We're excited to announce our sponsor @shiftmarkets will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/lYfrxrgpfC https://t.co/I3EWtXI4nb
+343	2018-09-15 04:15:08+00:00	CoinDesk	"Register for #TechXLR8 #ConsensusSingapore so that you can see the CEO
+@metadium, Justin Park: https://t.co/vaCypLUNfp https://t.co/13wOlDymQh"
+344	2018-09-15 03:30:10+00:00	CoinDesk	The city of Austin is going to develop a blockchain-powered ID system for homeless, via @govtechnews https://t.co/WwdGLcdNzd
+345	2018-09-15 01:30:13+00:00	CoinDesk	Oregon state economic development agency partnered with a bunch of enterprises  to create an incubator for blockchain startups in the state, story by @OregonBusiness https://t.co/w8rbgAgXKc
+346	2018-09-14 23:30:18+00:00	CoinDesk	.@mashable caught a hilarious (or ridiculous?) fight between @jimmysong and @rogerkver on board of a blockchain-themed sea cruise https://t.co/LxhKhW9RR4
+347	2018-09-14 21:30:20+00:00	CoinDesk	A short interview with the U.S. Commodity Futures Trading Commission Chairman J. Christopher Giancarlo by @CNBC https://t.co/XoGUKfTegc
+348	2018-09-14 21:22:52+00:00	CoinDesk	Digifinex, a top-20 crypto exchange, is replacing Tether ($USDT) with a rival stablecoin, TrueUSD. https://t.co/M7q5OIuGpK https://t.co/ZjNhJAQQuP
+349	2018-09-14 19:53:18+00:00	CoinDesk	Starting Monday, the beta phase for the Tezos blockchain will be over.  https://t.co/ac7N53jE8s
+350	2018-09-14 18:45:10+00:00	CoinDesk	One in four millennials are interested in investing in cryptocurrencies over the next year, new survey found https://t.co/hIUbIt2yKF
+351	2018-09-14 17:36:05+00:00	CoinDesk	Brave filed complaints with British and Irish regulators over the way Google distributes users' data https://t.co/d8IULgVVnV
+352	2018-09-14 16:28:31+00:00	CoinDesk	JUST IN: Ethereum's Constantinople Hard Fork to Activate on Testnet in October https://t.co/KrhJluK7Uf
+353	2018-09-14 15:18:27+00:00	CoinDesk	Ether's recovery from 13-month lows is being backed by daily trading volume not seen for a year. https://t.co/U4QwwtMJVp
+354	2018-09-14 14:17:21+00:00	CoinDesk	"The chief of the European Central Bank, Mario Draghi, said Friday that the institution has ""no plans"" to issue a digital currency, Reuters reports. https://t.co/mGwVbJJXv5"
+355	2018-09-14 13:10:22+00:00	CoinDesk	Do you want to listen to the latest in #blockchainnews? Subscribe to our #LateConfirmation #podcast now: https://t.co/51uq7ikZ9Y https://t.co/AXh0i02BKg
+356	2018-09-14 13:05:19+00:00	CoinDesk	JUST IN: Bitsy, a Medici Ventures-backed firm, wants to spur crypto adoption with the launch of an ultra-simple, beginner-friendly wallet. https://t.co/FwGh99pObg
+357	2018-09-14 12:01:51+00:00	CoinDesk	South Korea's Customs Service is looking to adopt Samsung's blockchain tech to launch a decentralized exports clearance system. https://t.co/mf3pcJANFY
+358	2018-09-14 11:16:01+00:00	CoinDesk	Despite a $200 pullback from eight-day highs today, bitcoin's recovery looks intact on technical charts. https://t.co/isNFFVMgNf
+359	2018-09-14 09:32:19+00:00	CoinDesk	IBM has partnered to launch a yellow-pages-like directory allowing interested firms to look up and contact different projects in the blockchain space. https://t.co/74QKYXIsgE
+360	2018-09-14 08:50:11+00:00	CoinDesk	We're excited to announce our sponsor @tokenyICO will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/lY50LpuP6J https://t.co/qzbr7oanxI
+361	2018-09-14 08:35:27+00:00	CoinDesk	R3's annual Corda event appeared to be in rude health this year, with packed presentations and some big news announcements. https://t.co/zaB9HOinAW
+362	2018-09-14 07:28:25+00:00	CoinDesk	Having revealed the plan in March, Japan's SBI Holdings says it will roll out a Ripple DLT-based payments app for iOS and Android this autumn. https://t.co/gMTY797jKd
+363	2018-09-14 04:10:05+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see @beenhero, Founder &amp; CEO of imToken: https://t.co/otAAQrN4uf https://t.co/iB1IepL1WO
+364	2018-09-14 04:03:41+00:00	CoinDesk	JUST IN: Ethereum researcher Vlad Zamfir has coded up the base architecture of upcoming scaling solution, sharding. https://t.co/0lP45HTNFg
+365	2018-09-13 23:30:16+00:00	CoinDesk	"Formal education is cashing in on the #crypto craze as well. @CNBCMakeIt reported that universities such as @Wharton have courses on #blockchain which are in high demand.
+https://t.co/z5PIQF68o9"
+366	2018-09-13 22:30:19+00:00	CoinDesk	".@HACERA_INC announced the release of Hacera Network Registry, a searchable database of all #blockchain projects, as reported by @TechCrunch 
+https://t.co/mFPNNxcRX4"
+367	2018-09-13 21:30:19+00:00	CoinDesk	"A report from @business stated that @MorganStanley plans to offer trading in complex derivatives tied to #bitcoin.
+https://t.co/jekjWtDHyr"
+368	2018-09-13 21:07:44+00:00	CoinDesk	Dublin, Ohio wants to develop a prototype blockchain platform that will serve as a decentralized voting and identity system. https://t.co/4cheS99PeD
+369	2018-09-13 19:16:42+00:00	CoinDesk	The Reserve Bank of India has argued at the Supreme Court that bitcoin cannot be recognized as either money or currency. https://t.co/7u4hnp63yJ
+370	2018-09-13 18:45:16+00:00	CoinDesk	Subscribe now to listen to the latest episode of our #LateConfirmation #podcast: https://t.co/vRV7fMl9AR https://t.co/yYaQr3lwZf
+371	2018-09-13 18:40:28+00:00	CoinDesk	The cryptocurrency markets are rallying today with ether leading the pack. But will it last? https://t.co/nLPLXD2os2
+372	2018-09-13 17:50:41+00:00	CoinDesk	BREAKING: The CEO of GAW Miners has been sentenced to 21 months in prison after pleading guilty to wire fraud. https://t.co/DWlqm4SgX1
+373	2018-09-13 17:01:01+00:00	CoinDesk	A project that aims to build a more resilient, reliable GPS using smart contracts is up and running on the ethereum blockchain. https://t.co/HkcE7J7kVh
+374	2018-09-13 16:06:44+00:00	CoinDesk	Chen Min, formerly Canaan's chief chip maker, is releasing a line of ethereum ASICs through her new venture, Linzhi. https://t.co/WFwnWc0bpF
+375	2018-09-13 16:06:31+00:00	CoinDesk	We're hiring a Software Engineer, Data Systems: https://t.co/vDs8WfVSae
+376	2018-09-13 16:06:31+00:00	CoinDesk	We're hiring a Software Engineer, Full Stack: https://t.co/WlIDVc8aEm
+377	2018-09-13 16:06:31+00:00	CoinDesk	We're hiring a Research Intern: https://t.co/WJGBHENZ9Q
+378	2018-09-13 16:06:30+00:00	CoinDesk	We're hiring a Senior Editor, Technology: https://t.co/ZvIQAWalaz
+379	2018-09-13 16:06:30+00:00	CoinDesk	We're hiring for Event Marketing &amp; Business Development: https://t.co/zNUWk7JVjM
+380	2018-09-13 16:05:22+00:00	CoinDesk	Check out our #career center for #jobs in the #blockchain industry: https://t.co/ZHSz80ycuP https://t.co/MijAHjcTXL
+381	2018-09-13 15:02:11+00:00	CoinDesk	JUST IN: Vault wants to boost crypto adoption with its new iOS wallet that stores non-fungible tokens and other crypto collectibles. https://t.co/xPR7bkXQne
+382	2018-09-13 13:15:38+00:00	CoinDesk	JUST IN: Crypto security startup BitGo has received approval in the U.S. to act as a qualified custodian for digital assets. https://t.co/1yXvgGbJ32
+383	2018-09-13 12:17:52+00:00	CoinDesk	"3/ The products will give investors ""synthetic exposure"" to bitcoin, according to a person ""familiar with the matter."""
+384	2018-09-13 12:17:03+00:00	CoinDesk	2/ While the bank is technologically ready to offer clients bitcoin futures products, it is still undergoing an internal review process.
+385	2018-09-13 12:16:45+00:00	CoinDesk	1/ Banking giant Morgan Stanley plans to offer bitcoin swap trading – report by @AlastairJMarsh  for Boomberg Crypto https://t.co/keqT7CP71y
+386	2018-09-13 12:04:47+00:00	CoinDesk	Constantinople, ethereum's next system-wide upgrade, is coming soon to a node near you. Here's what it means. https://t.co/kHbAnNgvds
+387	2018-09-13 11:09:30+00:00	CoinDesk	Having found acceptance above the key hurdle of $6,400, bitcoin's corrective rally looks to be gathering pace. https://t.co/HbT7wKxRRW
+388	2018-09-13 10:05:48+00:00	CoinDesk	Corporate creditors of the long-defunct bitcoin exchange Mt. Gox can now enter online claims for refunds of trapped bitcoin assets. https://t.co/l06IFGPpo2
+389	2018-09-13 09:01:12+00:00	CoinDesk	We're excited to announce our sponsor @TradeBlock will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/QoMMfWzqXn https://t.co/vpAPJ1aeCX
+390	2018-09-13 08:21:36+00:00	CoinDesk	Blockchain technology can help global businesses generate an extra $1 trillion in trade finance, according to World Economic Forum research. https://t.co/NSuPdd0bhb
+391	2018-09-13 07:10:07+00:00	CoinDesk	Japan's financial regulator is recruiting more people next year to handle the growing interest among Japanese companies in a crypto exchange license. https://t.co/gQWGjpANoW
+392	2018-09-13 04:14:44+00:00	CoinDesk	Bitcoin, born into the flames of the credit crisis, seemed like a rebellion against a broken financial system. Ten years later, is that still true? https://t.co/vbSCL4l8NY
+393	2018-09-13 04:00:32+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see Technology Reporter @pingroma from the South China Morning Post: https://t.co/PayIG3gqBa https://t.co/PInxuLpboT
+394	2018-09-13 02:34:46+00:00	CoinDesk	The Russian state-owned conglomerate will develop a blockchain to manage data on its vast holdings, which include car, helicopter and firearms makers. https://t.co/ru1hE16iW6
+395	2018-09-13 01:00:15+00:00	CoinDesk	Subscribe to our #LateConfirmation #podcast for the latest in #blockchain news. https://t.co/5fCC1qy49N https://t.co/1QQlXudY22
+396	2018-09-12 23:30:18+00:00	CoinDesk	"Local representatives of Illinois and Arizona requested the CID of Gujarat to hold the assets of the accused in connection to @bitconnect scam. 
+https://t.co/Hmo0R1Qoy6"
+397	2018-09-12 22:30:19+00:00	CoinDesk	".@business's report reveals that the #cryptocrash has reached ironically new heights by surpassing the dot-com crash of 2000
+https://t.co/q7febRxuPz"
+398	2018-09-12 21:50:09+00:00	CoinDesk	Check out our #career center, because @OpenGarden is hiring! https://t.co/hSXUV75VgK https://t.co/R61WCTgBGg
+399	2018-09-12 21:30:23+00:00	CoinDesk	The @WSJ profile of @polychaincap's #OlafCarlsonWee by @realrobcopeland delves into the 29-year-old's beginnings in #crypto investments and his plans to weather the current market. https://t.co/yB2jMKMc7y
+400	2018-09-12 21:01:03+00:00	CoinDesk	The Avaí Futebol Clube is hoping to raise $20 million in the coming months with an initial coin offering. https://t.co/0HrJ8uvntN
+401	2018-09-12 19:33:35+00:00	CoinDesk	Crypto exchange Binance is working with the Malta Stock Exchange to develop and launch a security token trading platform. https://t.co/aHsjS14pFi
+402	2018-09-12 18:06:30+00:00	CoinDesk	India's top executive body has granted approval for the Exim Bank to conduct research into how blockchain technology may benefit the financial sector. https://t.co/ogNp6xKNQb
+403	2018-09-12 16:20:59+00:00	CoinDesk	The number of ether price shorts has hit a new all-time high, with bearish bets rising by more than 200 percent in the past four weeks. https://t.co/4p5jSmdeoi
+404	2018-09-12 16:10:20+00:00	CoinDesk	Do you want our latest #blockchain news and analysis delivered to you via #telegram? Subscribe to our channel now: https://t.co/ynlgMA44fX https://t.co/jL6NitWP4z
+405	2018-09-12 16:05:18+00:00	CoinDesk	$15 MILLION: Seed CX raised $15 million in a Series B round led by Bain Capital. The exchange plans to expand its spot market and derivatives trading services. https://t.co/GMWAUSCw2Z
+406	2018-09-12 14:43:25+00:00	CoinDesk	The price of litecoin has nosedived to 12-month lows amid broad risk aversion in the crypto markets. https://t.co/Yq1pbfqizc
+407	2018-09-12 14:02:53+00:00	CoinDesk	South Korean regulators are contacting local blockchain startups as part of an investigation into initial coin offerings, according to CoinDesk Korea. https://t.co/JbZBXOB6Au
+408	2018-09-12 13:02:16+00:00	CoinDesk	JUST IN: Crypto project Carbon has launched its own ethereum-based, dollar-pegged stablecoin dubbed CarbonUSD. https://t.co/iNTw8jBz9Q
+409	2018-09-12 12:31:53+00:00	CoinDesk	JUST IN: Despite some concerns about security, the new Jaxx Liberty mobile wallet could become an all-purpose crypto app. https://t.co/Rv11OR4eZ6
+410	2018-09-12 12:02:00+00:00	CoinDesk	Huobi Group is about to expand its trading services to Japan via a deal to purchase local cryptocurrency exchange BitTrade. https://t.co/0Xgi8eYwOB
+411	2018-09-12 11:12:53+00:00	CoinDesk	Bitcoin could be in for a decent corrective rally if prices find acceptance above the key resistance of $6,400. https://t.co/4CoUBCebZR
+412	2018-09-12 09:32:10+00:00	CoinDesk	Japanese telecoms giant Softbank Corp. has completed a blockchain proof-of-concept that allows P2P mobile payments across different carriers. https://t.co/gNMzYQ7WNm
+413	2018-09-12 08:55:06+00:00	CoinDesk	We're excited to announce our sponsor @UTRUST will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/ng3869nZSS https://t.co/Iimro3Bqpe
+414	2018-09-12 08:11:14+00:00	CoinDesk	Bitcoin's price decline this year looks eerily similar to a long-term bottom seen in 2015, chart analysis reveals. https://t.co/PxelEsbwWc
+415	2018-09-12 07:33:56+00:00	CoinDesk	OKCoin's founder Star Xu wasn't arrested, but was assisting police in Shanghai over a bitcoin futures dispute, reports clarify. https://t.co/QkPZAQb9tt
+416	2018-09-12 04:10:05+00:00	CoinDesk	"Register for #TechXLR8 #ConsensusSingapore so that you can see Founder of
+KryptoSeoul, @ekang426: https://t.co/Ds3CJKUaCx https://t.co/5rcrZsg4Ii"
+417	2018-09-12 04:00:00+00:00	CoinDesk	#TechXLR8 Asia in #Singapore is next week! Attend FOR FREE to meet 150+ exhibiting companies brought to you under the @TechXLR8  banner. Get your Free Visitor Pass for the event → https://t.co/FnrqOEjMX4 https://t.co/eEuvCoewnG
+418	2018-09-12 03:41:34+00:00	CoinDesk	STRONG TEAM, SERIOUS BACKERS: A startup seeking to rival mining giant Bitmain has raised $20 million to build the world's best mining chip: https://t.co/KaC4cC2YQe
+419	2018-09-11 23:30:17+00:00	CoinDesk	In a @guardian op-ed, economica prof Barry Eichengreen weighs in on stablecoins, concluding that they don’t solve crypto’s volatility. https://t.co/oEuyvJVmTl
+420	2018-09-11 22:30:21+00:00	CoinDesk	India’s Supreme Court is set to decide soon on the fate of the country’s cryptocurrency exchanges, with final hearings on the case set to begin Tuesday, via @qz https://t.co/pChT2gKnbD
+421	2018-09-11 21:30:20+00:00	CoinDesk	Not only is this a bear market for cryptocurrencies, it’s gone to the dogs, with dogecoin the sole gainer in the last 30 days, notes @TheStalwart in @business https://t.co/hvw7DFkL5Y https://t.co/7pXa62op87
+422	2018-09-11 21:07:48+00:00	CoinDesk	DC LOBBYING: A number of major cryptocurrency firms are forming the Blockchain Association to lobby Washington, D.C. lawmakers on regulations in the space. https://t.co/E5x8CVTap7
+423	2018-09-11 19:01:59+00:00	CoinDesk	TESTING ICOS: The Bank of Russia has successfully concluded an experiment in conducting ICOs, though questions remain as to their legality in the nation. https://t.co/jtUdybzu7O
+424	2018-09-11 16:59:40+00:00	CoinDesk	SEC ACTIONS: The SEC announced twin agreements with two different cryptocurrency-related companies https://t.co/LAhffSfYkT
+425	2018-09-11 16:42:08+00:00	CoinDesk	ARE ICOs SECURITIES? A federal judge has ruled that a criminal case against an alleged ICO fraudster will proceed to trial, saying existing securities laws apply. https://t.co/fsuhBFpfjO
+426	2018-09-11 16:30:59+00:00	CoinDesk	"2/ TokenLot, Kugel and Lewitt ""agreed to pay $471,000 in disgorgement plus $7,929 in interest, and they will retain an independent third party to destroy TokenLot’s remaining inventory of digital assets,"" per SEC statement. Story TK."
+427	2018-09-11 16:27:28+00:00	CoinDesk	"ALSO BREAKING: The SEC announces that TokenLot LLC and owners Lenny Kugel and Eli Lewitt ""will settle charges that they acted as unregistered broker-dealers"" for digital tokens. Link: https://t.co/IdIh95tSZQ"
+428	2018-09-11 16:24:45+00:00	CoinDesk	"2/ Per SEC: ""CAM and [principal Timothy] Enneking agreed to the SEC’s cease-and-desist order and censure without admitting or denying the findings against them, and agreed to pay a penalty of $200,000."" Story TK."
+429	2018-09-11 16:23:52+00:00	CoinDesk	"BREAKING: SEC announces enforcement action stating that ""Crypto Asset Management LP (CAM) offered a fund that operated as an unregistered investment company while falsely marketing it as the 'first regulated crypto asset fund in the United States.'"" https://t.co/1Br8vofnZd"
+430	2018-09-11 16:05:17+00:00	CoinDesk	Subscribe to our new #newsletter: Institutional #Crypto. It's a weekly digest of the most important #news and analysis specifically for institutional investors. https://t.co/80yCBNEvCh https://t.co/iuc7nZH3T8
+431	2018-09-11 15:00:38+00:00	CoinDesk	EXCLUSIVE: In the latest good news for the crypto project, TokenSoft says it is launching support for token sales built on the Stellar network. https://t.co/ORR2mSQM82
+432	2018-09-11 14:46:05+00:00	CoinDesk	FINRA FIRST: The Financial Industry Regulatory Authority has filed a securities fraud complaint against a cryptocurrency broker. https://t.co/DX8tr3aTgr
+433	2018-09-11 14:03:50+00:00	CoinDesk	Blockchain startups Ripple and R3 have resolved a legal battle that saw both firms filing suits in the U.S. over a contract dispute. https://t.co/Ty2I3w3WRK
+434	2018-09-11 12:33:03+00:00	CoinDesk	French soccer club Paris Saint-Germain is planning to issue its own cryptocurrency as a way to incentivize participation from its international fans. https://t.co/meUqZJMJXE
+435	2018-09-11 11:30:04+00:00	CoinDesk	Bitcoin (BTC) is being squeezed into a tight trading range with neither bulls nor bears currently having the upper hand. https://t.co/kYPWuFNqki
+436	2018-09-11 09:34:22+00:00	CoinDesk	The IMF says the Republic of the Marshall Islands should reconsider introducing a cryptocurrency as a second legal tender over perceived risks. https://t.co/s0SdO71DAX
+437	2018-09-11 08:55:07+00:00	CoinDesk	We're excited to announce our sponsor @ttceco will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/zSYz9yxsX1 https://t.co/QHtI434fcm
+438	2018-09-11 08:04:26+00:00	CoinDesk	Miners are discussing whether they can get a hardware change added to remove ASICs from an upcoming ethereum software update.  https://t.co/vhhpjPmTfO
+439	2018-09-11 07:31:06+00:00	CoinDesk	China's Ministry of Civil Affairs is planning a blockchain upgrade of the country's charity tracking system to bring more transparency to donations. https://t.co/ieS4xqqlFA
+440	2018-09-11 04:15:07+00:00	CoinDesk	"Register for #TechXLR8 #ConsensusSingapore so that you can see the CEO of
+LightningASIC, Jack Liao: https://t.co/zlzGrP0igV https://t.co/DV5JUcov1l"
+441	2018-09-11 04:02:13+00:00	CoinDesk	JUST IN: Nasdaq is said to be beta testing new cryptocurrency analysis tools geared toward institutional investors. https://t.co/jQqLUXPnHR
+442	2018-09-11 03:55:04+00:00	CoinDesk	Subscribe to our #LateConfirmation #podcast now to get the latest in #blockchainnews: https://t.co/GKQL88OMrd https://t.co/G4jlmxnk72
+443	2018-09-11 01:30:14+00:00	CoinDesk	Cryptic Labs has just added two Nobel laureates in economics — Eric Maskin and Christopher Pissarides — to its economic advisory board, story by @VentureBeat https://t.co/sH1K4o4AWh
+444	2018-09-10 23:30:18+00:00	CoinDesk	Lou Kerner, partner of https://t.co/IKwb0jQp6r, argues that crypto-related industry is going to outperform the so called FAMGA (Facebook, Apple, Microsoft, Google and Amazon) as the leading source of wealth creation in the near future, via @Medium https://t.co/YtIBGRTfMm
+445	2018-09-10 21:30:21+00:00	CoinDesk	In a new interview, ethereum creator Vitalik Buterin says that a crypto market slowdown is inevitable, via @crypto https://t.co/vIzxEYXLHN
+446	2018-09-10 21:05:01+00:00	CoinDesk	FUNDRAISING? Cryptocurrencies are ill-suited for terrorist financing, a member of a think tank told the U.S. House of Representatives last week. https://t.co/r0vVxrUZ7V
+447	2018-09-10 20:31:50+00:00	CoinDesk	OPINION by @mikejcasey: A proposal to place a sliver of Argentina's central bank reserves in bitcoin just might be worth taking seriously: https://t.co/Cnu3OKFwbN
+448	2018-09-10 19:09:22+00:00	CoinDesk	TOKEN SLUMP? Nearly half of all initial coin offerings (ICOs) in 2017 and 2018 failed to raise any funds, according to a new report. https://t.co/bXwDteCPTM
+449	2018-09-10 17:17:37+00:00	CoinDesk	NEW GIG: Ripple's former general counsel Brynly Llyr is taking on the same role for crypto payments startup Celo. https://t.co/G9kAt38EBp
+450	2018-09-10 16:00:59+00:00	CoinDesk	NOBEL ADDITIONS: Blockchain research firm and accelerator Cryptic Labs has just taken on two Nobel-winning economists as advisers. https://t.co/ptP8mKhquY
+451	2018-09-10 14:47:53+00:00	CoinDesk	DOWN AGAIN: The total market capitalization for all cryptocurrencies fell to its lowest point in over 10 months on Saturday. https://t.co/3MNnyuow3n
+452	2018-09-10 13:34:17+00:00	CoinDesk	Gemini is set to issue a dollar-backed, NYDFS-approved stablecoin – the second to launch in New York today. https://t.co/IVXpujiFLO
+453	2018-09-10 13:01:29+00:00	CoinDesk	JUST IN: Blockchain startup Paxos is launching a regulated, dollar-backed stablecoin to facilitate instant transaction settlements for crypto investors. https://t.co/Fc6jJN7fMG
+454	2018-09-10 12:01:59+00:00	CoinDesk	"The European Commission will conclude a regulatory assessment of crypto assets this year, because ""they are here to stay,"" says an official. https://t.co/h4AL8ZI0WP"
+455	2018-09-10 11:17:46+00:00	CoinDesk	An acquisition that finds two of crypto's leading entrepreneurs teaming to back the world's sixth-largest blockchain has been confirmed. https://t.co/QyBQYgzs8C https://t.co/TX9zj1Zwij
+456	2018-09-10 11:08:41+00:00	CoinDesk	"Bitcoin's recovery from 25-day lows near $6,100 is likely a ""dead cat bounce"" rather than a bullish reversal, charts suggest. https://t.co/M1xIbpBcRb"
+457	2018-09-10 09:32:31+00:00	CoinDesk	WeChat has just blocked an official sales channel for Bitmain miners, along with several accounts that analyse the crypto markets. https://t.co/n57c7FosOH
+458	2018-09-10 09:31:49+00:00	CoinDesk	A proposal to place a sliver of Argentina's central bank reserves in bitcoin is worth taking seriously, given the country's current dire straits. https://t.co/APiq9FHeOu
+459	2018-09-10 07:21:55+00:00	CoinDesk	Australia's New South Wales government is turning to blockchain for a state-wide test of a driver license digitization program slated for November. https://t.co/t7U3nMHYLq
+460	2018-09-10 06:30:23+00:00	CoinDesk	We're excited to announce our sponsor @wanchain_org will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/Oh5r0OTWoK https://t.co/FBYtd0XP5R
+461	2018-09-10 04:04:15+00:00	CoinDesk	Tron and Neo weren't the only crypto projects interested in acquiring BitTorrent; in fact, CoinDesk has learned, five others were tempted to buy too.  https://t.co/XrpidMoxgF
+462	2018-09-10 04:00:30+00:00	CoinDesk	"Register for #TechXLR8 #ConsensusSingapore so that you can see Stan Miroshnik,
+Element Group CEO and Founder: https://t.co/7l0ZSPqGVD https://t.co/USPZSna9cr"
+463	2018-09-09 22:33:28+00:00	CoinDesk	PUBLIC INTEREST? U.S. securities regulators are temporarily halting the trading of two popular exchange-traded crypto products. FULL STORY: https://t.co/jkjoVmiO9L
+464	2018-09-09 22:06:51+00:00	CoinDesk	BREAKING: An exchange-traded note that recently made headlines has been ordered suspended: https://t.co/r4S84oWOXX STORY TO COME https://t.co/ZoBDzjAjtA
+465	2018-09-09 22:00:37+00:00	CoinDesk	FEATURE by @_lunar_mining: Known for creating the first proof-of-stake-based #cryptocurrency, pseudonymous developer Sunny King is back with an idea that's sure to surprise – adding hardware. https://t.co/8U98Qxt1vZ
+466	2018-09-09 18:50:07+00:00	CoinDesk	"FEATURE by @IanAllison123: #IBM's #blockchain division is widening its work in the nascent field of ""self-sovereign identity"" – technology designed to give individuals greater control over their personal data. https://t.co/BzgaKEprWZ"
+467	2018-09-09 17:40:08+00:00	CoinDesk	Head over to our #career center for a #job in the #blockchain industry: https://t.co/szdPBskkGG https://t.co/Sxa1esrFT4
+468	2018-09-09 16:01:13+00:00	CoinDesk	"FEATURE by @BradyDale:  ""Paypal got it right with the whole $10 free if you invite a friend and it nearly bankrupted the company. They managed to crack the chicken and egg problem doing it that way,"" @VinnyLingham said. https://t.co/Xiz9170weF"
+469	2018-09-09 14:40:09+00:00	CoinDesk	"FEATURE from @BradyDale: ""Some of the earliest investments [in the #crypto space] we made, ICOs weren't even a thing ... We just see this as a continuous evolution,"" @ryanalfred said."
+470	2018-09-09 12:50:12+00:00	CoinDesk	FEATURE by @IanAllison123: Enterprise #blockchain is a tough old game. https://t.co/pLxvzCpjzi
+471	2018-09-09 11:33:39+00:00	CoinDesk	Moving average crossovers, one of the simplest traders' tools, are best suited to trend following and momentum trading. https://t.co/UmS2vCdcMx
+472	2018-09-09 10:04:16+00:00	CoinDesk	One European lawmaker wants to standardize ICO regulations, thereby making it easier for projects to raise funding across the EU. https://t.co/UDTDsMBRrD
+473	2018-09-09 08:55:05+00:00	CoinDesk	We're excited to announce our sponsor @wegogotravel will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/5w045ZYCDr https://t.co/NU9dwZRQVi
+474	2018-09-09 06:35:03+00:00	CoinDesk	REGISTER NOW: Use code CONSENSUS40 for 40% off #TechXLR8 #ConsensusSingapore https://t.co/iQC53tjcnb https://t.co/kN8Kk8QeGa
+475	2018-09-09 04:00:24+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see @hmonzon1, Chief Revenue Officer at Bitfury Group: https://t.co/LmvsT01pWM https://t.co/CfpFbKtQie
+476	2018-09-08 21:50:07+00:00	CoinDesk	FEATURE by @La__Cuen: Here's something you don't see every day: an ICO that has actually led to a shipped, working financial product. https://t.co/5TyRdVgCIG
+477	2018-09-08 18:50:11+00:00	CoinDesk	"""I'm having conversations with at least one group a week about, 'These are the challenges we're having on so-and-so platform, we want to come onto EOS.'"" https://t.co/CkysXNn32s"
+478	2018-09-08 17:20:14+00:00	CoinDesk	Apply for a #job in the #blockchain industry now:  https://t.co/WQ6qgs9PAA https://t.co/TtEBkskooN
+479	2018-09-08 16:15:15+00:00	CoinDesk	FEATURE by Annaliese Milano and @BradyDale: When #Tron founder @justinsuntron bought #BitTorrent, it turns out he wasn't even the highest bidder. https://t.co/dOjMMTRBQU
+480	2018-09-08 14:40:13+00:00	CoinDesk	OPINION: Paul Brody asks, how will companies do business with each other on public #blockchain networks? https://t.co/47fRSoiBUG
+481	2018-09-08 13:00:59+00:00	CoinDesk	FEATURE by @_lunar_mining: There are free-riders in the cryptocurrency ecosystem. And free-riders pose a problem. https://t.co/eg7luKgM10
+482	2018-09-08 10:41:28+00:00	CoinDesk	If blockchain projects seek adoption by enterprises, their open-source license will have a material impact on the rate of adoption, say legal experts. https://t.co/sBDFgoK4hD
+483	2018-09-08 09:33:40+00:00	CoinDesk	A new type of lightning tech for swapping different types of transactions is seeing new tests with real money on the line. https://t.co/WJ6dM4YbN0
+484	2018-09-08 08:55:06+00:00	CoinDesk	We're excited to announce our sponsor @zcoinofficial will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/TZzwiuim9e https://t.co/IwYVNdqSru
+485	2018-09-08 06:30:00+00:00	CoinDesk	What are you waiting for? Register now for #TechXLR8 #ConsensusSingapore and use code CONSENSUS40 for 40% off: https://t.co/PnIjJqKeQv https://t.co/9YIGraEVy5
+486	2018-09-08 04:00:29+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see @DominikWeil, co-founder of @Bitcoin_Vietnam: https://t.co/77M2kvcMz1 https://t.co/wZ7RdBw59w
+487	2018-09-08 03:30:12+00:00	CoinDesk	"Facebook is looking for a ""head of business development &amp; partnerships"" for blockchain at its Silicon Valley headquarters, @CNBC learned https://t.co/v795CBe14L"
+488	2018-09-08 01:30:20+00:00	CoinDesk	0x announced an alliance with Harbor, a compliance service for tokens, to create a standard for security tokens, story by @FortuneMagazine https://t.co/H2x0qXaR1o
+489	2018-09-07 23:30:15+00:00	CoinDesk	Cryptocurrencies remain uncorrelated to other major assets, but correlation between bitcoin and the major altcoins has grown to 0.7, via @crypto https://t.co/qMxqYZurxF
+490	2018-09-07 22:10:09+00:00	CoinDesk	Subscribe to our #LateConfirmation #podcast now and listen to  top stories in the #blockchain world: https://t.co/gr2acDguWU https://t.co/T2U3ou7SvV
+491	2018-09-07 21:30:22+00:00	CoinDesk	Primalbase raised $7.5 million in an ICO last June to create a blockchain-powered workspace, which... looks not so blockchain-powered so far, via @FT https://t.co/Azokf3fMI3
+492	2018-09-07 20:00:16+00:00	CoinDesk	Apply for a #job in our #career center, because @IBM is #hiring! https://t.co/ktJbFaY9hG https://t.co/5v3xjeF6jt
+493	2018-09-07 19:00:22+00:00	CoinDesk	Subscribe to our newsletters to catch up on the latest in the #blockchain industry over the weekend. #FridayFeeling https://t.co/MDh8r8dpX5 https://t.co/mIeHhRtc9n
+494	2018-09-07 18:36:57+00:00	CoinDesk	"French energy firm Engie announced Friday that it will help commercial customers build blockchain platforms with its new ""Blockchain Studio"" spinoff. https://t.co/Ec6JXWvxXg"
+495	2018-09-07 16:52:42+00:00	CoinDesk	The number of short orders placed on ETH hit a new all-time high during Friday's trading session. https://t.co/FKBwVa5vWn
+496	2018-09-07 16:32:56+00:00	CoinDesk	Ripple general counsel Brynly Llyr, who joined the firm in 2016 as its top legal officer, has left the firm, a spokesperson told CoinDesk. https://t.co/UnIjR0kfWn
+497	2018-09-07 16:02:12+00:00	CoinDesk	Crypto exchange startup Quione has launched a trading platform called Liquid that it says will bring much needed liquidity to the crypto markets. https://t.co/4Q88SkLP65
+498	2018-09-07 16:00:33+00:00	CoinDesk	Listen to the latest episode of our #podcast, #LateConfirmation: Blood in the Water. https://t.co/2Q09UDTk1B https://t.co/Hya4hqemTt
+499	2018-09-07 14:44:01+00:00	CoinDesk	Creating a new account on EOS is now easier after 15 block producers approved a protocol change making it cheaper and providing free RAM. https://t.co/hd9rqJGEbi
+500	2018-09-07 13:02:32+00:00	CoinDesk	Opera now allows users to send crypto collectibles, such as CryptoKitties, directly from its beta-stage in-browser crypto wallet. https://t.co/uw9eQUR6yy
+501	2018-09-07 12:02:04+00:00	CoinDesk	FEATURE: At an event in New York on Thursday, crypto enthusiasts broadly agreed that the ICO, as it was during the hype cycle of 2017, is no more. https://t.co/C6UXtXSMpe
+502	2018-09-07 11:33:07+00:00	CoinDesk	Bitcoin's short-lived corrective rally reinforces the bearish outlook put forward by the technical charts and indicates scope for a drop to $6,000. https://t.co/Pnr6vfa77C
+503	2018-09-07 10:01:40+00:00	CoinDesk	JUST IN: E-payment startup Wyre has acquired bitcoin smart contract developer Hedgy to broaden the scope of its offerings. https://t.co/MB8Srmhe77
+504	2018-09-07 09:04:01+00:00	CoinDesk	Australia's securities regulator has released a plan indicating it will apply financial market rules to crypto exchanges and closely scrutinize ICOs. https://t.co/pxVm8WkF8a
+505	2018-09-07 09:00:22+00:00	CoinDesk	We're excited to announce our sponsor  @zen_protocol will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/Rp9nIgTiCu https://t.co/SWZfAqKB9L
+506	2018-09-07 08:00:53+00:00	CoinDesk	Blockchain can now be legally used to authenticate evidence in legal disputes in China, according to a ruling from the country's Supreme Court. https://t.co/F57shQ1rBJ
+507	2018-09-07 07:19:57+00:00	CoinDesk	Mobile app Robinhood, which launched a zero-fee crypto trading service this year, is now searching for a CFO as it prepares for an eventual IPO. https://t.co/ghNIx61ePY
+508	2018-09-07 04:10:09+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see @justinpobrien, Product Manager @CommerceCB: https://t.co/bGpmVQ2YQW https://t.co/mrMEzguaQY
+509	2018-09-07 04:04:42+00:00	CoinDesk	Pseudonymous developer Sunny King, the creator of proof-of-stake, has a new approach for the consensus mechanism – and it revolves around hardware.  https://t.co/f4k6q64BLs
+510	2018-09-07 01:30:14+00:00	CoinDesk	"""Is it worth the risk?"" @CNN asks of IBM's big bet on blockchain, with 1,500 employees working on more than 500 projects in shipping, banking, healthcare and food safety https://t.co/O775v891jL"
+511	2018-09-06 23:30:19+00:00	CoinDesk	Coinbase is thinking about jumping on the crypto ETF train, story by @businessinsider https://t.co/v3o4Ajzz6k
+512	2018-09-06 22:05:11+00:00	CoinDesk	Subscribe to our #podcast #LateConfirmation now and hear our own @mpmcsweeney and @_PeterRyan. https://t.co/CVEu9VcMcZ https://t.co/IdAqmHHMdS
+513	2018-09-06 21:36:12+00:00	CoinDesk	Winklevoss IP, LLC has won a patent outlining how it may use air-gapped computers to protect cryptocurrency keys from theft. https://t.co/uUwicF32NZ
+514	2018-09-06 21:30:22+00:00	CoinDesk	The story of Ripple's chief technology officer, David Schwartz, from childhood tinkering with calculators to co-creating XRP, via @Forbes https://t.co/prra6JLAQN
+515	2018-09-06 18:50:13+00:00	CoinDesk	Listen to the latest episode of our #podcast, #LateConfirmation: R3jected.  https://t.co/WDd8VS5Eyg https://t.co/pb7JkKq3gT
+516	2018-09-06 17:36:42+00:00	CoinDesk	Uzbekistan's government is looking to attract crypto exchanges with a number of tax and regulatory benefits, according to a presidential order. https://t.co/6YclMLFj5p
+517	2018-09-06 17:10:09+00:00	CoinDesk	"5/Read the full @hyperledger announcement here: https://t.co/mlNy8Su2OP 
+
+h/t @ianallison123 
+
+/fin"
+518	2018-09-06 17:08:51+00:00	CoinDesk	4/ So how will this evolve? Will we see SETH blend into other areas of Hyperledger – and will it mean more interplay with @EntEthAlliance?
+519	2018-09-06 17:07:44+00:00	CoinDesk	3/ OTOH, Silas Davis of @monaxHQ has also been elected to the TSC. Monax brought the ethereum virtual machine (EVM) to Hyperledger, where IBM and Fabric have been working on that private version of ethereum. But Monax also worked with Intel on Sawtooth Ethereum (SETH)
+520	2018-09-06 17:06:28+00:00	CoinDesk	2/ Notably, this means the helm of the committee has passed from one Hyperledger implementation designer to another: IBM contributed Fabric, whereas Intel fashioned Sawtooth
+521	2018-09-06 17:05:54+00:00	CoinDesk	1/ Dan Middleton of Intel has been elected chairman of the @Hyperledger technical steering committee (TSC), succeeding IBM’s @christo4ferris, who has had the role since the blockchain consortium’s start in 2015
+522	2018-09-06 16:33:57+00:00	CoinDesk	A YouGov survey of roughly 1,200 Americans found that 48 percent of millennials are interested in using cryptocurrencies as a primary form of payment. https://t.co/df63I6dTra
+523	2018-09-06 16:11:58+00:00	CoinDesk	Apply for our Software Engineer, Data Systems position: https://t.co/Y6We2em911
+524	2018-09-06 16:11:54+00:00	CoinDesk	Apply for our Software Engineer, Full Stack position: https://t.co/hYZ4N9PjTi
+525	2018-09-06 16:11:54+00:00	CoinDesk	Apply for our Event Marketing &amp; Business Development position: https://t.co/ksVKQs9sDF
+526	2018-09-06 16:11:53+00:00	CoinDesk	Apply for our Research Intern position: https://t.co/JFs5vUkWTF
+527	2018-09-06 16:11:53+00:00	CoinDesk	Apply for our Senior Editor, Technology  position: https://t.co/WOITrVo9Ww
+528	2018-09-06 16:05:23+00:00	CoinDesk	Do you want to jump into the #blockchain industry? Apply for a #job in our #career center, because we're hiring! https://t.co/RAcnWIUaak https://t.co/2tVKvKnCMH
+529	2018-09-06 15:33:09+00:00	CoinDesk	"Stock brokerage EF Hutton is launching subscription-based cryptocurrency research reports aimed to educate ""confused"" investors. https://t.co/lYZ33lGPgR"
+530	2018-09-06 14:36:37+00:00	CoinDesk	Crypto startup Circle has hired a former Department of Homeland Security general counsel as its new chief legal officer. https://t.co/MU3q8hg75p
+531	2018-09-06 13:38:08+00:00	CoinDesk	Grayscale Investments announced Thursday morning that the new Zen Investment Trust is now open to accredited or institutional investors.  https://t.co/YIDEdSuyOS
+532	2018-09-06 12:37:25+00:00	CoinDesk	@TheChinaCoin @CryptoShark We have a number of articles on VeChain. The project just didn't happen to be involved in this breaking news story https://t.co/7FQo7a44PA
+533	2018-09-06 12:30:55+00:00	CoinDesk	The Iranian government has recognized bitcoin mining as a lawful activity, briefly sending bitcoin prices to record levels at the country's exchanges. https://t.co/qFYRUGRnnw
+534	2018-09-06 11:27:54+00:00	CoinDesk	Bitcoin's 13 percent slide in the last 24 hours has neutralized the long-term bullish reversal suggested on the technical charts earlier this week. https://t.co/Znw7gZlpZG
+535	2018-09-06 11:00:19+00:00	CoinDesk	JUST IN: IBM is working with https://t.co/i44KF25nMC, whose Android and IOS mobile app gives users a title of ownership, akin to a property deed, for their personal data. https://t.co/NweFdY4G9E
+536	2018-09-06 10:32:03+00:00	CoinDesk	Crypto exchange Kraken has denied a rumor that it is shutting down operations in a Canadian office, but did not comment on alleged staff layoffs. https://t.co/qmZeHO8ujW
+537	2018-09-06 09:31:52+00:00	CoinDesk	Convicts on parole in the southern Chinese city of Zhongshan can now find themselves being tracked over a blockchain network. https://t.co/4Q9XpWzwPo
+538	2018-09-06 08:45:09+00:00	CoinDesk	We're excited to announce our sponsor @btccom_official will be at #TechXLR8 #ConsensusSingapore. Register now: https://t.co/6X74pOXgpx https://t.co/YaLw2eNHRV
+539	2018-09-06 08:01:24+00:00	CoinDesk	OPINION: In order to make public networks secure enough for enterprise use, two key things must happen, says EY's Paul Brody. https://t.co/cjp1m4iBvW
+540	2018-09-06 07:43:42+00:00	CoinDesk	Cryptocurrency exchange Coinbase has announced it will begin rolling out new order book trading pairs for British pounds tomorrow. https://t.co/gR9qYESECM
+541	2018-09-06 04:15:06+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see Raymond Chan from @alphaslot: https://t.co/21N2P7XKCV https://t.co/qyJwpipxN1
+542	2018-09-06 04:15:00+00:00	CoinDesk	Have you registered for #TechXLR8 #ConsensusSingapore yet? Use the code CONSENSUS40 to save 40% now: https://t.co/i9Sse6aE9K https://t.co/U3jhkFGowC
+543	2018-09-06 04:14:59+00:00	CoinDesk	Belgian Government Issues Cryptocurrency Fraud Warning https://t.co/4rkXD8Lm2u
+544	2018-09-06 03:30:13+00:00	CoinDesk	Blockchain-for-beginners course for $99? Coursera and Consensys are on it, via @FortuneMagazine https://t.co/LalyDdZqyz
+545	2018-09-06 01:30:15+00:00	CoinDesk	https://t.co/ucFPrA84Wa is launching Asia’s first cryptocurrency Visa debit card, story by @SCMPNews https://t.co/Bq4g7XMwvG
+546	2018-09-06 01:28:31+00:00	CoinDesk	Ethereum, the world's second-largest cryptocurrency by market capitalization, fell to its lowest price since 2017 on Wednesday. https://t.co/uox4c4KUBU
+547	2018-09-06 00:00:11+00:00	CoinDesk	Subscribe to our #podcast #Lateconfirmation now for the latest in #BlockchainNews: https://t.co/mzBCA20Z8y https://t.co/2fbCfKGI55
+548	2018-09-05 23:30:17+00:00	CoinDesk	The Centers for Disease Control (CDC) and IBM are creating a blockchain system to track public health problems like the ongoing opioid crisis, via @FastCompany https://t.co/ewnoLGRyE2
+549	2018-09-05 22:00:14+00:00	CoinDesk	Apply for a #job in our #career center, because @BitGo  is hiring! https://t.co/IIluts7A6j https://t.co/k5OPKKaCVD
+550	2018-09-05 21:30:21+00:00	CoinDesk	The alleged head of now-defunct crypto exchange BTC-e, Russian national Alexander Vinnik, might help with tracking the bitcoin that Russian military intelligence (GRU) used to fund its interference in U.S. 2016 election, via @crypto https://t.co/VUMGj8wIAC
+551	2018-09-05 21:05:12+00:00	CoinDesk	Despite previously telling the SEC it would not accept cryptocurrencies, High Times is accepting both bitcoin and ethereum for its IPO. https://t.co/Wwa5Cn3I7p
+552	2018-09-05 19:27:57+00:00	CoinDesk	"DORSEY ON BLOCKCHAIN: Twitter CEO tells House committee that social media giant has ""people thinking about"" blockchain solutions for fighting social media scammers. https://t.co/Durr7k3Yfd"
+553	2018-09-05 17:05:13+00:00	CoinDesk	A Brussels-based think tank believes the EU should enforce standardized regulations on cryptocurrencies for each member nation. https://t.co/6qKseXND84
+554	2018-09-05 16:05:19+00:00	CoinDesk	Listen to the latest episode of our #podcast, #LateConfirmation: NEO Wanted BitTorrent. https://t.co/W6eYmohcv1 https://t.co/N9rOjB8PWB
+555	2018-09-05 16:05:17+00:00	CoinDesk	Payment provider TransferGo has announced it is launching a remittance corridor to India that uses Ripple technology for near real-time transactions. https://t.co/F5iJICccki
+556	2018-09-05 15:01:36+00:00	CoinDesk	The Ethereum Name Service has added support for .xyz domains, meaning users can now claim the URL for their wallets or other products on ethereum. https://t.co/2Atcok04Y3
+557	2018-09-05 13:50:01+00:00	CoinDesk	Investment bank Goldman Sachs has reportedly dropped plans to launch a cryptocurrency trading desk, for now at least. https://t.co/Hn9K4AmHpP
+558	2018-09-05 13:00:21+00:00	CoinDesk	JUST IN: A blockchain startup run by former Deloitte execs plans to launch a new platform built on ethereum and quorum to streamline supply chain processes. https://t.co/PFddOLT2re
+559	2018-09-05 13:00:21+00:00	CoinDesk	JUST IN: Ripio is driving mainstream adoption among the unbanked of South America, offering crypto loans in Argentina, Mexico, and Brazil. https://t.co/pG2L4MGznX
+560	2018-09-05 12:02:57+00:00	CoinDesk	JUST IN: Blockchain developer Spacemesh has raised $15 million as part of its quest to develop a new kind of consensus algorithm called proof-of-space-time. https://t.co/gwknIdMy4y
+561	2018-09-05 11:33:24+00:00	CoinDesk	Bitcoin is reporting losses a day after a bull breakout – a move that looks similar to a bull trap seen in July. https://t.co/jdmz6iIyCj
+562	2018-09-05 10:01:26+00:00	CoinDesk	JUST IN: Civic needs a network of users, so it's offering free KYC for its business partners and funding the effort with its reserve of tokens. https://t.co/1cqg9rxJgK
+563	2018-09-05 09:03:01+00:00	CoinDesk	The Digital Currency Research Lab within China's central bank is expanding to Nanjing to enable wider deployment of blockchain and other fintech. https://t.co/wvKMDkq9Lg
+564	2018-09-05 08:06:37+00:00	CoinDesk	Blockchain tech provider R3 tried to take over one of the most well-known bank blockchain projects this June. The only problem? It didn't work. https://t.co/eLJtnRa0WZ
+565	2018-09-05 07:23:02+00:00	CoinDesk	The Australian Securities Exchange is questioning an IT firm behind a listed penny stock seeking to raise $15 million via a token sale. https://t.co/iTyd1De3Us
+566	2018-09-05 04:14:00+00:00	CoinDesk	Members of the European Parliament convened with experts on Tuesday to discuss a proposal for standardizing ICO rules around the EU. https://t.co/y0iqe9L2oG
+567	2018-09-05 04:10:07+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see Matthew Tan, CEO of @etherscan: https://t.co/wlfz5C38FJ https://t.co/0Gj3ptw2U9
+568	2018-09-05 03:55:07+00:00	CoinDesk	Subscribe to our #podcast #LateConfirmation to hear the latest #blockchainnews: https://t.co/s6s0AsU6wh https://t.co/S1y1GeLCx5
+569	2018-09-05 02:30:12+00:00	CoinDesk	Ocean Falls, a tiny town in British Columbia, might see an economic revival with the influx of bitcoin miners, story by @crypto  https://t.co/D3aiFqG2kd
+570	2018-09-04 23:30:21+00:00	CoinDesk	Jeremy Rubin, a technical advisor to Stellar and a Bitcoin Core contributor, argues in a @TechCrunch op-ed   that ETH's value will go to zero in the near future. See also the rebuttals in the comment thread https://t.co/ynp1hqCRvX
+571	2018-09-04 22:00:12+00:00	CoinDesk	$170 MILLION: Turns out, Tron wasn't the only bidder for one of the year's biggest #crypto acquisitions. It wasn't the highest bidder either: https://t.co/qC4MBy5i8b
+572	2018-09-04 21:30:24+00:00	CoinDesk	EQUI, an ICO-based startup founded by a Scottish lingerie entrepreneur and her boyfriend, generated a lot of hype but not much success, @FT reports. https://t.co/sDYhTmgOdm
+573	2018-09-04 20:12:08+00:00	CoinDesk	Crypto exchange ShapeShift is launching a membership program for its users. While voluntary at first, it will soon become a mandatory feature. https://t.co/hupAWcMYA2
+574	2018-09-04 19:09:58+00:00	CoinDesk	Regulators in the Philippines are preparing to release new crypto trading rules. https://t.co/S4XPGpkx2O
+575	2018-09-04 16:10:24+00:00	CoinDesk	Listen to the latest episode of #LateConfirmation: An Apple a Day Keeps the War Riders Away. https://t.co/ZQUwcKdj3J https://t.co/l1f8r2LHNv
+576	2018-09-04 16:03:42+00:00	CoinDesk	JUST IN: After popular demand, Robinhood's crypto app is rolling out candlestick charts. https://t.co/YtOqbw2Zqa
+577	2018-09-04 15:59:21+00:00	CoinDesk	Token projects with counterparties are tokens which represent a claim to something, while projects without counterparties do not represent any such claim, Fox said. #EUICO
+578	2018-09-04 15:58:21+00:00	CoinDesk	Fox said he wanted to avoid the debate as there is no EU-wide definition of what a security is. Instead, his proposal sorts ICOs by whether or not the token has a counterparty. #EUICO
+579	2018-09-04 15:57:21+00:00	CoinDesk	"Fox: ""I’ve decided to only capture ICOs that operate with a counterparty. The main reason is I want to avoid the debate on whether a token is a utility or a security."" #EUICO"
+580	2018-09-04 15:56:51+00:00	CoinDesk	MEP Ashley Fox, who is chairing the meeting, is explaining his approach his proposal on regulating ICOs. #EUICO
+581	2018-09-04 15:38:12+00:00	CoinDesk	Litecoin's price hit a one-month high Monday as the wider cryptocurrency market is seeing green. https://t.co/0QI4MC6afK
+582	2018-09-04 15:30:29+00:00	CoinDesk	"Alejandro: ""The number one motivation for most of the crypto world is to eliminate that intersection between fiat and digital money. Once that intersection is eliminated, that’s game over."" #EUICO"
+583	2018-09-04 15:30:11+00:00	CoinDesk	"Aeternity's Julio Alejandro pushes back against the idea of regulating ICOs, noting that ""the only way to stop an ICO from creating is by stopping an exchange."" #EUICO"
+584	2018-09-04 15:03:44+00:00	CoinDesk	Lloyd's Register is demoing a blockchain tool for recording information about ships for underwriters and merchants at this year's SMM fair. https://t.co/GCaFwRPCX4
+585	2018-09-04 14:56:24+00:00	CoinDesk	MEP Eva Kaili notes in her opening statement that existing crowdfunding rules are too limited for ICOs, citing limits on funding levels as one example #EUICO
+586	2018-09-04 14:46:43+00:00	CoinDesk	See our past coverage on the European Parliament's proposal to regulate ICOs here: https://t.co/XKIlfpqJGU #EUICO
+587	2018-09-04 14:45:47+00:00	CoinDesk	HAPPENING NOW: The European Parliament Innovation Group, a part of the EP, is discussing a proposal to regulate ICOs under existing crowdfunding regulations. Follow @coindesk for live coverage #EUICO
+588	2018-09-04 14:02:01+00:00	CoinDesk	A blockchain trade finance platform spearheaded by the People's Bank of China has entered the testing phase ahead of an official roll-out. https://t.co/4KfJHR1beQ
+589	2018-09-04 13:05:45+00:00	CoinDesk	Cc/ @Techmeme
+590	2018-09-04 13:01:30+00:00	CoinDesk	EXCLUSIVE: An investigation by CoinDesk reveals new details about the year's biggest #crypto acquisition and a failed $170 million bid. https://t.co/P9NgeoQWkw
+591	2018-09-04 12:32:59+00:00	CoinDesk	IBM is taking its long-in-the-works blockchain-based payment system out of beta, with the launch of a product called Blockchain World Wire. https://t.co/v89ecQgt3S
+592	2018-09-04 11:13:31+00:00	CoinDesk	Bitcoin's weekly MACD indicator has risen above zero for the first time since January, confirming a long-term bearish-to-bullish trend change.  https://t.co/Puj3vzLYl7
+593	2018-09-04 09:07:31+00:00	CoinDesk	The South Korean government is literally doubling down on its efforts to trial blockchain in the public sector for 2019. https://t.co/39no13DsJ2
+594	2018-09-04 08:07:17+00:00	CoinDesk	With lightning speeds and zero fees, EOS blows other blockchains out of the water for user experience. For dapp developers, though, it's proving costly. https://t.co/BrnMj6FoCA
+595	2018-09-04 07:20:13+00:00	CoinDesk	The Australian Securities Exchange has pushed back the launch of its blockchain-based CHESS replacement after feedback from stakeholders. https://t.co/sVLwGMBU1W
+596	2018-09-04 06:03:35+00:00	CoinDesk	JUST IN: Crypto wallet provider Abra is integrating SEPA payments, allowing European customers to directly deposit funds. https://t.co/2cHLli6Fbc
+597	2018-09-04 04:15:06+00:00	CoinDesk	Register for #TechXLR8 #ConsensusSingapore so that you can see @MickTsai, Co-Founder of Contentos Foundation: https://t.co/UjYFsJUbQk https://t.co/yYPOtmF6uu
+598	2018-09-04 02:08:46+00:00	CoinDesk	JUST IN: A new paper by Vitalik Buterin and other researchers proposes a novel way to finance the public goods a decentralized ecosystem needs.  https://t.co/w9NIHDxiCw
