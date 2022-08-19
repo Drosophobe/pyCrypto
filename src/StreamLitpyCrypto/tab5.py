@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 from universal import tools, algos
 from universal.algos import *
 import re
+import datetime
+import os
 def app():
     trading_fee = 0.05 # en pourcent
     st.title('APP5')

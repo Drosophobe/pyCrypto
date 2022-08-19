@@ -60,7 +60,7 @@ def app():
 
     ### using Markdown
     st.markdown("## Let's have a look into our Senari")
-    df_crypto = pd.read_csv(f"assets/{mrkt}/{snr}.csv", index_col=0, parse_dates=[0])
+    df_crypto = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=[0])
     close_list = []
     for j in df_crypto.columns:
         if "Close" in j:
@@ -123,8 +123,8 @@ def app():
         sarima = model.fit()
         st.markdown(sarima.summary())
     elif techno == tech_list[1]:
-        df_i = pd.read_csv(f"assets/{mrkt}/{snr}.csv", parse_dates=[0])
-        df_crypto = pd.read_csv(f"assets/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
+        df_i = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0])
+        df_crypto = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
         df_pro = df_i[[liste_actions, "Date"]]
         df_pro.columns = ["y", "ds"]
         serie_j = df_crypto[liste_actions]
