@@ -11,14 +11,11 @@ import statsmodels.api as sm
 from fbprophet import Prophet
 # Désolé je vais rajouter les commentaires asap
 def app():
-    st.title('APP2')
+    st.title('DT Series prediction')
     st.write('Welcome to app2')
     st.sidebar.header('Paramètres de prediction')
-    tech_list = ["SARIMA", "prophet", "RNN"]
-    techno = st.sidebar.radio("Sélectionner un type de techno", tech_list)
-
     market_list = ["Crypto", "Nasdaq", "Other"]
-    market = st.sidebar.radio("Sélectionner un type de marché", market_list)
+    market = st.radio("Sélectionner un type de marché", market_list)
     if market == market_list[0]:
         mrkt = "cryptos"
         senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
@@ -70,8 +67,8 @@ def app():
     df_crypto_close = df[liste_actions]
     niveau = st.slider("selectionner le pourcentage à conserver", 50, 90)
     x = int(len(df_crypto_close.index)/100*niveau)
-    st.write(x)
-    if techno == tech_list[0]:
+    st.write("Nous pouvons remarquer que vers 70-80% de conservation de nos datas Prophet arrive à trouver l'evolution de notre Série")
+    """if techno == tech_list[0]:
         #st.write(df_crypto_close.iloc[:x])
         plt.plot(df_crypto_close.iloc[:x])
         plt.xticks(rotation=60)
@@ -121,23 +118,23 @@ def app():
 
         model = sm.tsa.SARIMAX(serie_train, order=(1, 1, 0), seasonal_order=(0, 1, 0, 5))
         sarima = model.fit()
-        st.markdown(sarima.summary())
-    elif techno == tech_list[1]:
-        # Prophet à besoin d'une column avec des dates au format dtimeserie donc on importons deux DF
-        df_i = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0])
-        df_j = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
-        df_pro = df_i[[liste_actions, "Date"]]
-        df_pro.columns = ["y", "ds"]
-        serie_j = df_j[liste_actions]
-        m = Prophet(interval_width=0.95, daily_seasonality=True)
-        model = m.fit(df_pro.iloc[: int(x)])
-        future = m.make_future_dataframe(periods=df_j.shape[0]-x, freq='D')
-        forecast = m.predict(future)
+        st.markdown(sarima.summary())"""
 
-        serie_forecast = pd.Series(forecast['yhat'].values, index=forecast['ds'])
-        plot1 = m.plot(forecast)
-        plt.plot(serie_j, label = 'Real Serie')
-        plt.plot(serie_forecast.iloc[:x], label = 'Serie Forecast')
-        plt.xticks(rotation=60)
-        plt.legend()
-        st.pyplot()
+    # Prophet à besoin d'une column avec des dates au format dtimeserie donc on importons deux DF
+    df_i = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0])
+    df_j = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
+    df_pro = df_i[[liste_actions, "Date"]]
+    df_pro.columns = ["y", "ds"]
+    serie_j = df_j[liste_actions]
+    m = Prophet(interval_width=0.95, daily_seasonality=True)
+    model = m.fit(df_pro.iloc[: int(x)])
+    future = m.make_future_dataframe(periods=df_j.shape[0]-x, freq='D')
+    forecast = m.predict(future)
+
+    serie_forecast = pd.Series(forecast['yhat'].values, index=forecast['ds'])
+    plot1 = m.plot(forecast)
+    plt.plot(serie_j, label = 'Real Serie')
+    plt.plot(serie_forecast.iloc[:x], label = 'Serie Forecast')
+    plt.xticks(rotation=60)
+    plt.legend()
+    st.pyplot()

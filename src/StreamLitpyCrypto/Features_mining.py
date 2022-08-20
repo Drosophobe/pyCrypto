@@ -4,7 +4,7 @@ import pandas as pd
 from universal import tools, algos
 from universal.algos import *
 import matplotlib.pyplot as plt
-from datetime import  timedelta
+from datetime import timedelta
 import time
 import os
 
@@ -229,17 +229,17 @@ def create_Features(mrkt, snr, algos, nom_algos):
     plt.xlabel('Windows')
     plt.ylabel('Volatility')
     plt.title(f'best_algos_for_{mrkt}_{snr}')
-    plt.savefig(f'assets/best_models/{"_". join(noms_algos)}/{mrkt}/{snr}.jpg')
+    os.makedirs(f'assets/best_models/graphs/{"_".join(noms_algos)}/{mrkt}', exist_ok=True)
+    plt.savefig(f'assets/best_models/graphs/{"_". join(noms_algos)}/{mrkt}/{snr}.jpg')
     plt.show()
     # On récupère les meilleurs models et ses features dans un csv
 scenari = ['année_2018_DF', 'année_2018_flat_DF','année_2019_flat_DF','année_2021_Nov_DF', 'année_2021_Oct_DF',
              'covid_DF', 'ukr_war_DF', 'rdm1_DF', 'rdm2_DF', 'rdm3_DF']
 markets = ['cryptos', 'nasdaq']
-algorithmes = [ algos.Anticor(), algos.BAH(), algos.BCRP(), algos.BestMarkowitz(), algos.BestSoFar(), algos.BNN(),
-                 algos.CORN(), algos.CRP(), algos.CWMR(), algos.DynamicCRP(), algos.EG(), algos.OLMAR(), algos.ONS(),
-                 algos.PAMR(), algos.RMR()]
-noms_algos = ['Anticor', 'BAH', 'BCRP', 'BestMarkowitz', 'BestSoFar', 'BNN', 'CORN', 'CRP', 'CWMR', 'DynamicCRP',
-           'EG', 'OLMAR', 'ONS', 'PAMR', 'RMR']
+# les algos utilisés peuvent être changé dans notre problème de ML nous en avons utilisé 2
+algorithmes = [algos.BestMarkowitz()]
+noms_algos = ['BestMarkowitz']
+
 
 # Dans cette partie on instancie les algos avec leurs noms
 # On a réduit le nombre d'algo pour plus de simplicité
