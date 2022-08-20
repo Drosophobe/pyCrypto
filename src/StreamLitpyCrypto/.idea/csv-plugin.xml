@@ -45,20 +45,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="/assets/best_models/cryptos/année_2018_DF.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="/assets/best_models/cryptos/année_2018_flat_DF.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="/assets/best_models/cryptos/année_2018_flat_DF_BCRP_BestMarkowitz.csv">
           <value>
             <Attribute>

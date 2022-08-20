@@ -60,14 +60,14 @@ def app():
 
     ### using Markdown
     st.markdown("## Let's have a look into our Senari")
-    df_crypto = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=[0])
+    df = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=[0])
     close_list = []
-    for j in df_crypto.columns:
+    for j in df.columns:
         if "Close" in j:
             close_list.append(j)
     liste_actions = st.selectbox("Choisir le marché",
                                    close_list)
-    df_crypto_close = df_crypto[liste_actions]
+    df_crypto_close = df[liste_actions]
     niveau = st.slider("selectionner le pourcentage à conserver", 50, 90)
     x = int(len(df_crypto_close.index)/100*niveau)
     st.write(x)
@@ -123,14 +123,15 @@ def app():
         sarima = model.fit()
         st.markdown(sarima.summary())
     elif techno == tech_list[1]:
+        # Prophet à besoin d'une column avec des dates au format dtimeserie donc on importons deux DF
         df_i = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0])
-        df_crypto = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
+        df_j = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0], index_col=0)
         df_pro = df_i[[liste_actions, "Date"]]
         df_pro.columns = ["y", "ds"]
-        serie_j = df_crypto[liste_actions]
+        serie_j = df_j[liste_actions]
         m = Prophet(interval_width=0.95, daily_seasonality=True)
         model = m.fit(df_pro.iloc[: int(x)])
-        future = m.make_future_dataframe(periods=df_crypto.shape[0]-x, freq='D')
+        future = m.make_future_dataframe(periods=df_j.shape[0]-x, freq='D')
         forecast = m.predict(future)
 
         serie_forecast = pd.Series(forecast['yhat'].values, index=forecast['ds'])

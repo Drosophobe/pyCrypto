@@ -6,6 +6,7 @@ from universal.algos import *
 import matplotlib.pyplot as plt
 from datetime import  timedelta
 import time
+import os
 
 def perform(result):
     return result.sharpe, result.alpha_beta()[1]
@@ -175,8 +176,9 @@ def create_Features(mrkt, snr, algos, nom_algos):
                                             "VIX_range": my_vix_range_list, "VIX_volatility" : my_vix_volatility_list, 'VIX_mean': my_vix_mean_list,
                                             "nbr_of_cryptos_tweets": my_len_cryptos_tweets_list, "nbr_of_nasdaq_tweets": my_len_nasdaq_tweets_list})
 
+    os.makedirs(f'assets/best_models/{"_". join(noms_algos)}/{mrkt}', exist_ok=True)
+    df_best_model.to_csv(f'assets/best_models/{"_". join(noms_algos)}/{mrkt}/{snr}.csv')
 
-    df_best_model.to_csv(f'assets/best_models/{mrkt}/{snr}_{"_". join(noms_algos)}.csv')
     """plt.figure(figsize=(12, 6))
     plt.text(10, 10, 'Parabola $Y = x^2$', fontsize=22)
     plt.plot(df_best_model['close_volatility'])
@@ -193,9 +195,18 @@ def create_Features(mrkt, snr, algos, nom_algos):
     ax.plot(T['Mean_Close_Volatility'])
     t = ax.set_title(f'{snr}_{mrkt}')
     i = 0
+    print(mrkt)
     print(snr)
-    if mrkt =='nasdaq' and snr == 'rdm2_DF':
+    print(len(T['Mean_Close_Volatility'].unique()))
+    print(df_best_model['algo'])
+    if mrkt == 'cryptos':
         values = T['Mean_Close_Volatility'].unique()
+    elif mrkt =='nasdaq':
+        values = T['Mean_Close_Volatility'].unique()
+        values = np.resize(values, values.size - 1)
+    '''if mrkt =='nasdaq' and snr == 'rdm2_DF':
+        values = T['Mean_Close_Volatility'].unique()
+        values = np.resize(values, values.size - 1)
     elif mrkt =='nasdaq' and  snr == 'rdm1_DF':
         values = T['Mean_Close_Volatility'].unique()
     elif mrkt =='nasdaq' and  snr == 'année_2018_flat_DF':
@@ -204,9 +215,10 @@ def create_Features(mrkt, snr, algos, nom_algos):
         values = T['Mean_Close_Volatility'].unique()
     elif mrkt == 'cryptos':
         values = T['Mean_Close_Volatility'].unique()
-    else:
+    elif mrkt =='nasdaq':
         values = T['Mean_Close_Volatility'].unique()
-        values = np.resize(values, values.size - 1)
+        values = np.resize(values, values.size - 2)'''
+
     for j in values:
         textes = [ax.text(T['Mean_Close_Volatility'][T['Mean_Close_Volatility'] == j].index[len(T['Mean_Close_Volatility'][T['Mean_Close_Volatility'] == j])//2]- timedelta(days=5), j, df_best_model['algo'][i])]
         plt.setp(textes, color='blue', family='serif')
@@ -214,13 +226,21 @@ def create_Features(mrkt, snr, algos, nom_algos):
             continue
         i += 1
     plt.setp(t, fontsize=16, color='red')
+    plt.xlabel('Windows')
+    plt.ylabel('Volatility')
+    plt.title(f'best_algos_for_{mrkt}_{snr}')
+    plt.savefig(f'assets/best_models/{"_". join(noms_algos)}/{mrkt}/{snr}.jpg')
     plt.show()
     # On récupère les meilleurs models et ses features dans un csv
 scenari = ['année_2018_DF', 'année_2018_flat_DF','année_2019_flat_DF','année_2021_Nov_DF', 'année_2021_Oct_DF',
              'covid_DF', 'ukr_war_DF', 'rdm1_DF', 'rdm2_DF', 'rdm3_DF']
 markets = ['cryptos', 'nasdaq']
-algorithmes = [algos.BCRP(), algos.BestMarkowitz()]
-noms_algos = ['BCRP', 'BestMarkowitz']
+algorithmes = [ algos.Anticor(), algos.BAH(), algos.BCRP(), algos.BestMarkowitz(), algos.BestSoFar(), algos.BNN(),
+                 algos.CORN(), algos.CRP(), algos.CWMR(), algos.DynamicCRP(), algos.EG(), algos.OLMAR(), algos.ONS(),
+                 algos.PAMR(), algos.RMR()]
+noms_algos = ['Anticor', 'BAH', 'BCRP', 'BestMarkowitz', 'BestSoFar', 'BNN', 'CORN', 'CRP', 'CWMR', 'DynamicCRP',
+           'EG', 'OLMAR', 'ONS', 'PAMR', 'RMR']
+
 # Dans cette partie on instancie les algos avec leurs noms
 # On a réduit le nombre d'algo pour plus de simplicité
 for mrkt in markets:
