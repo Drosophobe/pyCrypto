@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from datetime import timedelta
 import time
 import os
-
+from math import *
 def perform(result):
     return result.sharpe, result.alpha_beta()[1]
 def volatility(data):
@@ -17,7 +17,6 @@ def max_range(data):
     # On crée une fonction qui retourne l'amplitude max de la valeure
     return np.max(data)-np.min(data)
 def create_Features(mrkt, snr, algos, nom_algos):
-
     metric_name = ['Ratio de Sharpe', 'beta']
 
     #Mesure de performance
@@ -141,8 +140,10 @@ def create_Features(mrkt, snr, algos, nom_algos):
         window_i  += window
 
     best_model_list = []
+    print(wndw_nbr)
     for wd in range(wndw_nbr):
         for algo in algorithmes:
+                print((wd + 1) * window-1 -wd * window )
                 result = algo.run(S.iloc[wd * window: (wd + 1) * window-1, :])
                 sharp = [perform(result)[0], perform(result)[1]]
                 metrics.append(sharp)
@@ -171,8 +172,6 @@ def create_Features(mrkt, snr, algos, nom_algos):
     ax.plot(T['Mean_Close_Volatility'])
     t = ax.set_title(f'{snr}_{mrkt}')
     i = 0
-    print(mrkt)
-    print(snr)
     print(len(T['Mean_Close_Volatility'].unique()))
     print(df_best_model['algo'])
     # ici nous avons un problème sur les valeurs de nasdaq dont il manque le dernier algo... Pas fini :/
@@ -214,10 +213,10 @@ def create_Features(mrkt, snr, algos, nom_algos):
 # Nous choisissons nos Scénari et nos marché la Dow Jons à été retiré car il ne comporte qu'une valeur un PortFolio n'est pas donc indiqué
 scenari = ['année_2018_DF', 'année_2018_flat_DF','année_2019_flat_DF','année_2021_Nov_DF', 'année_2021_Oct_DF',
              'covid_DF', 'ukr_war_DF', 'rdm1_DF', 'rdm2_DF', 'rdm3_DF']
-markets = ['cryptos', 'nasdaq']
+markets = ['nasdaq']
 # les algos utilisés peuvent être changé dans notre problème de ML nous en avons utilisé un seul
-algorithmes = [algos.BestMarkowitz()]
-noms_algos = ['BestMarkowitz']
+algorithmes = [algos.CRP(W_rev), algos.CRP()]
+noms_algos = ['CPR_Rev', "CPR_Mom"]
 
 
 # Dans cette partie on lance la fonction  avec les parmetres indiqué plus haut
