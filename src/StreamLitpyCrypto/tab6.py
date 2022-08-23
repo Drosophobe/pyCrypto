@@ -117,4 +117,5 @@ def app():
     texte = re.sub('num', texte, texte)
     plot_word_cloud(texte.lower(), 'white')
     st.pyplot()
+    st.write('Nous remarquons que les mots qui resortent du Wordcloud ne peuvent être utilsier pour prédire quoi que ce soit')
     ### using Markdown

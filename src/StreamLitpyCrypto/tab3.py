@@ -4,7 +4,6 @@ import pandas as pd
 from universal import tools, algos
 from universal.algos import *
 
-# Désolé je vais rajouter les commentaires asap
 def app():
     Scenar_crypto_path = ['assets/cryptos/année_2018_DF.csv', 'assets/cryptos/année_2018_flat_DF.csv','assets/cryptos/année_2019_flat_DF.csv','assets/cryptos/année_2021_Nov_DF.csv',
                      'assets/cryptos/année_2021_Oct_DF.csv', 'assets/cryptos/covid_DF.csv', 'assets/cryptos/ukr_war_DF.csv']
@@ -36,7 +35,7 @@ def app():
         '''
 
     market_list = ["Crypto", "Nasdaq", "Other"]
-    market = st.sidebar.radio("Sélectionner un type de marché", market_list)
+    market = st.radio("Sélectionnez le marché souhaité", market_list)
     if market == market_list[0]:
         mrkt = "cryptos"
         senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
@@ -50,7 +49,7 @@ def app():
         senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
                        "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
         st.write('only one value for Other can perform portefolio')
-    senar = st.sidebar.selectbox("Senari_list", senari_list)
+    senar = st.selectbox("Selectionnez le scénario souhaité", senari_list)
     if senar == senari_list[0]:
         snr = "covid_DF"
     elif senar == senari_list[1]:
@@ -79,7 +78,7 @@ def app():
     metrics = []
     # nettoyage des données
 
-    S = pd.read_csv(f"assets/{mrkt}/{snr}.csv", index_col=0, parse_dates=True) # je charge le premier
+    S = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=True) # je charge le premier
     liste = []
     for clo in S.columns:
         if "Close" in clo:
