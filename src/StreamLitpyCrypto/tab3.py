@@ -5,6 +5,16 @@ from universal import tools, algos
 from universal.algos import *
 
 def app():
+    ### Create Title
+    st.title("Summarize")
+    ### Add a picture
+    st.header('Paramètres de prediction')
+    st.markdown('### Choix du modèle et Optimisation')
+    st.write("Dans un premier temps, nous avons fait fonctionner la totalité des algorithmes disponibles par périodes.")
+    st.write("Puis, nous avons dressé un tableau, résumant pour chaque algorithme les métriques calculées  (ratio de Sharpe et rendement cumulatif) :")
+    st.write("Nous avons remarqué que l’algorithme Best_Markowitz et BCRP avait tendance à surperformer les autres.") 
+
+
     Scenar_crypto_path = ['assets/cryptos/année_2018_DF.csv', 'assets/cryptos/année_2018_flat_DF.csv','assets/cryptos/année_2019_flat_DF.csv','assets/cryptos/année_2021_Nov_DF.csv',
                      'assets/cryptos/année_2021_Oct_DF.csv', 'assets/cryptos/covid_DF.csv', 'assets/cryptos/ukr_war_DF.csv']
     Scenar_nasdaq_path = ['assets/nasdaq/année_2018_DF.csv', 'assets/nasdaq/année_2018_flat_DF.csv','assets/nasdaq/année_2019_flat_DF.csv','assets/nasdaq/année_2021_Nov_DF.csv', 'assets/nasdaq/année_2021_Oct_DF.csv',
@@ -34,22 +44,18 @@ def app():
         nom : nom du scénari
         '''
 
-    market_list = ["Crypto", "Nasdaq", "Other"]
+    market_list = ["Crypto", "Nasdaq"]
     market = st.radio("Sélectionnez le marché souhaité", market_list)
     if market == market_list[0]:
         mrkt = "cryptos"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)"]
     elif market == market_list[1]:
         mrkt = "nasdaq"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
-    else:
-        mrkt = 'other'
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
-        st.write('only one value for Other can perform portefolio')
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)", "subprimes_DF (date : 2007-11-01)", "new_millennium_DF (date : 1999-06-06)"]
     senar = st.selectbox("Selectionnez le scénario souhaité", senari_list)
+
     if senar == senari_list[0]:
         snr = "covid_DF"
     elif senar == senari_list[1]:
@@ -77,7 +83,7 @@ def app():
     sharp = []
     metrics = []
     # nettoyage des données
-
+    """  
     S = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=True) # je charge le premier
     liste = []
     for clo in S.columns:
@@ -92,13 +98,22 @@ def app():
             sharp = [perform(result)[0], perform(result)[1]]
             metrics.append(sharp)
             sharpe = []
-
+    """
     # Création et affichage dataframes
     st.write('************ ' + snr + ' **********') # je charge le premier
-    X = pd.DataFrame(data=np.array(metrics), columns=metric_name, index=noms_algos)
+    #X = pd.DataFrame(data=np.array(metrics), columns=metric_name, index=noms_algos)
+    #Y = X.sort_values(by='Ratio de Sharpe', ascending=False)
+    #Y = Y[Y['Ratio de Sharpe'] > 1].head(4)
+    
+
+    X = pd.read_csv(f"./data_csv/{mrkt}/summary_table_{snr}.csv", index_col= 0)
     Y = X.sort_values(by='Ratio de Sharpe', ascending=False)
     Y = Y[Y['Ratio de Sharpe'] > 1].head(4)
+    
+
+    #X.to_csv(f"./data_csv/{mrkt}/summary_table_{snr}.csv")
     st.write(X)
+
     #Affichage meilleurs algos
     st.write('===========>>>>> ' + 'Meilleures performances pour : ', list(Y.index))
 """    def summaries(scenari, nom):

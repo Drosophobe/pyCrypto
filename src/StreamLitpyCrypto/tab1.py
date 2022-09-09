@@ -10,25 +10,23 @@ def app():
 
 
     ### Create Title
-    st.title("Streamlit Online PortFolio Web app with Streamlit for DataScientest")
-    ### Add a picture
-    st.image("assets/DataScientest.jpeg")
-    st.header('Selection des parametres d\'affichage')
-
-    market_list = ["Crypto", "Nasdaq", "Other"]
+    st.title("Analyse exploratoire")
+    st.markdown("## Cadre")
+    st.write("Dans le but d’atteindre nos objectifs, nous avons choisi de nous concentrer sur 10 cryptos monnaies et  40 valeurs du NASDAQ qui nous semblaient les plus cohérentes avec le marché des cryptos monnaies.")
+    st.markdown('### Selection des parametres d\'affichage')
+    st.write("Nous avons rassemblé les données boursières issues du NASDAQ et des cryptos monnaies suivant divers scénarios représentatifs de l’ordre du mois :")
+    
+    market_list = ["Crypto", "Nasdaq"]
     market = st.radio("Sélectionner un type de marché", market_list)
     if market == market_list[0]:
         mrkt = "cryptos"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)"]
     elif market == market_list[1]:
         mrkt = "nasdaq"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
-    else:
-        mrkt = 'other'
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)", "subprimes_DF (date : 2007-11-01)", "new_millennium_DF (date : 1999-06-06)"]
+    
 
     senar = st.selectbox("Sélectionez un scénario", senari_list)
     if senar == senari_list[0]:
@@ -73,10 +71,15 @@ def app():
         else:
             if vl_cl[0] or vl_cl[1] in j:
                 close_list.append(j)
-    liste_closes = st.multiselect("liste d'action",
+
+    if mrkt== "cryptos" :
+        title= "Sélectionnez paire de devise"
+    else:    
+        title= "Sélectionnez une action"       
+    liste_closes = st.multiselect(title,
                                    close_list)
     df_close = df[liste_closes]
-    st.markdown("## Let's have a look into our Senari")
+    st.markdown("### Visualisation des scénarios")
     # r = re.compile(r"A-Za-z")
     my_string = ''
     plt.plot(df_close)

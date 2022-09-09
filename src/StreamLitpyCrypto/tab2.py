@@ -8,28 +8,29 @@ import re
 from statsmodels.tsa.seasonal import seasonal_decompose
 from statsmodels.graphics.tsaplots import plot_acf
 import statsmodels.api as sm
-from fbprophet import Prophet
+from prophet import Prophet
 # Désolé je vais rajouter les commentaires asap
 def app():
-    st.title('DT Series prediction')
-    st.write('Welcome to app2')
-    st.sidebar.header('Paramètres de prediction')
-    market_list = ["Crypto", "Nasdaq", "Other"]
+    ### Create Title
+    st.title("Prédiction")
+    ### Add a picture
+    st.header('Paramètres de prediction')
+    st.markdown('### Choix du modèle et Optimisation')
+    st.write("Dans un premier temps, nous avons fait fonctionner la totalité des algorithmes disponibles par périodes.")
+    st.write("Puis, nous avons dressé un tableau, résumant pour chaque algorithme les métriques calculées  (ratio de Sharpe et rendement cumulatif) :")
+
+    market_list = ["Crypto", "Nasdaq"]
     market = st.radio("Sélectionner un type de marché", market_list)
     if market == market_list[0]:
         mrkt = "cryptos"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)"]
     elif market == market_list[1]:
         mrkt = "nasdaq"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
-    else:
-        mrkt = 'other'
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)", "subprimes_DF (date : 2007-11-01)", "new_millennium_DF (date : 1999-06-06)"]
 
-    senar = st.sidebar.selectbox("Senari_list", senari_list)
+    senar = st.selectbox("Senari_list", senari_list)
     if senar == senari_list[0]:
         snr = "covid_DF"
     elif senar == senari_list[1]:
@@ -56,7 +57,7 @@ def app():
         snr = 'new_millennium_DF'
 
     ### using Markdown
-    st.markdown("## Let's have a look into our Senari")
+    st.markdown("## Visualisation des scénarios")
     df = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=[0])
     close_list = []
     for j in df.columns:

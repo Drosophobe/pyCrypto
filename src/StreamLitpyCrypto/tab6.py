@@ -11,6 +11,15 @@ from wordcloud import WordCloud
 from nltk.corpus import stopwords
 import re
 def app():
+
+    ### Create Title
+    st.title("WorkClouds")
+    st.markdown("## Source des données")
+    st.write("Les données issues des news ont été utilisées pour l’élaboration d’un WordCloud.")
+    st.write("Du fait de l’exceptionnalité de l’occurrence des mots, c'est WorkCloud ne peuvent être utilisé de manière prédictive, mais peuvent être cependant utilisé dans l’analyse des marchés.")  
+    st.write("Nous pouvons remarquer, dans l’exemple ci-dessous, que lors de la période COVID, aucun mot correspondant au contexte de la pandémie n’est mis en valeur par le WordCloud.")
+
+
     stop_words = set(stopwords.words('english'))
     sw_i = st.text_input('Choisir un stop word à supprimer: ')
     stop_words.update([sw_i])
@@ -38,22 +47,18 @@ def app():
     def perform(result):
         print('Le ratio de Sharpe est : ', result.sharpe)
         print('Le Beta est : ', result.alpha_beta()[1])
-    market_list = ["Crypto", "Nasdaq", "Other"]
-    market = st.sidebar.radio("Sélectionner un type de marché", market_list)
+    market_list = ["Crypto", "Nasdaq"]
+    market = st.radio("Sélectionner un type de marché", market_list)
     if market == market_list[0]:
         mrkt = "cryptos"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)"]
     elif market == market_list[1]:
         mrkt = "nasdaq"
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
-    else:
-        mrkt = 'other'
-        senari_list = ["covid", "ukr_war", "année_2018", "année_2018_flat", "année_2019_flat", "année_2021_Nov",
-                       "année_2021_Oct", "random1", "random2", "random3", "subprimes_DF", "new_millennium_DF"]
+        senari_list = ["covid (date : 2019-11-11)", "ukr_war (date : 2022-02-24)", "année_2018 (date : 2017-12-1)", "année_2018_flat (date : 2018-09-01)", "année_2019_flat (date : 2019-1-1)", "année_2021_Nov",
+                       "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)", "subprimes_DF (date : 2007-11-01)", "new_millennium_DF (date : 1999-06-06)"]
 
-    senar = st.sidebar.selectbox("Senari_list", senari_list)
+    senar = st.selectbox("Liste des scénarios", senari_list)
     if senar == senari_list[0]:
         snr = "covid_DF"
     elif senar == senari_list[1]:
@@ -95,9 +100,9 @@ def app():
     R.index = R.index.astype("datetime64[ns]")
     T.index = T.index.astype("datetime64[ns]")
     niveau = 0
-    niveau = st.slider("selectionner le début du wordcloud", 0, 100)
+    niveau = st.slider("Sélectionner le début du wordcloud", 0, 100)
     niveau2= 99
-    niveau2 = st.slider("selectionner la fin du wordcloud", niveau+1, 100)
+    niveau2 = st.slider("Sélectionner la fin du wordcloud", niveau+1, 100)
     #st.write(S.index[S.shape[0]*niveau//100])
     date1 = str(S.index[S.shape[0] * niveau//100])
     date2 = str(S.index[(S.shape[0] * niveau2//100)-1])
