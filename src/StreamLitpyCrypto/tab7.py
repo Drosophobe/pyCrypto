@@ -18,6 +18,11 @@ def app():
 
     pred = pd.read_csv(f"./data_csv/cryptos/X_val_crypto_pred_Thresholded2.csv", index_col= -1, parse_dates=True)
     btc = pd.read_csv(f"./data_csv/cryptos/année_2022_full_DF.csv", index_col= 0, parse_dates=[0])
+    weight = pd.read_csv(f"./data_csv/cryptos/poids.csv", index_col= 0, parse_dates=True)
+  
+    plt.plot(weight, label=weight.columns)
+    plt.legend()
+    st.pyplot()
 
     btc = btc["2022-01-31":"2022-08-07"]
     pred = pred.rename(columns= {"Prediction" : "prediction"})
@@ -30,7 +35,7 @@ def app():
 
     fig, ax = plt.subplots(constrained_layout=True)
     x = btc.index
-    y = btc["BTC-USD_Close"]
+    y = btc["BNB-USD_Close"]
     ax.plot(x, y)
     ax.set_xlabel('Date')
     ax.set_ylabel('Close')
