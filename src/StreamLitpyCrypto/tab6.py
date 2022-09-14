@@ -30,6 +30,30 @@ def app():
                        'information', 'also', 'saw', 'many', 'day', 'one', 'retail', 'mortgage rate', 'look',
                        'billion', 'said', 'think', 'last week'])
     r = re.compile(r"[^0-9]")
+    # Remote function
+    def removeLink(tweet):
+        r1 = re.compile(r"https?://[a-zA-Z0-9./]+")
+        links = r1.findall(tweet)
+        tweet = r1.sub('', tweet)
+        r2 = re.compile(r"www\.[a-zA-Z0-9.-:/]+")
+        links += r2.findall(tweet)
+        return r2.sub('', tweet)
+
+    def removeMail(tweet):
+        r = re.compile(r"[a-zA-Z0-9.-]+@[a-zA-Z.]+")
+        mails = r.findall(tweet)
+        return r.sub('', tweet)
+
+    def replaceHashtag(tweet):
+        r = re.compile(r"#[a-zA-Z0-9]+")
+        hashtag = r.findall(tweet)
+        tweet = tweet.replace('#', '_')
+        return r.sub('_', tweet)
+
+    def removeQuote(tweet):
+        r = re.compile(r"@[a-zA-Z0-9]+")
+        quote = r.findall(tweet)
+        return r.sub('', tweet)
 
     def plot_word_cloud(text, background_color="black"):
         # Définir le calque du nuage des mots
@@ -120,7 +144,11 @@ def app():
     for k in T['Tweet'][date1:date2]:
         texte += k
     texte = re.sub('num', texte, texte)
+    texte = removeLink(texte)
+    texte = removeMail(texte)
+    texte = replaceHashtag(texte)
+    texte = removeQuote(texte)
     plot_word_cloud(texte.lower(), 'white')
     st.pyplot()
-    st.write('Nous remarquons que les mots qui resortent du Wordcloud ne peuvent être utilsier pour prédire quoi que ce soit')
+    st.write('Nous remarquons que dans certain cas les mots qui resortent du Wordcloud sont anodains ou trop spécifiques')
     ### using Markdown

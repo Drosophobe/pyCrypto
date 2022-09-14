@@ -12,7 +12,7 @@ The objective of this project is to create a portfolio allocation model that ada
 
 This project was developed by the following team :
 
-- Hamed ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
+- Ahmed Ouassou ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
 - Pierre Sarzier ([GitHub](https://github.com/) / [LinkedIn](http://linkedin.com/))
 - Sofiane Benabdallah ([GitHub](https://github.com/sofiane34000) / [LinkedIn](https://www.linkedin.com/in/sofiane-benabdallah-66b1a46a/))
 
@@ -50,12 +50,8 @@ pip install -r requirements.txt
     ª   +---universal
     ª   ª   +---algos
     ª   ª   ª   +---ternary
-    ª   ª   ª   +---__pycache__
     ª   ª   +---data
-    ª   ª   ª   +---jpm_assumptions
-    ª   ª   +---__pycache__
     ª   +---universalPF
-    ª   +---__pycache__
 ```
 
 ## Streamlit App
