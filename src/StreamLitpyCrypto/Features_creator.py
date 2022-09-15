@@ -7,28 +7,34 @@ import os
 from math import *
 import warnings
 warnings.filterwarnings('ignore')
-
+#Fonction qui retourne les métriques
 def perform(result):
     return result.sharpe, result.alpha_beta()[1]
+#Fonction qui retourne la volatilté
 def volatility(data):
     # On crée une fonction qui retourne le volatilté de l'action dans une window définie plus bas
     return np.log(data/data.shift()).std()
+#Fonction qui retourne l'amplitude max de la valeur
 def max_range(data):
-    # On crée une fonction qui retourne l'amplitude max de la valeure
+    # On crée une fonction qui retourne l'amplitude max de la valeur
     return np.max(data)-np.min(data)
+#Fonction qui 
 def create_features(snr, mrkt, window, algos, noms_algos, show = False):
     metric_name = ['Ratio de Sharpe', 'beta']
     #Mesure de performance
     sharp = []
     metrics = []
+    #Récupération du scénario
     df = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=True)
     start_date = df.index[0]
     end_date = df.index[-1]
     df_size= df.shape[0]
+    #Récupération des deux types de tweets
     df_len_cryto_tweets = pd.read_csv(f"../../data/cryptos/tweets/extract_dates/date_{snr}.csv", sep = '\t', parse_dates= [0], index_col=0)
     df_len_nasdaq_tweets = pd.read_csv(f"../../data/nasdaq/tweets/extract_dates/date_{snr}.csv", sep='\t', parse_dates=[0], index_col=0)
     liste_close= []
     liste_vol = []
+    #Création d'un dataframe avec uniquement les closes et un autre avec les volumes
     for clo in df.columns:
         if "Close" in clo:
             liste_close.append(clo)
@@ -38,30 +44,32 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
     S = S.dropna(axis=1)
     R = df[liste_vol]
     R = R.dropna(axis=1)
+    #Calcul du nombre de windows disponible dans notre scénario
     wndw_nbr = S.shape[0] // window
-
+    #Création d'un df vide où on va update les features utiles
     T = S.copy()[[]]
-
+    #On initialise les features à 0 pour nous aider dans le calcul
     T["Mean_Close_Volatility"] = 0
     T['Mean_Close_Range'] = 0
     T["Mean_Vol_Volatility"] = 0
     T['Mean_Vol_Range'] = 0
-
+     # On set la volatilté et le range(close) à 0
     for e in S.columns:
         T[f"{e}_range"] = 0
         T[f"{e}_volatility"] = 0
-
+    #On calcul la volatilité et la range par window
     for i in np.arange(0, wndw_nbr*window+1, window):
         for e in S.columns:
             T[f"{e}_volatility"].iloc[i:i + window]= volatility(S[e].iloc[i:i + window])
             T[f"{e}_range"].iloc[i:i + window] = max_range(S[e].iloc[i:i + window])
-
+    #On tronque la fin du dataframe si nombre de window * window 
     T = T.iloc[0: wndw_nbr*window]
-
+    # On set la volatilté et le range(volume) à 0
     for e in R.columns:
         T[f"{e}_range"] = 0
         T[f"{e}_volatility"] = 0
     date_list =[]
+    # On calcule la volatilité et la range de chaque volume par windows et on update les cols
     for i in np.arange(0, wndw_nbr*window+1, window):
         for e in R.columns:
             T[f"{e}_volatility"].iloc[i:i +window] = volatility(R[e].iloc[i:i +window])
@@ -71,7 +79,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
             date_list.append(df.index[i-1])
         else:
             date_list.append(df.index[i])
-
+    # On récupére le nombre de tweets par période
     my_len_cryptos_tweets_list = []
     my_len_nasdaq_tweets_list = []
     for i in range(len(date_list)):
@@ -83,7 +91,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
         my_len_nasdaq_tweets_list.append(df_len_nasdaq_tweets.loc[date_list[i]+timedelta(days=days):date_list[i + 1]].sum(axis=0).values[0])
         if i == len(date_list) - 2:
             break
-
+    # Update des volatilités et des ranges par volume et par close, et on les attribues dans des listes
     list_close_Vol_names = []
     list_close_Ran_names = []
     list_vol_Vol_names = []
@@ -111,15 +119,10 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
         my_close_range_list.append(T['Mean_Close_Range'].iloc[((i+1)*window) - 2])
         my_vol_volatility_list.append(T['Mean_Vol_Volatility'].iloc[((i+1)*window) - 2])
         my_vol_range_list.append(T['Mean_Vol_Range'].iloc[((i+1)*window) - 2])
-
+    # De même que précédemment pour le dataframe importé
     df_features = pd.read_csv("../../data/csv_features/Features.csv", index_col=0, parse_dates=True)
 
-    for l in range(wndw_nbr):
-        if l ==0:
-            days = 0
-        else:
-            days = 1
-
+    # De même que précédemment pour le dataframe importé
     T['Volatility_Gold_Close'] = 0
     T['Volatility_Gold_Vol'] = 0
     T['Volatility_Oil_Close'] = 0
@@ -137,6 +140,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
     T['Mean_Unemploy'] = 0
     T['Volatility_VIX'] = 0
     T['Range_VIX'] = 0
+
     for m in range(wndw_nbr):
         if m ==0:
             days = 0
@@ -177,6 +181,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
             df_features['VIX'][date_list[m] + timedelta(days=days): date_list[m + 1]])
         T['Range_VIX'][date_list[m] + timedelta(days=days): date_list[m + 1]] = max_range(
             df_features['VIX'][date_list[m] + timedelta(days=days): date_list[m + 1]])
+    #Update des valeurs dans des listes par windows        
     my_Volatility_Gold_Close = []
     my_Volatility_Gold_Vol = []
     my_Volatility_Oil_Close = []
@@ -213,6 +218,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
         my_Volatility_VIX.append(T['Volatility_VIX'].iloc[((i+1)*window) - 2])
         my_Range_VIX.append(T['Range_VIX'].iloc[((i+1)*window) - 2])
     best_model_list = []
+    #CRP_mom et CRP_rev sont différent donc le code aussi
     if noms_algos == ["CRP_mom", "CRP_rev"]:
         for w in range(wndw_nbr):
             V = S.iloc[w * window: (w + 1) * window , :] / S.iloc[w * window: (w + 1) * window , :].shift(1)
@@ -257,7 +263,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
                 best_model_list.append(list(Y.index)[0])
             else:
                 best_model_list.append('?')
-
+    #Création d'un dataframe avec les listes précédement
     df_best_model = pd.DataFrame.from_dict({"algo": best_model_list, "close_volatility": my_close_volatility_list, 'close_range': my_close_range_list,
                                                 "vol_volatility": my_vol_volatility_list, 'vol_range': my_vol_range_list, 'market': mrkt,
                                                 "nbr_of_cryptos_tweets": my_len_cryptos_tweets_list, "nbr_of_nasdaq_tweets": my_len_nasdaq_tweets_list,
@@ -267,10 +273,11 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
                                             "Range_Oil_Vol": my_Range_Oil_Vol, "Range_Gas_Close": my_Range_Gas_Close, "Range_Gas_Vol": my_Range_Gas_Vol,
                                             "Mean_FED": my_Mean_FED, "Mean_PMI" : my_Mean_PMI, "Mean_Unemploy": my_Mean_Unemploy,"Volatility_VIX": my_Volatility_VIX,
                                             "Range_VIX": my_Range_VIX})
-
+     #Création d'un fichier de sauvegarde avec le dataframe
     os.makedirs(f'assets/best_models/datas/{"_". join(noms_algos)}/full/{mrkt}', exist_ok=True)
     df_best_model.to_csv(f'assets/best_models/datas/{"_". join(noms_algos)}/full/{mrkt}/{snr}.csv')
     values = T['Mean_Close_Volatility'].unique()
+    #Création d'un graphique de la volatilité avec le meilleur algorithme
     fig = plt.figure(figsize=(10, 6))
     ax = plt.subplot(111)
     ax.plot(T['Mean_Close_Volatility'])
@@ -286,7 +293,7 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
         if i == 35:
             continue
         i += 1
-    # on montre les graphiques correspondants à la volatilité par window avec le meilleur algo correspondant
+    # On montre les graphiques correspondants à la volatilité par window avec le meilleur algo correspondant
     plt.setp(t, fontsize=16, color='red')
     plt.xlabel('Windows')
     plt.xticks(rotation = 60)
@@ -297,7 +304,10 @@ def create_features(snr, mrkt, window, algos, noms_algos, show = False):
     plt.savefig(f'assets/best_models/graphs/{"_".join(noms_algos)}/full/{mrkt}/{snr}.jpg')
     if show == True:
         plt.show()
+#Choix des scénarios et des l'algorithmes à tester     
+algorithme = [algos.BestMarkowitz()]
 algorithmes = [algos.CRP(), algos.CRP()]
+noms_algo = ['BestMarkowitz']
 noms_algos = ['CRP_mom', 'CRP_rev']
 snr_list = ["covid_DF", "ukr_war_DF", "année_2018_DF", "année_2018_flat_DF", "année_2019_flat_DF", "année_2021_Nov_DF",
                        "année_2021_Oct_DF", "rdm1_DF", "rdm2_DF", "rdm3_DF"]
@@ -305,4 +315,4 @@ year_list = ["année_2017_full_DF", "année_2018_full_DF", "année_2019_full_DF"
 mrkt_list = ["cryptos", "nasdaq"]
 for i in mrkt_list:
     for j in year_list:
-        create_features(snr=j, mrkt=i, algos= algorithmes, noms_algos= noms_algos, window=7, show = False)
+        create_features(snr=j, mrkt=i, algos= algorithme, noms_algos= noms_algo, window=7, show = False)

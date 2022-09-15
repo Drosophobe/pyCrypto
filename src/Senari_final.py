@@ -81,14 +81,14 @@ class senari:
         else:
             return False
 
-        
+    #Fonction Ajout de colonne de boolean du début du mois     
     def beginning_of_the_month(self, z):
         if z ==1 or z == 2 or z==3 or z==4:
             return True
         else:
             return False
         
-        
+     #Fonction génération des scénarios    
     def create_senari(self):
         os.makedirs('../data', exist_ok=True)
         for m in self._senar_dic_list:
@@ -171,7 +171,7 @@ class senari:
 
 # In[75]:
 
-
+#Création de scénarios 
 objet = senari(crypto_list = crypto_list, nasdaq_list = nasdaq40 , senar_dic_list= senar_dic_list, df_holiday= df_holiday, other = other)
 objet.create_senari()
 
