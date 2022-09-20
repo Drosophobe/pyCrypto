@@ -14,8 +14,8 @@ def app():
     ### Create Title
     st.title("Prédiction")
     ### Add a picture
-    st.header('Paramètres de prediction')
-    st.markdown('### Choix du modèle et Optimisation')
+    st.header('Paramètres de prédiction')
+    st.markdown('### Choix du modèle et optimisation')
     st.write("Dans un premier temps, nous avons fait fonctionner la totalité des algorithmes disponibles par périodes.")
     st.write("Puis, nous avons dressé un tableau, résumant pour chaque algorithme les métriques calculées  (ratio de Sharpe et rendement cumulatif) :")
 
@@ -68,58 +68,7 @@ def app():
     df_crypto_close = df[liste_actions]
     niveau = st.slider("selectionner le pourcentage à conserver", 50, 90)
     x = int(len(df_crypto_close.index)/100*niveau)
-    st.write("Nous pouvons remarquer que vers 70-80% de conservation de nos datas Prophet arrive à trouver l'evolution de notre Série")
-    """if techno == tech_list[0]:
-        #st.write(df_crypto_close.iloc[:x])
-        plt.plot(df_crypto_close.iloc[:x])
-        plt.xticks(rotation=60)
-        plt.xlabel("Time")
-        plt.ylabel('Close')
-        plt.title(mrkt)
-        plt.legend()
-        st.pyplot()
-        mult_add_list = ["Additive", "Multiplicative"]
-        mult_add = st.radio("Sélectionner un un type", mult_add_list)
-        if mult_add == mult_add_list[0]:
-            seas = seasonal_decompose(df_crypto_close.iloc[:x], model="additive")
-            seas.plot()
-            st.pyplot()
-            plt.xticks(rotation=60)
-            serie_train = df_crypto_close.iloc[:x]
-            mult = seasonal_decompose(serie_train)
-            cvs = serie_train - mult.seasonal
-            x_cvs = cvs
-        else:
-            seas = seasonal_decompose(df_crypto_close.iloc[:x], model="multiplicative")
-            seas.plot()
-            st.pyplot()
-            plt.xticks(rotation=60)
-            serie_train = np.log(df_crypto_close.iloc[:x])
-            mult = seasonal_decompose(serie_train)
-            cvs = serie_train - mult.seasonal
-            x_cvs = np.exp(cvs)
-
-        plt.plot(serie_train, label='Série originale')
-        plt.plot(x_cvs, label='Série corrigée')
-        plt.title('Graphique de la série originale et la série corrigée')
-        plt.xlabel('Date')
-        plt.ylabel('Nb passagers')
-        plt.legend()
-        st.pyplot()
-        diff_lvl = st.slider("selectionner le nombre de diff", 0, 3)
-        for i in range (diff_lvl):
-            serie_train = serie_train.diff(1).dropna()
-
-        pd.plotting.autocorrelation_plot(serie_train)
-        st.pyplot()
-
-        lag = st.slider("selectionner le pourcentage à conserver", 1, 12)
-        plot_acf(serie_train, lags=lag)
-        st.pyplot()
-
-        model = sm.tsa.SARIMAX(serie_train, order=(1, 1, 0), seasonal_order=(0, 1, 0, 5))
-        sarima = model.fit()
-        st.markdown(sarima.summary())"""
+    st.write("Nous pouvons remarquer que vers 70-80% de conservation de nos datas Prophet arrive à trouver l'évolution de notre série")
 
     # Prophet à besoin d'une column avec des dates au format dtimeserie donc on importons deux DF
     df_i = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", parse_dates=[0])

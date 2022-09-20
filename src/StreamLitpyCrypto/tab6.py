@@ -133,22 +133,27 @@ def app():
     #st.write(S.index[S.shape[0] * niveau2//100])
     #st.write(S.shape[0]*niveau//100)
     #st.write(R[date1:date2])
-    plt.plot(S)
-    plt.axvline(S.index[S.shape[0]*niveau//100], color = "red")
-    plt.axvline(S.index[S.shape[0] * niveau2 // 100-1], color = 'orange')
-    plt.xticks(rotation = 60)
-    st.pyplot()
-    texte = " "
-    for e in R['Text'][date1:date2]:
-        texte += e
-    for k in T['Tweet'][date1:date2]:
-        texte += k
-    texte = re.sub('num', texte, texte)
-    texte = removeLink(texte)
-    texte = removeMail(texte)
-    texte = replaceHashtag(texte)
-    texte = removeQuote(texte)
-    plot_word_cloud(texte.lower(), 'white')
-    st.pyplot()
-    st.write('Nous remarquons que dans certain cas les mots qui resortent du Wordcloud sont anodains ou trop spécifiques')
+    try :
+        plt.plot(S)
+        plt.axvline(S.index[S.shape[0]*niveau//100], color = "red")
+        plt.axvline(S.index[S.shape[0] * niveau2 // 100-1], color = 'orange')
+        plt.xticks(rotation = 60)
+        st.pyplot()
+        texte = " "
+        for e in R['Text'][date1:date2]:
+            texte += e
+        for k in T['Tweet'][date1:date2]:
+            texte += k
+        texte = re.sub('num', texte, texte)
+        texte = removeLink(texte)
+        texte = removeMail(texte)
+        texte = replaceHashtag(texte)
+        texte = removeQuote(texte)
+        plot_word_cloud(texte.lower(), 'white')
+        st.pyplot()
+        st.write('Nous remarquons que dans certain cas les mots qui resortent du Wordcloud sont anodains ou trop spécifiques')
+    except ValueError:
+        st.write("Veuiller sélectionner un intervalle de temps pour générer le workloud")
+
+
     ### using Markdown

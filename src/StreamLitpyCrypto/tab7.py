@@ -10,8 +10,8 @@ def app():
     ### Create Title
     st.title("PyCrypto")
     ### Add a picture
-    st.header('Paramètres de prediction')
-    st.markdown('### Choix du modèle et Optimisation')
+    st.header('Paramètres de prédiction')
+    st.markdown('### Choix du modèle et optimisation')
     st.write("Dans un premier temps, nous avons fait fonctionner la totalité des algorithmes disponibles par périodes.")
     st.write("Puis, nous avons dressé un tableau, résumant pour chaque algorithme les métriques calculées  (ratio de Sharpe et rendement cumulatif) :")
     st.write("Nous avons remarqué que l’algorithme Best_Markowitz et BCRP avait tendance à surperformer les autres.") 

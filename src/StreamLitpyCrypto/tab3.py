@@ -8,8 +8,8 @@ def app():
     ### Create Title
     st.title("Summarize")
     ### Add a picture
-    st.header('Paramètres de prediction')
-    st.markdown('### Choix du modèle et Optimisation')
+    st.header('Paramètres de prédiction')
+    st.markdown('### Choix du modèle et optimisation')
     st.write("Dans un premier temps, nous avons fait fonctionner la totalité des algorithmes disponibles par périodes.")
     st.write("Puis, nous avons dressé un tableau, résumant pour chaque algorithme les métriques calculées  (ratio de Sharpe et rendement cumulatif) :")
     st.write("Nous avons remarqué que l’algorithme Best_Markowitz et BCRP avait tendance à surperformer les autres.") 
@@ -36,13 +36,6 @@ def app():
     #Mesure de performance
     def perform(result):
         return result.sharpe , result.alpha_beta()[1]
-
-
-    def summary_table(path, nom):
-        '''Fonction qui va retourner un DataFrame pour chaque scenari et chaque algos avec le sharpe et le beta
-        path : chemin du fichier
-        nom : nom du scénari
-        '''
 
     market_list = ["Crypto", "Nasdaq"]
     market = st.radio("Sélectionnez le marché souhaité", market_list)
@@ -83,22 +76,7 @@ def app():
     sharp = []
     metrics = []
     # nettoyage des données
-    """  
-    S = pd.read_csv(f"../../data/{mrkt}/{snr}.csv", index_col=0, parse_dates=True) # je charge le premier
-    liste = []
-    for clo in S.columns:
-        if "Close" in clo:
-            liste.append(clo)
-    S = S[liste]
-    S = S.dropna(axis=1)
 
-        # lancer les algos
-    for algo in algorithmes:
-            result = algo.run(S)
-            sharp = [perform(result)[0], perform(result)[1]]
-            metrics.append(sharp)
-            sharpe = []
-    """
     # Création et affichage dataframes
     st.write('************ ' + snr + ' **********') # je charge le premier
     #X = pd.DataFrame(data=np.array(metrics), columns=metric_name, index=noms_algos)

@@ -12,8 +12,8 @@ def app():
     ### Create Title
     st.title("Analyse exploratoire")
     st.markdown("## Cadre")
-    st.write("Dans le but d’atteindre nos objectifs, nous avons choisi de nous concentrer sur 10 cryptos monnaies et  40 valeurs du NASDAQ qui nous semblaient les plus cohérentes avec le marché des cryptos monnaies.")
-    st.markdown('### Selection des parametres d\'affichage')
+    st.write("Dans le but d’atteindre nos objectifs, nous avons choisi de nous concentrer sur 10 cryptos monnaies et 40 valeurs du NASDAQ qui nous semblaient les plus cohérentes avec le marché des cryptos monnaies.")
+    st.markdown('### Sélection des paramètres d\'affichage')
     st.write("Nous avons rassemblé les données boursières issues du NASDAQ et des cryptos monnaies suivant divers scénarios représentatifs de l’ordre du mois :")
     
     market_list = ["Crypto", "Nasdaq"]
@@ -28,7 +28,7 @@ def app():
                        "année_2021_Oct", "random1 (date : 2020-02-01)", "random2 (date : 2020-05-23)", "random3 (date : 2020-09-01)", "subprimes_DF (date : 2007-11-01)", "new_millennium_DF (date : 1999-06-06)"]
     
 
-    senar = st.selectbox("Sélectionez un scénario", senari_list)
+    senar = st.selectbox("Sélectioner un scénario", senari_list)
     if senar == senari_list[0]:
         snr = "covid_DF"
     elif senar == senari_list[1]:
@@ -54,7 +54,7 @@ def app():
     else:
         snr = 'new_millennium_DF'
     vol_close_list = ["Close", "Volume", "Close & Vol"]
-    vol_close = st.radio("Sélectionnez la Close ou le Volume", vol_close_list)
+    vol_close = st.radio("Sélectionner la Close ou le Volume", vol_close_list)
     if vol_close == vol_close_list[0]:
         vl_cl = ['Close']
     elif vol_close == vol_close_list[1]:
@@ -73,9 +73,9 @@ def app():
                 close_list.append(j)
 
     if mrkt== "cryptos" :
-        title= "Sélectionnez paire de devise"
+        title= "Sélectionner des paires de devise"
     else:    
-        title= "Sélectionnez une action"       
+        title= "Sélectionner une action"       
     liste_closes = st.multiselect(title,
                                    close_list)
     df_close = df[liste_closes]
